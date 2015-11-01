@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/ussjoin
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://ussjoin.com
+  * I am ussjoin (https://keybase.io/ussjoin) on keybase.
+  * I have a public key with fingerprint EC97 0930 4C74 2AC6 817C  2EBF FEAF AE8F B58E DA54
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.4.11"
+        },
+        "key": {
+            "fingerprint": "ec9709304c742ac6817c2ebffeafae8fb58eda54",
+            "host": "keybase.io",
+            "key_id": "FEAFAE8FB58EDA54",
+            "uid": "34ed7d42793b1a857b0e70d29f2f2f00",
+            "username": "ussjoin"
+        },
+        "merkle_root": {
+            "ctime": 1405963599,
+            "hash": "832e7d62e8a3b631fcb6899a5985ba21a65cfdb7996871cb59cc56f6b314ba791886cf3e60eb2cd72eba1943c7723c310d002c3204de551e70505560b7db937a",
+            "seqno": 30316
+        },
+        "service": {
+            "hostname": "ussjoin.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1405963661,
+    "expire_in": 157680000,
+    "prev": "f79d3fa88c542faf00f4d892de09df488edaea5edda7d777d01f0dc6d21f733f",
+    "seqno": 13,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFVkn9oVlUYx9+9rV/TQCGynK1xoRj69nrOPffcc84kt4kb0iYqIwsj387Pd3fv
+3ntf773bXOPNUdTIKLQ/KspAqUTBvxIpC02jlEorgoqFbTBIWEYQGFESde6LUbv3
+n3vu+Tzf8/0+z9l32w25fNNLFw7uP7pyd0vT5wsiN3hx8wuTjojUhNM56ciRQIdp
+9hXyqnY6nYqeEDzRxSBqDyOli8NJ+3Wm4IzpOAmi0FKg6BUhdOqFjM+qTRCWdVyL
+g0zM0ZIRwBDwJPFcLn0KiXS1MEZzwzU1AlOtOPas5lCUpIuOdRqapUDZv329PX09
+vbRvA6a9G3sa/GhjA3laEeW5hCEBOcVEAE2Acplx7QtABiY6vp5pNEmGoyDM7FZ1
+XBnRpTiKGqFlGmQE9ABmPsKMWUM8GbI1FLmaKN/VlCPhI2ik8CljHDOKBXch97E0
+ShDGfEqgFJhJiX3jCwQ9wQmDlPrSIO0DLVypiI3PIfOQJMRFEkGgAHAlcoGnNMbQ
+uscAYx8IogRDhNsEid4VRk4nAgj69WwZjwVSZ7azpi3OVpRR1ZbU4iiNZDRiN4bS
+tNaZRU4nahk4rkUp0ccaGiURhMpO7P8zhRZd3A7fhwVH764FsS4FGYGJT4F9snP0
+mNU0hClkOKUSe67htvHGU5S5SgOmjEezKWuOtVKcKEKIAtAAJX3lQkMQMv+FhMga
+5WWrmQTlkKejsXbqzzWtas415XM33ZjPbm2u5dZl/17llbff/Hd1/2/Lf9x7+aHw
+k3oHuu/MzL7p2eCpbWvuvFz6dqrt3JKXzyz9qW++/EWp/dkpNz+36eHBx8Z+vTTb
+dnH1zvNTM/GWHcdP3z+8Zm6je/Lx/LrW8/TFB/6a/3n7yYNdV88W1n74aoVt+ahl
+0Ly/9xx8r/DmLr6+/vxX6dYTtKP41i/s0qG1T08umavsOX5h+s+21+7+NPm+41Rr
+9Aalav34KJzZnC+vu+eHevjk8sq9Az0LW0+0lgP02de3bKr1X3vmm8OvH+se/HL6
+gy5812GHvDO0ekf/tbnvdpZan3hw24quhUPzyx6dfffUlVXNd1w9cFaO//7H9u4N
+H6+odj8ysPQ0l6/seftKc6X/yMA/
+=mQnW
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ussjoin
+
+==================================================================

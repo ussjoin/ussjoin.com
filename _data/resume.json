@@ -1,0 +1,621 @@
+{
+  "education": 
+  [
+    {
+      "resume": true,
+      "title": "Juris Doctor, Cum Laude",
+      "location": "The University of Wisconsin - Madison",
+      "dates": "September 2011 - May 2014",
+      "details": 
+      [
+        "Concentration in International Law, With Honors",
+        "Concentration in Criminal Law",
+        "Dean's List: Spring 2012, Spring 2013, Fall 2013",
+        "Pro Bono Society Member",
+        "Technology Administrator, Student Bar Association, Fall 2011 - Fall 2013"
+      ],
+      "tags": ["legal"]
+    },
+    {
+      "resume": true,
+      "title": "Master of Science in Engineering in Computer Science",
+      "location": "The Johns Hopkins University",
+      "dates": "September 2005 - May 2009",
+      "details": 
+      [
+        "Thesis: 'Mnikr: Reputation Construction Through Human Trading of Distributed Social Identities'",
+        "President, Upsilon Pi Epsilon (Computer Science Honor Society)"
+      ],
+      "tags": ["technical"]
+    },
+    {
+      "resume": true,
+      "title": "Bachelor of Science in Computer Science",
+      "location": "The Johns Hopkins University",
+      "dates": "September 2004 - May 2008",
+      "details": 
+      [
+        "Departmental Honors"
+      ],
+      "tags": ["technical"]
+    }
+  ],
+  "experience": 
+  [
+    {
+      "resume": true,
+      "title": "Senior Security Advisor",
+      "location": "Leviathan Security Group",
+      "dates": "2014 - ",
+      "prose": "I work as a Senior Security Advisor in Leviathan's Risk and Advisory Services group, where I advise enterprise clients on security strategy and policy, including development of a security department and culture, responding to their clients' and vendors' security assessments and audits, and assessing software development and architecture to ensure that they can meet their security goals. I also co-wrote four whitepapers on forced data localization as it affects security, available at http://www.valueofcloudsecurity.com. From 2014 until mid-2015, I worked as a Senior Security Consultant on Leviathan's Technical Services team, focused on client engagements ranging from core technical assessments to large-scale policy documents.",
+      "tags": ["technical"]
+    },
+    {
+      "resume": true,
+      "title": "Chief Technical Officer / DSS",
+      "location": "Malice Afterthought, Inc.",
+      "dates": "2010 - ",
+      "prose": "Malice Afterthought provides software and security consulting services to a range of clients, from small businesses to large corporations, in addition to creating and releasing its own commercial and open source software. From January - July 2011, I taught information and network warfare (CNO) to students of the Department of Defense. In January, 2012, we won a DARPA Cyber Fast Track research proposal to fund research entitled 'Reticle: Leaderless Command and Control,' and in November, 2012 an additional CFT proposal entitled 'NOM: Novel Object Mapping.'",
+      "tags": ["technical"]
+    },
+    {
+      "title": "Legal Intern (With Practice Certificate)",
+      "location": "Wisconsin State Public Defender",
+      "dates": "2013 - 2013",
+      "prose": "I was supervised under Wisconsin SCR 50 by Anthony Rios, Forensic Practice Coordinator, working primarily on serious crimes with significant scientific evidence across the state. Under SCR 50, I represented clients in court and during trials, cross-examined expert witnesses, and wrote briefs under the supervision of Mr. Rios and other SPD attorneys.",
+      "tags": ["legal"]
+    },
+    {
+      "title": "Brief of Amici Curiae in U.S. v. Auernheimer",
+      "location": "United States Court of Appeals for the Third Circuit",
+      "dates": "2013 - 2013",
+      "prose": "I wrote a Brief of Amici Curiae to the Third Circuit in U.S. v. Auernheimer, on behalf of Meredith Patterson, myself, and eleven other notable security researchers. The brief is available at https://github.com/ussjoin/weevamicus/releases. This brief was not written on behalf of or with the support of any group beyond the individual amici.",
+      "tags": ["legal"]
+    },
+    {
+      "title": "Judicial Intern",
+      "location": "Wisconsin Supreme Court",
+      "dates": "2012 - 2012",
+      "prose": "I served as a legal intern for Justice N. Patrick Crooks. My duties included examining cases requesting review by the Court, writing legal analyses of the issues raised by cases before the Court, and assisting the Justice's clerks.",
+      "tags": ["legal"]
+    },
+    {
+      "title": "Legal Intern",
+      "location": "The Rutherford Institute",
+      "dates": "2012 - 2012",
+      "prose": "The Rutherford Institute is a public interest firm whose primary topics of interest are the First and Fourth Amendments as well as school 'zero-tolerance' policies. I was responsible for legal research on current cases, drafting memos and briefs, and researching and writing legislation and policy statements for TRI on electronic privacy and UAV issues.",
+      "tags": ["legal"]
+    },
+    {
+      "resume": true,
+      "title": "Senior Research Associate",
+      "location": "SET Corporation",
+      "dates": "2009 - 2010",
+      "prose": "I worked as a technical lead on software projects in a variety of areas, including natural language processing and user modeling, and a project to create an augmented reality application to add real-time data and intelligence analysis to a multi-viewpoint 3D holographic display, using the iPhone 3GS as a controller. SET worked primarily for the defense and intelligence communities.",
+      "tags": ["technical"]
+    },
+    {
+      "title": "Open Platforms Group Graduate Intern",
+      "location": "Six Apart",
+      "dates": "2008 - 2008",
+      "prose": "I worked as an engineer on the Open Platforms team, dealing with furthering the goals of data portability across technologies and corporate boundaries while maintaining a focus on user control of data. I worked as an intern full-time during the summer of 2008, and then part-time through the remainder of the year.",
+      "tags": ["technical"]
+    },
+    {
+      "title": "Solaris Security Technologies Group Graduate Intern",
+      "location": "Sun Microsystems",
+      "dates": "2007 - 2007",
+      "prose": "I ported and integrated software to SunOS (Solaris) allowing users to authenticate using true PKCS#11 interfaces, then worked with a variety of teams and people across Sun (despite my status as an intern) to move these smartcard services into Solaris. I also had the opportunity to work with DTrace on Solaris Kerberos.",
+      "tags": ["technical"]
+    },
+    {
+      "title": "VeriSign Security Services Undergraduate Intern",
+      "location": "VeriSign",
+      "dates": "2006 - 2006",
+      "prose": "I worked primarily with the Unified Authentication group, specifically with One-Time Passwords. I also did some work for VeriSign Labs (the Advanced Projects Research Group) on VeriSign's OpenID implementation, the Personal Identity Provider. Over the course of 12 weeks, I was responsible for major projects in C#, Ruby, and Java, as well as JSP/Struts/Spring web applications, JNI, C/C++, and various related technologies. I won the VeriSign Labs 'PIP Challenge' for integrating one-time password technology with the VeriSign Personal Identity Provider (later Apache Heraldry).",
+      "tags": ["technical"]
+    }
+  ],
+  "presentations": 
+  [
+    {
+      "resume": true,
+     "title": "Xenophobia is Hard on Data",
+     "location": "SECTor 2015",
+     "date": "2015-10-21",
+     "prose": "With James Arlen. Examination of forced data localization laws, their nature, their origins, and their effects on confidentiality, availability, and integrity of data, as well as the cost of doing business in a global marketplace.",
+     "abstract": "'Our data is only safe within our borders!' '(The US|China|New Zealand|Vanuatu) is spying on our citizens!' 'Don't ship our citizens' data overseas!' These rallying cries are calling for the same solution: forced data localization laws, where a country requires that all its citizens' and corporations' data be kept within the territory of that country. What's so bad about data localization? Is it good for security? Is it good for business? Is it good for protecting your data from Three- or Four-Letter Agencies? We'll answer these questions and more as we discuss forced localization, international education policy, unlikely anchor placement, catastrophic dripping, and how it affects your business' goals in the short and long term.",
+     "url": "http://sector.ca/Program/Sessions/Session-Details/xenophobia-is-hard-on-data-forced-localization-data-storage-and-business-realities",
+     "videourl": "XXX",
+      "tags": ["technical", "legal"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Metro Toronto Convention Centre",
+              "city": "Toronto, ON, Canada"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-79.386854, 43.643879]
+          }
+      }
+    },
+    {
+     "title": "Buyer Beware! Cyber-Security’s Impact on M&amp;A Due Diligence &amp; Valuations",
+     "location": "Merrill DataSite Panel Series",
+     "date": "2015-06-25",
+     "prose": "Panel presentation. Presentation by attorneys, dealmakers, and executives on security as a high-priority part of due diligence activity. I was the sole technologist on this panel, which was offered for CLE and CPE credit.",
+     "abstract": "High profile security breaches at Sony, Target and Visa have shined the spotlight squarely on the fact that no company is immune from cyber-attacks; not even the White House is secure against hackers. For deal professionals, security concerns are not isolated to the sharing of information during the due diligence process; it is paramount to understand the underlying strength of a company’s technology platform, potential exposure to security threats, and ultimately, how it plays an important role in determining valuations.",
+     "url": "http://www.datasitedeal.com/SeattleSpkr2015",
+      "tags": ["technical", "legal"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Four Seasons Hotel Seattle",
+              "city": "Seattle, WA"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-122.339335, 47.607465]
+          }
+      }
+    },
+    {
+     "title": "All That Cybers (Is^Is Not) War",
+     "location": "SOURCE Boston",
+     "date": "2015-05-28",
+     "prose": "With Dr. John Linwood Griffin. Conference debate on the proper role of the military on the Internet, given the following resolution: 'This Conference Stands Resolved that there are (de facto) wars taking place on the Internet, and that it is the role of governments to prosecute such wars.'",
+     "abstract": "Join John and Brendan, two doctors both improbable and ineffable, as they debate the following resolution: 'This Conference Stands Resolved that there are (de facto) wars taking place on the Internet, and that it is the role of governments to prosecute such wars.' We'll touch on the proper role of the military on the Internet, whether individuals and companies harassing foreign entities online can be treated as acting on their country's behalf, and cyberwar versus rampaging squirrels in this freewheeling debate. Each speaker will be asked to stake out a vision for what the future of the Internet will look like, and then to defend it both from the other speaker and the audience. By the end, we may not have cleared up your confusion as to what cyberwar is, but you'll have a great time: audience participation is strongly encouraged, and you'll be able to decide who won this combination of talk and argument.",
+     "url": "http://www.sourceconference.com/#!boston-2015-agenda/c7dp",
+      "tags": ["technical", "legal"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Courtyard Marriott Boston",
+              "city": "Boston, MA"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-71.0655674, 42.3499198]
+          }
+      }
+    },
+    {
+      "resume": true,
+     "title": "Hot Topics in Information Security Law 2015",
+     "location": "RSA",
+     "date": "2015-04-21",
+     "prose": "Panel. The officers of the American Bar Association's Information Security Committee gather to discuss interesting developments in information security law. Offered for CLE credit.",
+     "abstract": "A panel of technology-savvy lawyers discuss recent developments in technology law with Q&amp;A to follow.",
+     "url": "https://www.rsaconference.com/events/us15/agenda/sessions/1649/hot-topics-in-information-security-law-2015",
+      "tags": ["technical", "legal"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Moscone Center South",
+              "city": "San Francisco, CA"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-122.4005464, 37.7838391]
+          }
+      }
+    },
+    {
+     "title": "Information Governance: Security, Not Fear",
+     "location": "Montana State Bar CLE",
+     "date": "2015-03-13",
+     "prose": "Continuing Legal Education course (Ethics). An introduction to computer security concepts as they relate to the Rules of Professional Conduct, including small, meaningful steps to improve a law firm's communications strategies.",
+     "url": "http://c.ymcdn.com/sites/www.montanabar.org/resource/resmgr/CLE/St.Pattys_CLE.pdf",
+      "tags": ["technical", "legal"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Fairmont Hot Springs Resort",
+              "city": "Anaconda, MT"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-112.811629, 46.043113]
+          }
+      }
+    },
+    {
+      "resume": true,
+     "title": "Endrun—Secure Digital Communications For Our Modern Dystopia",
+     "location": "Black Hat Europe",
+     "date": "2014-10-17",
+     "prose": "With Grant Dobbe. Censorship-resistant communications based on the Delay-Tolerant Networking concept.",
+     "abstract": "The Internet is no longer trustworthy, having been compromised by bad actors across the globe. Current proposals to work around a compromised Internet rely upon encrypted transport links, mesh networks, or harassing users for being unable to use GPG safely. Each of these strategies fails in different ways that inevitably lead to information leakage or -- in the extreme case -- death. Endrun, by contrast, takes NASA's Disruption-Tolerant Networking project from a laboratory experiment to a functional system that supports user-friendly encryption in hostile environments. Endrun embraces the nearly-unlimited throughput of a disk-laden station wagon and creates a reliable, eventually-consistent communications system ideal for activists, refugees, and trolls.",
+     "url": "https://www.blackhat.com/docs/eu-14/materials/eu-14-OConnor-Endrun-Secure-Digital-Communications-For-Our-Modern-Dystopia-wp.pdf",
+     "videourl": "https://www.youtube.com/watch?v=NxKpOEyLFxY",
+      "tags": ["technical"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Amsterdam RAI",
+              "city": "Amsterdam, Netherlands"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [4.890597, 52.336843]
+          }
+      }
+    },
+    {
+     "title": "This is Not a War. You Are Not a Soldier.",
+     "location": "DEF CON SkyTalks",
+     "date": "2014-08-08",
+     "prose": "The application of international law to digital warfare, and a detailed refutation of the idea that 'The Geneva Conventions don't apply to the Internet.'",
+     "abstract": "Are you concerned by all the FUD about a 'war in cyberspace?' Are you anxious because the heads of major security firms are saying hackers might be a legal military target for the 'other guys' to drop bombs on?  Fear no more! We'll talk about the cool bits of the law of war---from Deuteronomy to Tallinn, and from Counter-Strike to actual counterstrikes---while we discuss how a 120-year-old prohibition on the use of hot-air balloons in warfare should reassure you about a military making a 'kinetic response' to your DDOS. International war law is neither international nor law in a traditional sense, but it's full of literal war stories, as well as an occasional bit of helpful advice even for those who aren't planning on killing two or three million people.",
+      "tags": ["legal"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Rio All-Suites Hotel &amp; Casino",
+              "city": "Las Vegas, NV"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-115.188159, 36.117515]
+          }
+      }
+    },
+    {
+     "title": "Voyeurism in the Air",
+     "location": "Lockdown",
+     "date": "2014-07-10",
+     "prose": "New updates to the CreepyDOL system, including a large-scale deployment in Montezuma, NM with 755 devices. Redux of Paranoia presentation at the request of the Lockdown conference organizers.",
+     "abstract": "Tired of the government being the only entity around that can keep tabs on a whole city at once? Frustrated by dictators du jour knowing more about you than you know about them? Fed up with agents provocateur slipping into your protests, rallies, or golf outings? Suffer no more, because CreepyDOL is here to help! With open-source software, off-the-shelf sensors, several layers of encryption, and a deployment methodology of 'pull pin, point toward privacy insurance claimant,' it allows anyone to track everyone in a neighborhood, suburb, or city from the comfort of their sofa. How can we do this? The laziness of untold developers—and we use this simple idea to pass our low, low prices (and open source software) on to you! For? just four easy hardware purchases of $131.95, you too can move up from small-time weirding out to the big leagues of total information awareness: deploy CreepyDOL today!",
+     "url": "https://www.cio.wisc.edu/events/lockdown-2014/presentations/",
+      "tags": ["technical"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Health Sciences Learning Center",
+              "city": "Madison, WI"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-89.4303294, 43.0774041]
+          }
+      }
+    },
+    {
+     "title": "The Perfectly Legitimate Project",
+     "location": "ThotCon",
+     "date": "2014-04-25",
+     "prose": "With Grant Dobbe. Cryptographically-sound user-friendly darknet designs.",
+     "abstract": "When we can't use the Internet anymore---either because it's gone, or because we can't trust it---how can we share our cat GIFs, tear gas remedies, or recipes for Roasted Rodent Ratatouille? The Perfectly Legitimate Project creates a decentralized, Internet-optional system of sharing data among a group of nodes without relying on easy-to-locate mesh networks. PLP uses whatever’s available to move heavily-encrypted payloads around, including short-range wireless communications (on license-free VHF, UHF, ZigBee, or WiFi), sneakernet, or tasty (and nutritious!) carrier pigeons. PLP has four components: NATASHA and MOOSE provide user-friendly services (such as email, wikis, and blogs) to any end-user without a need for specialized hardware or customized software, while BORIS and SQUIRREL let couriers use any means necessary to ship data with a derivative of the interplanetary Disruption-Tolerant Networking protocol. The end result is a system that's OPSEC-capable, easy to use, and can be deployed when zombies attack---or when you're just tired of having your adversaries listen through the fillings in your teeth.",
+      "tags": ["technical"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Ravenswood Event Center",
+              "city": "Chicago, IL"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-87.673333, 41.954797]
+          }
+      }
+    },
+    {
+      "resume": true,
+     "title": "Tyvlytting På Lufta (Voyeurism in the Air)",
+     "location": "Paranoia",
+     "date": "2014-03-27",
+     "prose": "New updates to the CreepyDOL system, including a large-scale deployment in Montezuma, NM with 755 devices.",
+     "abstract": "No abstract was provided for this conference.",
+     "url": "http://paranoia.watchcom.no/index.php?page=68",
+     "videourl": "https://www.youtube.com/watch?v=Tpusnxmvhrw",
+      "tags": ["technical"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Folketeateret",
+              "city": "Oslo, Norway"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [10.750491, 59.914316]
+          }
+      }
+    },
+    {
+     "title": "War Crimes as a Service",
+     "location": "PumpCon",
+     "date": "2013-10-26",
+     "prose": "With Dr. John Linwood Griffin. Introduction for non-lawyers to the Tallinn Manual, why security experts should care, and a modest proposal for how to stop unlawful digital warfare.",
+     "abstract": "Three years of international negotiations and deliberations by eleven lawyers, two academics, a bunch of editors, and an Estonian dog named Terry gave us the 'Tallinn Manual'---a.k.a., cover for the world’s militaries to blow up the Internet. This talk will explain why international law matters, why it’s important that a bunch of non-hackers defined 'attack' to only mean dead bodies, and how we can prevent certain nations from clogging the tubes with the blood of the innocent. The international law of war isn’t dead---it’s just sleeping. Come help wake it up.",
+      "tags": ["technical"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Best Western Inn",
+              "city": "Philadelphia, PA"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-75.173804, 39.963091]
+          }
+      }
+    },
+    {
+     "title": "Stalking a City for Fun and Frivolity",
+     "location": "LASCON",
+     "date": "2013-10-24",
+     "prose": "Distributed sensor network data acquisition, filtering, and visualization, with several security applications. Redux of DEF CON presentation at the request of the LASCON conference organizers.",
+     "abstract": "Please see the abstract for the DEF CON presentation, below.",
+     "url": "https://lascon2013.sched.org/",
+     "videourl": "https://vimeo.com/channels/lascon2013/80794014",
+      "tags": ["technical"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Norris Conference Center",
+              "city": "Austin, TX"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-97.7353914, 30.3568301]
+          }
+      }
+    },
+    {
+     "title": "How to Fight a War Without Actually Starting One",
+     "location": "DerbyCon",
+     "date": "2013-09-28",
+     "prose": "International war law, including the Tallinn Manual, as it pertains to computer security and the Internet.",
+     "abstract": "A NATO affiliate spent three years with some of the finest academic lawyers on the planet trying to figure out how to define 'cyberwar' better than the US Senate. It's a shame they never asked any hackers, though, because the only thing the definition includes is 'black ice' straight out of Neuromancer, which we're pretty sure isn't real. Join us for an introduction to international law, war law, the Tallinn Manual, and the reason it matters that twelve academics in Estonia can't define a word.",
+     "url": "http://www.derbycon.com/schedule-and-abstracts-2013/",
+     "videourl": "https://www.youtube.com/watch?v=mDWohmPcXoc",
+      "tags": ["legal"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Hyatt Regency Louisville",
+              "city": "Louisville, KY"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-85.756702, 38.253387]
+          }
+      }
+    },
+    {
+      "resume": true,
+     "title": "Stalking a City for Fun and Frivolity",
+     "location": "DEF CON",
+     "date": "2013-08-03",
+     "prose": "Distributed sensor network data acquisition, filtering, and visualization, with several security applications. This presentation addressed the architecture and collection aspects of the CreepyDOL system, as well as the implications for global surveillance states and engineering as a profession.",
+     "abstract": "Tired of the government being the only entity around that can keep tabs on a whole city at once? Frustrated by dictators du jour knowing more about you than you know about them? Fed up with agents provocateur slipping into your protests, rallies, or golf outings? Suffer no more, because CreepyDOL is here to help! With open-source software, off-the-shelf sensors, several layers of encryption, and a deployment methodology of 'pull pin, point toward privacy insurance claimant,' it allows anyone to track everyone in a neighborhood, suburb, or city from the comfort of their sofa. For just four easy hardware purchases of $131.95, you, too can move up from small-time weirding out to the big leagues of total information awareness: deploy CreepyDOL today!",
+     "url": "http://blog.ussjoin.com/2013/08/creepydol.html",
+     "videourl": "https://www.youtube.com/watch?v=BcvxD7p4Suw",
+      "tags": ["technical"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Rio All-Suites Hotel &amp; Casino",
+              "city": "Las Vegas, NV"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-115.188159, 36.117515]
+          }
+      }
+    },
+    {
+      "resume": true,
+     "title": "CreepyDOL: Cheap, Distributed Stalking",
+     "location": "Black Hat USA",
+     "date": "2013-08-01",
+     "prose": "Distributed sensor network data acquisition, filtering, and visualization, with several security applications. This presentation addressed the architecture and collection aspects of the CreepyDOL system.",
+     "abstract": "Are you a person with a few hundred dollars and an insatiable curiosity about your neighbors who is fed up with the hard work of tracking your target's every move in person? Good news! You, too, can learn the intimate secrets and continuous physical location of an entire city from the comfort of your desk! CreepyDOL is a distributed sensing and data mining system combining very-low-cost sensors, open-source software, and a focus on user experience to provide personnel identification, tracking, and analysis without sending any data to the targets. In other words, it takes you from hand-crafted, artisan skeeviness to big-box commodity creepiness, and enables government-level total awareness for about $500 of off-the-shelf hardware.",
+     "url": "http://blog.ussjoin.com/2013/08/creepydol.html",
+     "videourl": "https://www.youtube.com/watch?v=LFA6lew2tcE",
+      "tags": ["technical"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Caesar's Palace",
+              "city": "Las Vegas, NV"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-115.174499, 36.116168]
+          }
+      }
+    },
+    {
+     "title": "The Global 'Gamification' of Online Gaming",
+     "location": "Annual Conference of the International Bar Association",
+     "date": "2012-10-01",
+     "prose": "Panel on digital security and legal issues that affect the international online gambling industry.",
+     "abstract": "Gamification, and online gambling, are among the booming global phenomena of the past decade. Given the highly polarised reactions to gambling across different jurisdictions, yet the boost it can provide to governmental coffers in these trying economic times, few are surprised that online gambling has generated both political controversy and a plethora of cross-border regulatory and legal issues. This session initially explores these critical issues through the eyes of major online gambling companies. The second segment will be interactive and include a debate between an online gaming hacker and a representative of a gaming / gambling company.",
+     "url": "http://www.int-bar.org/conferences/Dublin2012/",
+      "tags": ["technical", "legal"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Convention Centre Dublin",
+              "city": "Dublin, Ireland"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-6.239838, 53.347499]
+          }
+      }
+    },
+    {
+     "title": "Reticle: Dropping an Intelligent F-BOMB",
+     "location": "Security BSides Las Vegas",
+     "date": "2012-07-26",
+     "prose": "Software to control ad-hoc networks of disposable computers.",
+     "abstract": "F-BOMB is a disposable computing project, and Reticle is its software brain: a distributed, leaderless system for transferring data and commands to and from the tiny, distributed, dirt-cheap little boxes. Together, these two systems form a botnet-styled sensor network that can be deployed the same way as a smoke grenade by a field agent, but with intelligent encryption, plausible deniability, and a peer-to-peer command network to ensure that an enemy can't compromise your goals-- whether you're providing Internet access to an Occupy group, or playing distributed hide and seek for cell phones. We discuss the design and implementation of Reticle, which was intended to take some of the networking ideas from modern botnets and apply them in a more useful context. Reticle was created with support from DARPA Cyber Fast Track, and the code, utilities, and documentation created under that project will be released with the talk.",
+     "url": "http://blog.ussjoin.com/2012/07/reticle.html",
+     "videourl": "https://www.youtube.com/watch?v=CsI8tzb2Big",
+      "tags": ["technical"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Artisan Hotel Boutique",
+              "city": "Las Vegas, NV"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-115.169865, 36.143717]
+          }
+      }
+    },
+    {
+     "title": "Hack the Law",
+     "location": "Hackers on Planet Earth",
+     "date": "2012-07-15",
+     "prose": "Why security researchers should go to law school.",
+     "abstract": "Recent bills such as ACTA, COICA, and SOPA in legislatures worldwide demonstrate that there exists a fundamental disconnect between hackers and politicians. Worse, the people charged with dealing with law on the ground, the lawyers, rarely have any significant technical background obtained within the last few decades. This must change. It's all well and good to write your congressperson or donate to the EFF, but it's not enough; we need hackers to go to law school. Lawyers-- whether they work as attorneys, or bring their knowledge of the law back to other fields-- are uniquely situated to effect direct change on politics, social issues, and the law on the ground (where they arrest poor hackers), and unlike many fields, it's not enough to be self-taught. This presentation will focus on the utility of the hacking ethos within the law, as well as the 'law school experience,' technical bits about actually getting in, and how to keep yourself from going nuts while spending three years surrounded by those who can't tell their megabytes from their overbites (and are terrified by Wireshark, let alone the more subtle tools in existence). Expect stories, humorous anecdotes, and terrifying lapses in judgment.",
+     "url": "http://blog.ussjoin.com/2012/07/hack-the-law.html",
+     "videourl": "https://www.youtube.com/watch?v=eb2vmjP6XTs",
+      "tags": ["legal"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Hotel Pennsylvania",
+              "city": "New York, NY"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-73.991017, 40.749939]
+          }
+      }
+    },
+    {
+     "title": "Sacrificial Computing for Land and Sky",
+     "location": "ShmooCon",
+     "date": "2012-01-27",
+     "prose": "Hardware design for very-low-cost sensor nodes.",
+     "abstract": "Projects such as the incredible Wireless Aerial Surveillance Platform give you the ability to monitor or attack networks far from accessible areas, but are limited by their deployment characteristics: $6000+ buys you just 10-30 minutes on target, and you have simultaneously to do your work and defend the physical plane from Bad Men With Projectile Weapons, lest they take exception to your plans. Disposable computing designed for just one use can provide massive reductions in cost and time to deployment without sacrificing flexibility; we show how $50-$75 can give you upwards of 24 hours to work on a task, while using only off-the-shelf hardware, and leaving no data onsite for an adversary to analyze after the operation. These computers can then be planted manually, or even dropped from unspecialized UAVs (such as the Parrot Drone) to allow your expensive plane to return to safety while you do your work.",
+     "url": "http://blog.ussjoin.com/2012/01/dropping-the-f-bomb.html",
+     "videourl": "https://www.youtube.com/watch?v=Vm_cHb8Mm9w",
+      "tags": ["technical"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Washington Hilton",
+              "city": "Washington, DC"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-77.044852, 38.916544]
+          }
+      }
+    },
+    {
+     "title": "Mnikr: Reputation Construction Through Human Trading of Distributed Social Identities",
+     "location": "5th ACM Workshop on Digital Identity Management",
+     "date": "2009-11-13",
+     "prose": "With Dr. John Linwood Griffin. Stock-market-like construction of computer-readable human-mediated reputation scores. Selected as the best paper at the workshop.",
+     "abstract": "Reputation forms an important part of how we come to trust people in face-to-face interactions, and thus situations involving trust online have come to realize that reputation is an important characteristic in the digital age. We propose a new holistic and context-free approach to quantifying reputation on the Internet, based upon a stock exchange where users can trade reputation shares of other users and obtain goodwill dividends, including new algorithms for identifying and creating digital identities not inherently tied to a user’s personally identifiable information. We developed such a system, named Mnikr, and deployed our system on the Internet for a month to demonstrate and evaluate this approach. Our results suggest that existing public data sources can indeed be used to create an overarching social network whose utility is greater than its number of users would indicate, and in which reputation measurements are generated that are actually indicative of each user’s standing in society.",
+      "url": "http://ussjoin.com/p3-oconnor.pdf" ,
+      "tags": ["technical"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Hyatt Regency Chicago",
+              "city": "Chicago, IL"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-87.6218003, 41.8874309]
+          }
+      }
+    }
+  ],
+  "publications": 
+  [
+    {
+     "title": "Quantifying the Cost of Cloud Security",
+     "location": "Leviathan Security Group",
+     "date": "2015-06-24",
+     "prose": "With James Arlen. Focused on the direct costs to companies of forced localization laws--the actual economic disadvantage inflicted by a country on its businesses when it chooses to require that all data be stored within its borders.",
+     "url": "http://www.valueofcloudsecurity.com",
+      "tags": ["technical"]
+    },
+    {
+     "title": "Value of Cloud Security: Vulnerability",
+     "location": "Leviathan Security Group",
+     "date": "2015-02-11",
+     "prose": "With James Arlen and Lee Brotherston. A discussion of the challenges around setting up local data storage, for small, medium, and large enterprises, and a comparison of price data between major local and cloud storage vendors.",
+     "url": "http://www.valueofcloudsecurity.com",
+      "tags": ["technical"]
+    },
+    {
+     "title": "Analysis of Cloud vs. Local Storage: Capabilities, Opportunities, Challenges",
+     "location": "Leviathan Security Group",
+     "date": "2015-02-11",
+     "prose": "With James Arlen and Lee Brotherston. A discussion of the challenges of hiring sufficient cybersecurity expertise given the current talent pool and educational programs available.",
+     "url": "http://www.valueofcloudsecurity.com",
+      "tags": ["technical"]
+    },
+    {
+     "title": "Comparison of Availability Between Local and Cloud Storage",
+     "location": "Leviathan Security Group",
+     "date": "2015-02-11",
+     "prose": "With James Arlen and Lee Brotherston. A discussion of the challenges of securing the integrity and availability of data stored in datacenters and the cloud in the face of disasters and other large-scale events.",
+     "url": "http://www.valueofcloudsecurity.com",
+      "tags": ["technical"]
+    },
+    {
+     "title": "Whoops! How Your 'Convenience' Broadcasts Your Secrets",
+     "location": "The SciTech Lawyer (American Bar Association)",
+     "date": "2014-01-30",
+     "prose": "Volume 10, Issue 2, Winter 2014 of The SciTech Lawyer. Wireless technology v. the duties of confidentiality and privilege.",
+     "url": "http://blog.ussjoin.com/2014/04/aba-scitech-lawyer.html",
+      "tags": ["technical", "legal"]
+    },
+    {
+     "title": "Mnikr: Reputation Construction Through Human Trading of Distributed Social Identities",
+     "location": "5th ACM Workshop on Digital Identity Management",
+     "date": "2009-11-13",
+     "prose": "With Dr. John Linwood Griffin. Stock-market-like construction of computer-readable human-mediated reputation scores. Selected as the best paper at the workshop.",
+     "url": "http://ussjoin.com/p3-oconnor.pdf",
+      "tags": ["technical"]
+    }
+  ],
+  "certifications":
+  [
+    {
+      "resume": true,
+      "title": "Attorney and Counselor-at-Law",
+      "organization": "State Bar of Montana",
+      "date": "2015-09-21",
+      "tags": ["legal"]
+    },
+    {
+      "resume": true,
+      "title": "Vice-Chair, Information Security Committee, Section of Science and Technology",
+      "organization": "American Bar Association",
+      "date": "2014-08-05",
+      "tags": ["technical", "legal"]
+    },
+    {
+      "resume": true,
+      "title": "Certified Information Systems Security Professional (CISSP)",
+      "organization": "International Information Systems Security Certification Consortium (ISC(2))",
+      "date": "2012-07-20",
+      "tags": ["technical"]
+    },
+    {
+      "title": "FEMA Professional Development Certificate, IS-{1, 100, 120, 130, 139, 200, 230, 235, 240, 241, 242, 244, 250, 288, 700, 800, 802}",
+      "organization": "United States Department of Homeland Security",
+      "date": "2011-01-07",
+      "tags": ["technical"]
+    },
+    {
+      "title": "Public Service and Emergency Communications Management for Radio Amateurs (EC-016)",
+      "organization": "American Radio Relay League (ARRL)",
+      "date": "2011-05-01",
+      "tags": ["technical"]
+    }
+  ]
+}

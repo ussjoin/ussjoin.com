@@ -1,0 +1,113 @@
+.presentations
+{
+  > .presentation
+  {
+    @extend .resumeitem;
+    
+    > .abstractholder
+    {
+      > .presentation-expander-label
+      {
+        > .downarrow
+        {
+          display: inline;
+        }
+        > .uparrow
+        {
+          display: none;
+        }
+      }
+      > .presentation-expander
+      {
+        display: none;
+      }
+      > .presentation-expander:not(checked) ~ .abstract {
+          display: none;
+      }
+      > .presentation-expander:not(checked) ~ .presentation-expander-label .uparrow {
+          display: none;
+      }
+      > .presentation-expander:not(checked) ~ .presentation-expander-label .downarrow {       
+          display: inline;
+      } 
+      > .presentation-expander:checked ~ .abstract {       
+          display: block;
+      }
+      > .presentation-expander:checked ~ .presentation-expander-label .uparrow {       
+          display: inline;
+      } 
+      > .presentation-expander:checked ~ .presentation-expander-label .downarrow {
+          display: none;
+      }
+      
+    }
+  }
+}
+
+.categoryholder
+{
+  > .category-label /*Label*/
+  {
+    font-size: 150%;
+    > .downarrow
+    {
+      display: inline;
+    }
+    > .uparrow
+    {
+      display: none;
+    }
+  }
+  > .category-expander
+  {
+    display: none;
+  }
+  > .category-expander:not(checked) ~ .category {
+      display: none;
+  }
+  > .category-expander:not(checked) ~ .category-label .uparrow {
+      display: none;
+  }
+  > .category-expander:not(checked) ~ .category-label .downarrow {       
+      display: inline;
+  } 
+  > .category-expander:checked ~ .category {       
+      display: block;
+  } 
+  > .category-expander:checked ~ .category-label .uparrow {       
+      display: inline;
+  } 
+  > .category-expander:checked ~ .category-label .downarrow {
+      display: none;
+  }
+  
+}
+
+.links
+{
+  width: 40px;
+  height: 16px;
+  right:0px;
+  margin-left:10px;
+}
+
+.videourl {
+  position:absolute;
+  right:24px;
+  bottom:1em;
+  height:16px;
+  width:16px;
+}
+
+.url {
+  position:absolute;
+  right:0;
+  bottom:1em;
+  height:16px;
+  width:16px;
+}
+
+.formalheader
+{
+  display: none; /*Used for print only*/
+}
