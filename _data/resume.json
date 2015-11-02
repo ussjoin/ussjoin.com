@@ -126,7 +126,7 @@
      "prose": "With James Arlen. Examination of forced data localization laws, their nature, their origins, and their effects on confidentiality, availability, and integrity of data, as well as the cost of doing business in a global marketplace.",
      "abstract": "'Our data is only safe within our borders!' '(The US|China|New Zealand|Vanuatu) is spying on our citizens!' 'Don't ship our citizens' data overseas!' These rallying cries are calling for the same solution: forced data localization laws, where a country requires that all its citizens' and corporations' data be kept within the territory of that country. What's so bad about data localization? Is it good for security? Is it good for business? Is it good for protecting your data from Three- or Four-Letter Agencies? We'll answer these questions and more as we discuss forced localization, international education policy, unlikely anchor placement, catastrophic dripping, and how it affects your business' goals in the short and long term.",
      "url": "http://sector.ca/Program/Sessions/Session-Details/xenophobia-is-hard-on-data-forced-localization-data-storage-and-business-realities",
-     "videourl": "XXX",
+     "videourl": "http://2015.video.sector.ca/video/144196336",
       "tags": ["technical", "legal"],
       "geo": {
           "type": "Feature",
