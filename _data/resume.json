@@ -47,7 +47,7 @@
       "title": "Senior Security Advisor",
       "location": "Leviathan Security Group",
       "dates": "2014 - ",
-      "prose": "I work as a Senior Security Advisor in Leviathan's Risk and Advisory Services group, where I advise enterprise clients on security strategy and policy, including development of a security department and culture, responding to their clients' and vendors' security assessments and audits, and assessing software development and architecture to ensure that they can meet their security goals. I also co-wrote four whitepapers on forced data localization as it affects security, available at http://www.valueofcloudsecurity.com. From 2014 until mid-2015, I worked as a Senior Security Consultant on Leviathan's Technical Services team, focused on client engagements ranging from core technical assessments to large-scale policy documents.",
+      "prose": "I work as a Senior Security Advisor in Leviathan's Risk and Advisory Services group, where I advise enterprise clients on security strategy and policy, including development of a security department and culture, responding to their clients' and vendors' security assessments and audits, and assessing software development and architecture to ensure that they can meet their security goals. I also co-wrote four whitepapers on forced data localization as it affects security, available at <a href=\"http://www.valueofcloudsecurity.com\">http://www.valueofcloudsecurity.com</a>. From 2014 until mid-2015, I worked as a Senior Security Consultant on Leviathan's Technical Services team, focused on client engagements ranging from core technical assessments to large-scale policy documents.",
       "tags": ["technical"]
     },
     {
@@ -69,7 +69,7 @@
       "title": "Brief of Amici Curiae in U.S. v. Auernheimer",
       "location": "United States Court of Appeals for the Third Circuit",
       "dates": "2013 - 2013",
-      "prose": "I wrote a Brief of Amici Curiae to the Third Circuit in U.S. v. Auernheimer, on behalf of Meredith Patterson, myself, and eleven other notable security researchers. The brief is available at https://github.com/ussjoin/weevamicus/releases. This brief was not written on behalf of or with the support of any group beyond the individual amici.",
+      "prose": "I wrote a Brief of Amici Curiae to the Third Circuit in U.S. v. Auernheimer, on behalf of Meredith Patterson, myself, and eleven other notable security researchers. The brief is available at <a href=\"https://github.com/ussjoin/weevamicus/releases\">https://github.com/ussjoin/weevamicus/releases</a>. This brief was not written on behalf of or with the support of any group beyond the individual amici.",
       "tags": ["legal"]
     },
     {
