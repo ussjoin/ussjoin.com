@@ -119,6 +119,25 @@
   "presentations": 
   [
     {
+     "title": "Prisoners in Cybertown (It's a Dirty Little War)",
+     "location": "Hackers (THINK)",
+     "date": "2015-11-07",
+     "prose": "As part of the panel on legal issues at Hackers (THINK), I gave a twenty minute presentation on data localization laws, the Data Protection Directive (and its associated international agreements) and the collapse of EU-US Safe Harbo[u]r due to the Schrems case and the forthcoming US Second Circuit Microsoft Ireland case.",
+     "url": "http://conference.think.org/about/",
+      "tags": ["technical", "legal"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Chaminade Resort and Spa",
+              "city": "Santa Cruz, CA"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-121.984929, 36.998438]
+          }
+      }
+    },
+    {
       "resume": true,
      "title": "Xenophobia is Hard on Data",
      "location": "SECTor 2015",
