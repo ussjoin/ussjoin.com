@@ -200,7 +200,7 @@
       }
     },
     {
-      "resume": true,
+      "resume": false,
      "title": "Hot Topics in Information Security Law 2015",
      "location": "RSA",
      "date": "2015-04-21",
@@ -615,6 +615,13 @@
       "title": "Vice-Chair, Information Security Committee, Section of Science and Technology (Two Terms: 2014-2015, 2015-2016)",
       "organization": "American Bar Association",
       "date": "2014-08-05",
+      "tags": ["technical", "legal"]
+    },
+    {
+      "resume": true,
+      "title": "Certified Information Privacy Professional U.S. Private Sector (CIPP/US)",
+      "organization": "International Association of Privacy Professionals",
+      "date": "2015-12-14",
       "tags": ["technical", "legal"]
     },
     {
