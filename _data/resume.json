@@ -619,6 +619,13 @@
     },
     {
       "resume": true,
+      "title": "Certified Information Privacy Professional U.S. Government (CIPP/G)",
+      "organization": "International Association of Privacy Professionals",
+      "date": "2016-01-11",
+      "tags": ["technical", "legal"]
+    },
+    {
+      "resume": true,
       "title": "Certified Information Privacy Professional U.S. Private Sector (CIPP/US)",
       "organization": "International Association of Privacy Professionals",
       "date": "2015-12-14",
