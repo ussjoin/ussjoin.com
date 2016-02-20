@@ -611,11 +611,18 @@
       "tags": ["legal"]
     },
     {
-      "resume": true,
+      "resume": false,
       "title": "Vice-Chair, Information Security Committee, Section of Science and Technology (Two Terms: 2014-2015, 2015-2016)",
       "organization": "American Bar Association",
       "date": "2014-08-05",
       "tags": ["technical", "legal"]
+    },
+    {
+      "resume": true,
+      "title": "Certificate of Cloud Security Knowledge (CCSK)",
+      "organization": "Cloud Security Alliance",
+      "date": "2016-02-20",
+      "tags": ["technical"]
     },
     {
       "resume": true,
