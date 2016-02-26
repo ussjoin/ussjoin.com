@@ -80,7 +80,6 @@ layout: default
           {% endif %}
           {% if chunk.videourl %}
             <div class="videourl"><a href="{{ chunk.videourl }}" title="Video of {{ chunk.title }} at {{ chunk.location }}"><img class="svg" src="{{ "/images/movie.svg" | prepend: site.baseurl }}" alt="Video of {{ chunk.title }} at {{ chunk.location }}" /></a></div>
-            <!--<a href="{{ chunk.videourl }}" title="Video of {{ chunk.title }}"><div class="videolink"></div></a>-->
           {% endif %}
           </div>
         </div>
@@ -103,7 +102,6 @@ layout: default
               <div class="url"><a href="{{ chunk.url }}" title="Link to Media on {{ chunk.title }} at {{ chunk.location }}"><img class="svg" src="{{ "/images/link.svg" | prepend: site.baseurl }}" alt="Link to Media on {{ chunk.title }} at {{ chunk.location }}" /></a></div>
             {% endif %}
           </div>
-          <!--<div class="url">{{ chunk.url }}</div>-->
         </div>
       {% endfor %}
     </div>
