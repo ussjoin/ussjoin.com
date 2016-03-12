@@ -261,7 +261,6 @@
      "location": "Montana State Bar CLE",
      "date": "2015-03-13",
      "prose": "Continuing Legal Education course (1 credit, ethics). An introduction to computer security concepts as they relate to the Rules of Professional Conduct, including small, meaningful steps to improve a law firm's communications strategies.",
-     "url": "http://c.ymcdn.com/sites/www.montanabar.org/resource/resmgr/CLE/St.Pattys_CLE.pdf",
       "tags": ["technical", "legal"],
       "geo": {
           "type": "Feature",
