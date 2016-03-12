@@ -119,6 +119,42 @@
   "presentations": 
   [
     {
+     "title": "It Only Matters If (You Use Computers)",
+     "location": "New Leaders Council - Montana",
+     "date": "2016-03-12",
+     "prose": "Invited talk. Overview for policymakers and activists across different fields of the specific policy challenges facing the Internet. This talk covered five major areas: the Wassenaar Arrangement, the Tallinn Manual, data localization and the end of EU-US Safe Harbor, Apple and the encryption debate, and expansive Computer Fraud and Abuse Act interpretations and the US v. Auernheimer case.",
+      "tags": ["technical", "legal"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Disability Rights Montana",
+              "city": "Helena, MT"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-112.022846, 46.604038]
+          }
+      }
+    },
+    {
+     "title": "Security in Practice",
+     "location": "Montana State Bar CLE",
+     "date": "2016-03-11",
+     "prose": "Continuing Legal Education course (3.5 credits, ethics). An overview of the field of information security, including an introduction to cloud computing, the encryption debate, legal ethics opinions on technology issues (in Montana, from other state bars, and from the ABA), software selections for secure attorney-client interactions, litigation-related problems in technology, and risk-based decisionmaking.",
+      "tags": ["technical", "legal"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Fairmont Hot Springs Resort",
+              "city": "Anaconda, MT"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-112.811629, 46.043113]
+          }
+      }
+    },
+    {
      "title": "Prisoners in Cybertown (It's a Dirty Little War)",
      "location": "Hackers (THINK)",
      "date": "2015-11-07",
@@ -224,7 +260,7 @@
      "title": "Information Governance: Security, Not Fear",
      "location": "Montana State Bar CLE",
      "date": "2015-03-13",
-     "prose": "Continuing Legal Education course (Ethics). An introduction to computer security concepts as they relate to the Rules of Professional Conduct, including small, meaningful steps to improve a law firm's communications strategies.",
+     "prose": "Continuing Legal Education course (1 credit, ethics). An introduction to computer security concepts as they relate to the Rules of Professional Conduct, including small, meaningful steps to improve a law firm's communications strategies.",
      "url": "http://c.ymcdn.com/sites/www.montanabar.org/resource/resmgr/CLE/St.Pattys_CLE.pdf",
       "tags": ["technical", "legal"],
       "geo": {
