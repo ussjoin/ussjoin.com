@@ -57,7 +57,7 @@ layout: default
 
   <div class="categoryholder">
     <input type="checkbox" id="presentations-all" class="category-expander">
-    <label for="presentations-all" class="category-label">Presentations <span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category" /></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category" /></span></label>
+    <label for="presentations-all" class="category-label">Selected Presentations <span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category" /></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category" /></span></label>
     <div class="category presentations animated fadeIn">
       {% for chunk in site.data.resume.presentations %}
         {% if chunk.resume == true %}
