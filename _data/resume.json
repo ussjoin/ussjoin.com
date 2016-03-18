@@ -119,6 +119,15 @@
   "presentations": 
   [
     {
+     "title": "New Developments in Consumer Privacy: From Spokeo, Inc. to Apple",
+     "location": "American Bar Association Section of Civil Rights and Social Justice",
+     "date": "2016-03-18",
+     "prose": "ABA Teleconference, with Alan Butler (Electronic Privacy Information Center). Overview of the issues (both technical and legal) involved in Spokeo v. Robins (currently pending before the US Supreme Court) and the Apple encryption case currently pending before the US Magistrate for the Central District of California.",
+     "abstract": "This program will provide an overview of two significant developments related to consumer privacy in the United States.  The discussion will be helpful to lawyers across the spectrum who deal with both compliance (reviewing policies and procedures) and litigation.  First, we will discuss the much-anticipated decision of the U.S. Supreme Court in Spokeo, Inc. v. Robins, concerning Article III standing requirements and consumer privacy claims.  Next, we will discuss the ongoing fight between Apple and the FBI over the use of strong encryption.  One case, currently pending before a federal magistrate judge in California, will be heard later his month.  Please join us to learn more.",
+     "url": "http://shop.americanbar.org/ebus/ABAEventsCalendar/EventDetails.aspx?productId=239679803",
+      "tags": ["technical", "legal"]
+    },
+    {
      "title": "It Only Matters If (You Use Computers)",
      "location": "New Leaders Council - Montana",
      "date": "2016-03-12",
