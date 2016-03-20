@@ -66,13 +66,6 @@
       "tags": ["legal"]
     },
     {
-      "title": "Brief of Amici Curiae in U.S. v. Auernheimer",
-      "location": "United States Court of Appeals for the Third Circuit",
-      "dates": "2013 - 2013",
-      "prose": "I wrote a Brief of Amici Curiae to the Third Circuit in U.S. v. Auernheimer, on behalf of Meredith Patterson, myself, and eleven other notable security researchers. The brief is available at <a href=\"https://github.com/ussjoin/weevamicus/releases\">https://github.com/ussjoin/weevamicus/releases</a>. This brief was not written on behalf of or with the support of any group beyond the individual amici.",
-      "tags": ["legal"]
-    },
-    {
       "title": "Judicial Intern",
       "location": "Wisconsin Supreme Court",
       "dates": "2012 - 2012",
@@ -634,6 +627,14 @@
      "date": "2014-01-30",
      "prose": "Volume 10, Issue 2, Winter 2014 of The SciTech Lawyer. Wireless technology v. the duties of confidentiality and privilege.",
      "url": "http://blog.ussjoin.com/2014/04/aba-scitech-lawyer.html",
+      "tags": ["technical", "legal"]
+    },
+    {
+      "title": "Brief of Amici Curiae in U.S. v. Auernheimer",
+      "location": "United States Court of Appeals for the Third Circuit",
+      "dates": "2013-07-01",
+      "prose": "I wrote a Brief of Amici Curiae to the Third Circuit in U.S. v. Auernheimer, on behalf of Meredith Patterson, myself, and eleven other notable security researchers. The brief is available at <a href=\"https://github.com/ussjoin/weevamicus/releases\">https://github.com/ussjoin/weevamicus/releases</a>. This brief was not written on behalf of or with the support of any group beyond the individual amici.",
+      "url": "https://github.com/ussjoin/weevamicus/releases",
       "tags": ["technical", "legal"]
     },
     {
