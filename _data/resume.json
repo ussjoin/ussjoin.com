@@ -632,7 +632,7 @@
     {
       "title": "Brief of Amici Curiae in U.S. v. Auernheimer",
       "location": "United States Court of Appeals for the Third Circuit",
-      "dates": "2013-07-01",
+      "date": "2013-07-01",
       "prose": "I wrote a Brief of Amici Curiae to the Third Circuit in U.S. v. Auernheimer, on behalf of Meredith Patterson, myself, and eleven other notable security researchers. The brief is available at <a href=\"https://github.com/ussjoin/weevamicus/releases\">https://github.com/ussjoin/weevamicus/releases</a>. This brief was not written on behalf of or with the support of any group beyond the individual amici.",
       "url": "https://github.com/ussjoin/weevamicus/releases",
       "tags": ["technical", "legal"]
