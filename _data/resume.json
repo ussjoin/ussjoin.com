@@ -673,6 +673,7 @@
       "resume": true,
       "title": "Certified Information Privacy Professional U.S. Government (CIPP/G)",
       "organization": "International Association of Privacy Professionals",
+      "url": "https://www.credential.net/10117244",
       "date": "2016-01-11",
       "tags": ["technical", "legal"]
     },
@@ -680,6 +681,7 @@
       "resume": true,
       "title": "Certified Information Privacy Professional U.S. Private Sector (CIPP/US)",
       "organization": "International Association of Privacy Professionals",
+      "url": "https://www.credential.net/10102463",
       "date": "2015-12-14",
       "tags": ["technical", "legal"]
     },
@@ -687,6 +689,7 @@
       "resume": true,
       "title": "Certified Information Systems Security Professional (CISSP)",
       "organization": "International Information Systems Security Certification Consortium (ISC(2))",
+      "url": "https://www.youracclaim.com/badges/24fa1c96-8f46-47fb-a99f-86168485297b/public_url",
       "date": "2012-07-20",
       "tags": ["technical"]
     },
