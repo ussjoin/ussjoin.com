@@ -116,9 +116,11 @@ layout: default
           <div class="date">{{ chunk.date }}</div>
           <div class="title"> {{ chunk.title }}</div>
           <div class="organization">{{ chunk.organization }}</div>
-          {% if chunk.url %}
-            <div class="url"><a href="{{ chunk.url }}" title="Link to Media on {{ chunk.title }} at {{ chunk.location }}"><img class="svg" src="{{ "/images/link.svg" | prepend: site.baseurl }}" alt="Link to Media on {{ chunk.title }} at {{ chunk.location }}" /></a></div>
-          {% endif %}
+          <div class="links">
+            {% if chunk.url %}
+              <div class="url"><a href="{{ chunk.url }}" title="Link to Media on {{ chunk.title }} at {{ chunk.location }}"><img class="svg" src="{{ "/images/link.svg" | prepend: site.baseurl }}" alt="Link to Media on {{ chunk.title }} at {{ chunk.location }}" /></a></div>
+            {% endif %}
+          </div>
         </div>
       {% endfor %}
     </div>
