@@ -112,6 +112,47 @@
   "presentations": 
   [
     {
+     "title": "The Other Way to Get a Hairy Hand; or, Contracts for Hackers",
+     "location": "DEF CON SkyTalks",
+     "date": "2016-08-07",
+     "prose": "Overview of contract law for non-lawyers. This talk took the approach that large chunks of 'legalese' represent 'scar tissue' from old wounds to the legal profession--cases that have gone in unexpected directions. On that basis, the talk went through standard contract clauses (using the iTunes agreement as an example) that security professionals commonly encounter, why those exist, and when it's worth trying to push back against overbroad contracts.",
+     "abstract": "What do an excessively hairy hand, a car-eating loch, a mechanical bull, and a house of ill repute in northern Montana mean for the iTunes EULA that nobody reads? 'Legalese' is the go-to term to explain (or pretend to justify) overly-complex sentences that involve weirdly-specific phrases followed by names that don't always relate (hereinafter referred to as 'duck wrangling'). While you might cringe at pages of boilerplate, the stories that gave rise to all those words are hilarious and terrifying in turns. Come join us for a discussion of why contracts got screwed up, what the words actually mean (and what they don't), what you actually need to know (without being legal advice, insert your favorite disclaimer here), and how to push back against 'the lawyers said it has to be in there' next time you're signing something. Get another beer; you're going to want it to toast the memories of all the poor suckers who gave us the law (or their leg), such as it is.",
+      "tags": ["legal"],
+      "url": "https://skytalks.info/",
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Bally's Las Vegas Hotel and Casino",
+              "city": "Las Vegas, NV"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-115.170976, 36.114277]
+          }
+      }
+    },
+    {
+     "title": "Lawyers are Killing the Internet",
+     "location": "Lockdown",
+     "date": "2016-07-14",
+     "prose": "An overview of six major areas in which well-intentioned politicians and lawyers, representing their nation or supranational entity's interests, are undermining some of the fundamental assumptions on what the Internet 'is.' This presentation covered the Wassenaar Arrangement, the Tallinn Manual, cross-border data restrictions (including the EU Data Protection Regulation), the Right to Be Forgotten, international legal assistance (MLAT), and forced data localization laws.",
+     "abstract": "Are China, North Korea, and Ireland teaming up to hate our freedoms and our democratic way of life? What are Russia, the EU, and Canada in complete agreement on? What does the layout of undersea cables have to do with NATO, and why are people looking for cyberblood? What on earth is cyberblood? Are lawyers, inevitably, screwing up everything? (Yes.) Join us for a discussion of the current state of forced data localization, EU-US Safe Harbo[u]r, the Law of (inevitably) Cyber Conflict, and what they all mean to you. If you want to be able to create products, secure systems, live peaceably on the Internet free from military malware, or simply communicate with people who don't have the same passport as you, this is the talk you need to be at.",
+      "tags": ["technical", "legal"],
+      "url": "https://lockdown.it.wisc.edu/",
+      "videourl": "https://youtu.be/b7-3ap_V5Hc",
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "University of Wisconsin Health Sciences Learning Center",
+              "city": "Madison, WI"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-89.4303294, 43.0774041]
+          }
+      }
+    },
+    {
      "title": "New Developments in Consumer Privacy: From Spokeo, Inc. to Apple",
      "location": "American Bar Association Section of Civil Rights and Social Justice",
      "date": "2016-03-18",
@@ -178,7 +219,7 @@
     {
       "resume": true,
      "title": "Xenophobia is Hard on Data",
-     "location": "SECTor 2015",
+     "location": "SecTor",
      "date": "2015-10-21",
      "prose": "With James Arlen. Examination of forced data localization laws, their nature, their origins, and their effects on confidentiality, availability, and integrity of data, as well as the cost of doing business in a global marketplace.",
      "abstract": "'Our data is only safe within our borders!' '(The US|China|New Zealand|Vanuatu) is spying on our citizens!' 'Don't ship our citizens' data overseas!' These rallying cries are calling for the same solution: forced data localization laws, where a country requires that all its citizens' and corporations' data be kept within the territory of that country. What's so bad about data localization? Is it good for security? Is it good for business? Is it good for protecting your data from Three- or Four-Letter Agencies? We'll answer these questions and more as we discuss forced localization, international education policy, unlikely anchor placement, catastrophic dripping, and how it affects your business' goals in the short and long term.",
@@ -224,6 +265,7 @@
      "prose": "With Dr. John Linwood Griffin. Conference debate on the proper role of the military on the Internet, given the following resolution: 'This Conference Stands Resolved that there are (de facto) wars taking place on the Internet, and that it is the role of governments to prosecute such wars.'",
      "abstract": "Join John and Brendan, two doctors both improbable and ineffable, as they debate the following resolution: 'This Conference Stands Resolved that there are (de facto) wars taking place on the Internet, and that it is the role of governments to prosecute such wars.' We'll touch on the proper role of the military on the Internet, whether individuals and companies harassing foreign entities online can be treated as acting on their country's behalf, and cyberwar versus rampaging squirrels in this freewheeling debate. Each speaker will be asked to stake out a vision for what the future of the Internet will look like, and then to defend it both from the other speaker and the audience. By the end, we may not have cleared up your confusion as to what cyberwar is, but you'll have a great time: audience participation is strongly encouraged, and you'll be able to decide who won this combination of talk and argument.",
      "url": "http://www.sourceconference.com/#!boston-2015-agenda/c7dp",
+     "videourl": "https://vimeo.com/139840385",
       "tags": ["technical", "legal"],
       "geo": {
           "type": "Feature",
@@ -323,12 +365,12 @@
      "date": "2014-07-10",
      "prose": "New updates to the CreepyDOL system, including a large-scale deployment in Montezuma, NM with 755 devices. Redux of Paranoia presentation at the request of the Lockdown conference organizers.",
      "abstract": "Tired of the government being the only entity around that can keep tabs on a whole city at once? Frustrated by dictators du jour knowing more about you than you know about them? Fed up with agents provocateur slipping into your protests, rallies, or golf outings? Suffer no more, because CreepyDOL is here to help! With open-source software, off-the-shelf sensors, several layers of encryption, and a deployment methodology of 'pull pin, point toward privacy insurance claimant,' it allows anyone to track everyone in a neighborhood, suburb, or city from the comfort of their sofa. How can we do this? The laziness of untold developers—and we use this simple idea to pass our low, low prices (and open source software) on to you! For? just four easy hardware purchases of $131.95, you too can move up from small-time weirding out to the big leagues of total information awareness: deploy CreepyDOL today!",
-     "url": "https://www.cio.wisc.edu/events/lockdown-2014/presentations/",
+     "url": "https://lockdown.it.wisc.edu/",
       "tags": ["technical"],
       "geo": {
           "type": "Feature",
           "properties": {
-              "venue": "Health Sciences Learning Center",
+              "venue": "University of Wisconsin Health Sciences Learning Center",
               "city": "Madison, WI"
           },
           "geometry": {
@@ -661,6 +703,14 @@
       "organization": "American Bar Association",
       "date": "2014-08-05",
       "tags": ["technical", "legal"]
+    },
+    {
+      "resume": true,
+      "title": "Certified Information Systems Auditor (CISA)",
+      "organization": "Information Systems Audit and Control Association",
+      "url": "https://www.youracclaim.com/badges/1454149c-7a0f-46b5-b328-89f66399f57f/public_url",
+      "date": "2016-08-12",
+      "tags": ["technical"]
     },
     {
       "resume": true,
