@@ -47,7 +47,7 @@
       "title": "Senior Security Advisor",
       "location": "Leviathan Security Group",
       "dates": "2014 - ",
-      "prose": "I work as a Senior Security Advisor in Leviathan's Risk and Advisory Services group, where I advise enterprise clients on risk and compliance (GRC), security strategy, and policy, including responding to their clients' and vendors' security assessments and audits, and assisting with security questions for client engineering teams. I also took one client through a first-time SOC 2 audit process, including designing internal controls, identifying necessary remediations before the audit period, and eventually working with the on-site audit team. In addition, I co-wrote four whitepapers on forced data localization as it affects security, available at <a href=\"http://www.valueofcloudsecurity.com\">http://www.valueofcloudsecurity.com</a>. From 2014 until mid-2015, I worked as a Senior Security Consultant on Leviathan's Technical Services team.",
+      "prose": "I work as a Senior Security Advisor in Leviathan's Risk and Advisory Services group, where I advise enterprise clients on risk and compliance (GRC), security strategy, and policy, including responding to their clients' and vendors' security assessments and audits, and assisting with security questions for client engineering teams. I also took one client through a first-time SOC 2 audit process, including designing internal controls, identifying necessary remediation activities before the audit period, and eventually working with the on-site audit team. My clients span compliance areas, including ISO 27000-series, HIPAA, SSAE-16, and others. In addition, I co-wrote four whitepapers on forced data localization as it affects security, available at <a href=\"http://www.valueofcloudsecurity.com\">http://www.valueofcloudsecurity.com</a>. From 2014 until mid-2015, I worked as a Senior Security Consultant on Leviathan's Technical Services team.",
       "tags": ["technical"]
     },
     {
@@ -699,7 +699,7 @@
     },
     {
       "resume": false,
-      "title": "Vice-Chair, Information Security Committee, Section of Science and Technology (Two Terms: 2014-2015, 2015-2016)",
+      "title": "Vice-Chair, Information Security Committee, Section of Science and Technology (Three Terms: 2014-2015, 2015-2016, 2016-2017)",
       "organization": "American Bar Association",
       "date": "2014-08-05",
       "tags": ["technical", "legal"]
