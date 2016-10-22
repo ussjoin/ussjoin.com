@@ -111,6 +111,27 @@
   ],
   "presentations": 
   [
+  	{
+     "resume": true,
+     "title": "Security by Consent; or, Peel's Principles of Security Operations",
+     "location": "SecTor",
+     "date": "2016-10-18",
+     "prose": "How to create and maintain a security operation within a larger organization that focuses on cooperation and consent, rather than coercion, based upon the 'policing by consent' model created in 1820s England.",
+     "abstract": "Are you tired of knowing everything, having people ignore “the security person” because “reasons,” and then having “I told you so” as your only comfort? Sick of the hostile relationship between security and development, security and operations, security and HR, and/or security and everyone not wearing a black t-shirt? There’s a better way. Faced with the challenge of building a security function into a society that wasn’t sure it wanted one (but which nonetheless needed it), Charles Rowan and Richard Mayne set out what became known as the Peelian Principles of Policing, or Policing by Consent. They provide an effective model for running a security group that stands with its organization, rather than against it. We are, after all, “only members of the public who are paid to give full-time attention to duties which are incumbent on every citizen in the intent of the community welfare.” Join us to become a security Bobby—where a commitment to service is non-optional, but the silly hat’s only needed if you like it.",
+     "url": "http://sector.ca/sessions/security-by-consent-or-peels-principles-of-security-operations/",
+      "tags": ["technical"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Metro Toronto Convention Centre",
+              "city": "Toronto, ON, Canada"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-79.386854, 43.643879]
+          }
+      }
+    },
     {
      "title": "The Other Way to Get a Hairy Hand; or, Contracts for Hackers",
      "location": "DEF CON SkyTalks",
