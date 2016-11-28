@@ -49,6 +49,12 @@ $on-laptop:        800px;
         "syntax-highlighting"
 ;
 
+/*Removes extra margins from printed version*/
+.wrapper {
+    padding-right: 0;
+    padding-left: 0;
+}
+
 /*Hide things we don't use in print version*/
 
 .presentations
