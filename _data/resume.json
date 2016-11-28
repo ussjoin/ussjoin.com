@@ -111,7 +111,26 @@
   ],
   "presentations": 
   [
-  	{
+    {
+     "title": "Legal Roundup 2016",
+     "location": "Hackers (THINK)",
+     "date": "2016-11-04",
+     "prose": "Panel with Whitney Merrill and Marcia Hofmann on some of the legal issues facing the technology community. My portion included the US v. Microsoft MLAT case, EU-US Privacy Shield and the EU GDPR, and the trend of countries using forced localization to require companies to comply with surveillance orders.",
+     "url": "http://conference.think.org/about/",
+      "tags": ["technical", "legal"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Chaminade Resort and Spa",
+              "city": "Santa Cruz, CA"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-121.984929, 36.998438]
+          }
+      }
+    },
+    {
      "resume": true,
      "title": "Security by Consent; or, Peel's Principles of Security Operations",
      "location": "SecTor",
@@ -166,6 +185,44 @@
           }
         }
       ],
+    },
+    {
+     "title": "Don't Be a Hero",
+     "location": "Ignite O'Reilly Security",
+     "date": "2016-10-31",
+     "prose": "Ignite format; presentation on the value of compliance for small and mid-sized businesses. The talk was designed to lay out the motivational case, rather than the step-by-step implementation of compliance in an organization.",
+     "abstract": "Swinging swords, slaying beasts, drinking Red Bull, and coding through a weekend: the life of a startup is exciting and free from rules. When you get your first security audit and have to establish policies and compliance, you may find your sword hand itchy; are the good times over? No--something even better comes next. Stop being a hero-based organization, and build things that will outlive you.",
+      "tags": ["technical"],
+      "url": "http://conferences.oreilly.com/security/network-data-security-ny/public/schedule/detail/54612",
+      "videourl": "https://www.youtube.com/watch?v=PNEkTCQOgOY",
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "New York Hilton Midtown",
+              "city": "New York, NY"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-73.979637, 40.762348]
+          }
+      },
+      "repeats": [
+        {
+          "location": "PumpCon",
+          "date": "2016-10-29",
+          "geo": {
+              "type": "Feature",
+              "properties": {
+                  "venue": "Ruba Club",
+                  "city": "Philadelphia, PA"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [-75.145966, 39.961778]
+              }
+          }
+        }
+      ]
     },
     {
      "title": "The Other Way to Get a Hairy Hand; or, Contracts for Hackers",
@@ -445,7 +502,6 @@
      "location": "Paranoia",
      "date": "2014-03-27",
      "prose": "New updates to the CreepyDOL system, including a large-scale deployment in Montezuma, NM with 755 devices.",
-     "abstract": "No abstract was provided for this conference.",
      "url": "http://paranoia.watchcom.no/index.php?page=68",
      "videourl": "https://www.youtube.com/watch?v=Tpusnxmvhrw",
       "tags": ["technical"],
