@@ -239,11 +239,11 @@ pre {
   }
   > .repeats
   {
+    margin-top:1px; /*Necessary to keep print CSS from moving the first repeated date left.*/
     > .date
     {
       float: right;
       margin-right: 0px;
-      margin-top: 0px;
     }
   }
 }
