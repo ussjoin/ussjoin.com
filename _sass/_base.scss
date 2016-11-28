@@ -217,19 +217,17 @@ pre {
   
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 3px;
-  padding-top: 3px;
   margin-bottom: 5px;
   position:relative;
   
   
-  > .date
+  > .date /* For presentations */
   {
     float: right;
     margin-right: 0px;
-    margin-top: 0px;
+    margin-top: 1.5em;
   }
-  > .dates
+  > .dates /* For experience */
   {
     float: right;
     margin-right: 0px;
@@ -238,6 +236,15 @@ pre {
   > .title
   {
     font-weight: bold;
+  }
+  > .repeats
+  {
+    > .date
+    {
+      float: right;
+      margin-right: 0px;
+      margin-top: 0px;
+    }
   }
 }
 

@@ -6,14 +6,27 @@ title: Presentations KML
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
   {% for chunk in site.data.resume.presentations %}
-  {% if chunk.geo %}
-    <Placemark>
-      <name>{{ chunk.title }} - {{ chunk.geo.properties.city }}</name>
-      <description>This talk was delivered on {{ chunk.date | date: "%B %-d, %Y"}} at {{ chunk.geo.properties.venue }} in {{ chunk.geo.properties.city }}.</description>
-      <Point>
-        <coordinates>{{chunk.geo.geometry.coordinates | join: ',' }}</coordinates>
-      </Point>
-    </Placemark>
+    {% if chunk.geo %}
+      <Placemark>
+        <name>{{ chunk.title }} - {{ chunk.geo.properties.city }}</name>
+        <description>This talk was delivered on {{ chunk.date | date: "%B %-d, %Y"}} at {{ chunk.geo.properties.venue }} in {{ chunk.geo.properties.city }}.</description>
+        <Point>
+          <coordinates>{{chunk.geo.geometry.coordinates | join: ',' }}</coordinates>
+        </Point>
+      </Placemark>
+      {% if chunk.repeats %}
+        {% for rep in chunk.repeats %}
+          {% if rep.geo %}
+            <Placemark>
+              <name>{{ chunk.title }} - {{ rep.geo.properties.city }}</name>
+              <description>This talk was delivered on {{ rep.date | date: "%B %-d, %Y"}} at {{ rep.geo.properties.venue }} in {{ rep.geo.properties.city }}.</description>
+              <Point>
+                <coordinates>{{rep.geo.geometry.coordinates | join: ',' }}</coordinates>
+              </Point>
+            </Placemark>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
     {% endif %}
   {% endfor %}
   </Document>

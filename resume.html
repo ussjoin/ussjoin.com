@@ -66,6 +66,14 @@ layout: default
           <div class="date">{{ chunk.date | date: "%B %-d, %Y"}}</div>
           <div class="title"> {{ chunk.title }}</div>
           <div class="location">{{ chunk.location }} - {{ chunk.geo.properties.city }}</div>
+          {% if chunk.repeats %}
+            <div class="repeats">
+            {% for rep in chunk.repeats %}
+              <div class="date">{{ rep.date | date: "%B %-d, %Y"}}</div>
+              <div class="location">{{ rep.location }} - {{ chunk.geo.properties.city }}</div>
+            {% endfor %}
+            </div>
+          {% endif %}
           <div class="prose">{{ chunk.prose }}</div>
           {% if chunk.abstract %}
           <div class="abstractholder">
@@ -80,7 +88,16 @@ layout: default
           {% endif %}
           {% if chunk.videourl %}
             <div class="videourl"><a href="{{ chunk.videourl }}" title="Video of {{ chunk.title }} at {{ chunk.location }}"><img class="svg" src="{{ "/images/movie.svg" | prepend: site.baseurl }}" alt="Video of {{ chunk.title }} at {{ chunk.location }}" /></a></div>
-            <!--<a href="{{ chunk.videourl }}" title="Video of {{ chunk.title }}"><div class="videolink"></div></a>-->
+          {% endif %}
+          {% if chunk.repeats %}
+            {% for rep in chunk.repeats %}
+              {% if rep.url %}
+                <div class="url"><a href="{{ rep.url }}" title="Link to Media on {{ chunk.title }} at {{ rep.location }}"><img class="svg" src="{{ "/images/link.svg" | prepend: site.baseurl }}" alt="Link to Media on {{ chunk.title }} at {{ rep.location }}" /></a></div>
+              {% endif %}
+              {% if rep.videourl %}
+                <div class="videourl"><a href="{{ rep.videourl }}" title="Video of {{ chunk.title }} at {{ rep.location }}"><img class="svg" src="{{ "/images/movie.svg" | prepend: site.baseurl }}" alt="Video of {{ chunk.title }} at {{ rep.location }}" /></a></div>
+              {% endif %}
+            {% endfor %}
           {% endif %}
           </div>
         </div>
