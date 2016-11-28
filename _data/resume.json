@@ -422,26 +422,6 @@
       }
     },
     {
-     "title": "Voyeurism in the Air",
-     "location": "Lockdown",
-     "date": "2014-07-10",
-     "prose": "New updates to the CreepyDOL system, including a large-scale deployment in Montezuma, NM with 755 devices. Redux of Paranoia presentation at the request of the Lockdown conference organizers.",
-     "abstract": "Tired of the government being the only entity around that can keep tabs on a whole city at once? Frustrated by dictators du jour knowing more about you than you know about them? Fed up with agents provocateur slipping into your protests, rallies, or golf outings? Suffer no more, because CreepyDOL is here to help! With open-source software, off-the-shelf sensors, several layers of encryption, and a deployment methodology of 'pull pin, point toward privacy insurance claimant,' it allows anyone to track everyone in a neighborhood, suburb, or city from the comfort of their sofa. How can we do this? The laziness of untold developers—and we use this simple idea to pass our low, low prices (and open source software) on to you! For? just four easy hardware purchases of $131.95, you too can move up from small-time weirding out to the big leagues of total information awareness: deploy CreepyDOL today!",
-     "url": "https://lockdown.it.wisc.edu/",
-      "tags": ["technical"],
-      "geo": {
-          "type": "Feature",
-          "properties": {
-              "venue": "University of Wisconsin Health Sciences Learning Center",
-              "city": "Madison, WI"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [-89.4303294, 43.0774041]
-          }
-      }
-    },
-    {
      "title": "The Perfectly Legitimate Project",
      "location": "ThotCon",
      "date": "2014-04-25",
@@ -479,7 +459,25 @@
               "type": "Point",
               "coordinates": [10.750491, 59.914316]
           }
-      }
+      },
+      "repeats": [
+        {
+          "location": "Lockdown",
+          "date": "2014-07-10",
+          "url": "https://lockdown.it.wisc.edu/",
+          "geo": {
+              "type": "Feature",
+              "properties": {
+                  "venue": "University of Wisconsin Health Sciences Learning Center",
+                  "city": "Madison, WI"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [-89.4303294, 43.0774041]
+              }
+          }
+        }
+      ]
     },
     {
      "title": "War Crimes as a Service",
@@ -497,27 +495,6 @@
           "geometry": {
               "type": "Point",
               "coordinates": [-75.173804, 39.963091]
-          }
-      }
-    },
-    {
-     "title": "Stalking a City for Fun and Frivolity",
-     "location": "LASCON",
-     "date": "2013-10-24",
-     "prose": "Distributed sensor network data acquisition, filtering, and visualization, with several security applications. Redux of DEF CON presentation at the request of the LASCON conference organizers.",
-     "abstract": "Please see the abstract for the DEF CON presentation, below.",
-     "url": "https://lascon2013.sched.org/",
-     "videourl": "https://vimeo.com/channels/lascon2013/80794014",
-      "tags": ["technical"],
-      "geo": {
-          "type": "Feature",
-          "properties": {
-              "venue": "Norris Conference Center",
-              "city": "Austin, TX"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [-97.7353914, 30.3568301]
           }
       }
     },
@@ -562,7 +539,26 @@
               "type": "Point",
               "coordinates": [-115.188159, 36.117515]
           }
-      }
+      },
+      "repeats": [
+        {
+          "location": "LASCON",
+          "date": "2013-10-24",
+          "url": "https://lascon2013.sched.org/",
+          "videourl": "https://vimeo.com/channels/lascon2013/80794014",
+          "geo": {
+              "type": "Feature",
+              "properties": {
+                  "venue": "Norris Conference Center",
+                  "city": "Austin, TX"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [-97.7353914, 30.3568301]
+              }
+          }
+        }
+      ]
     },
     {
       "resume": true,

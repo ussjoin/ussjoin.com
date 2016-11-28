@@ -70,7 +70,7 @@ layout: default
             <div class="repeats">
             {% for rep in chunk.repeats %}
               <div class="date">{{ rep.date | date: "%B %-d, %Y"}}</div>
-              <div class="location">{{ rep.location }} - {{ chunk.geo.properties.city }}</div>
+              <div class="location">{{ rep.location }} - {{ rep.geo.properties.city }}</div>
             {% endfor %}
             </div>
           {% endif %}
