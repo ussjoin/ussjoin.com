@@ -44,18 +44,18 @@
   [
     {
       "resume": true,
-      "title": "Senior Security Advisor",
-      "location": "Leviathan Security Group",
-      "dates": "2014 - ",
-      "prose": "I work as a Senior Security Advisor in Leviathan's Risk and Advisory Services group, where I advise enterprise clients on risk and compliance (GRC), security strategy, and policy, including responding to their clients' and vendors' security assessments and audits, and assisting with security questions for client engineering teams. I also took one client through a first-time SOC 2 audit process, including designing internal controls, identifying necessary remediation activities before the audit period, and eventually working with the on-site audit team. My clients span compliance areas, including ISO 27000-series, HIPAA, SSAE-16, and others. In addition, I co-wrote four whitepapers on forced data localization as it affects security, available at <a href=\"http://www.valueofcloudsecurity.com\">http://www.valueofcloudsecurity.com</a>. From 2014 until mid-2015, I worked as a Senior Security Consultant on Leviathan's Technical Services team.",
+      "title": "Chief Technical Officer / DSS",
+      "location": "Malice Afterthought, Inc.",
+      "dates": "2010 - ",
+      "prose": "Malice Afterthought provides software and security consulting services to a range of clients, from small businesses to large corporations, in addition to creating and releasing its own commercial and open source software. From January - July 2011, I taught at a Department of Defense information and network warfare (CNO) school. In January, 2012, I won a DARPA Cyber Fast Track research proposal to fund research entitled 'Reticle: Leaderless Command and Control,' and in November, 2012 an additional CFT proposal entitled 'NOM: Novel Object Mapping.' That research, culminating in the CreepyDOL platform, continued through 2014. In 2016, we began research and development effort for a new type of IoT platform.",
       "tags": ["technical"]
     },
     {
       "resume": true,
-      "title": "Chief Technical Officer / DSS",
-      "location": "Malice Afterthought, Inc.",
-      "dates": "2010 - ",
-      "prose": "Malice Afterthought provides software and security consulting services to a range of clients, from small businesses to large corporations, in addition to creating and releasing its own commercial and open source software. From January - July 2011, I taught at a Department of Defense information and network warfare (CNO) school. In January, 2012, I won a DARPA Cyber Fast Track research proposal to fund research entitled 'Reticle: Leaderless Command and Control,' and in November, 2012 an additional CFT proposal entitled 'NOM: Novel Object Mapping.'",
+      "title": "Senior Security Advisor",
+      "location": "Leviathan Security Group",
+      "dates": "2014 - 2016",
+      "prose": "I worked as a Senior Security Advisor in Leviathan's Risk and Advisory Services group, where I advised enterprise clients on risk and compliance (GRC), security strategy, and policy, including responding to their clients' and vendors' security assessments and audits, and assisting with security questions for client engineering teams. I also took one client through a first-time SOC 2 Type II audit process, including designing internal controls, identifying necessary remediation activities before the audit period, and eventually working with the on-site audit team. My clients spanned compliance areas, including ISO 27000-series, HIPAA, SSAE-16, PCI, and others. In addition, I co-wrote four whitepapers on forced data localization as it affects security, available at <a href=\"http://www.valueofcloudsecurity.com\">http://www.valueofcloudsecurity.com</a>. From 2014 until mid-2015, I worked as a Senior Security Consultant on Leviathan's Technical Services team.",
       "tags": ["technical"]
     },
     {
@@ -153,7 +153,7 @@
       },
       "repeats": [
         {
-          "location": "O'Reilly Security New York City",
+          "location": "O'Reilly Security New York",
           "date": "2016-11-02",
           "url": "http://conferences.oreilly.com/security/network-data-security-ny/public/schedule/detail/52851",
           "geo": {
