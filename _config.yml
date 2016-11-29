@@ -1,7 +1,7 @@
 # Site settings
 title: Brendan O'Connor
 description: > # this means to ignore newlines until "baseurl:"
-  Brendan O'Connor's resume/CV/links to data/exegesis, in some fashion.
+  This is my CV and resume. I'm currently looking for new opportunities and new challenges in security consulting, security leadership, and/or technology policy. If you'd like to talk about ways we could work together, please contact me: bfo@ussjoin.com.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ussjoin.com" # the base hostname & protocol for your site
 twitter_username: ussjoin
