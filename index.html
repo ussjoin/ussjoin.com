@@ -117,13 +117,14 @@ layout: default
     {% for chunk in site.data.resume.certifications %}
       <div class="certification {{ chunk.tags | join }}">
         <div class="date">{{ chunk.date }}</div>
-        <div class="title"> {{ chunk.title }}</div>
-        <div class="organization">{{ chunk.organization }}</div>
-        <div class="links">
+        <div class="title"> 
           {% if chunk.url %}
-            <div class="url"><a href="{{ chunk.url }}" title="Link to Media on {{ chunk.title }} at {{ chunk.location }}"><img class="svg" src="{{ "/images/link.svg" | prepend: site.baseurl }}" alt="Link to Media on {{ chunk.title }} at {{ chunk.location }}" /></a></div>
+            <a href="{{ chunk.url }}" title="Link to Media on {{ chunk.title }} at {{ chunk.location }}">{{ chunk.title }}</a>
+          {% else %}
+            {{ chunk.title }}
           {% endif %}
-        </div>
+          </div>
+        <div class="organization">{{ chunk.organization }}</div>
       </div>
     {% endfor %}
   </div>

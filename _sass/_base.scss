@@ -221,7 +221,7 @@ pre {
   position:relative;
   
   
-  > .date /* For presentations */
+  > .date /* For presentations, certs */
   {
     float: right;
     margin-right: 0px;
@@ -296,7 +296,7 @@ pre {
   }
 }
 
-.technical
+/*.technical
 {
   border-color: #261854;
 }
@@ -321,6 +321,45 @@ pre {
 .technicallegaltext
 {
   color: #5F7417;
+}*/
+
+.technical
+{
+  border-color: #2D68A3;
+  a
+  {
+    color: #000000;
+  }
+}
+.technicaltext
+{
+  color:#367DC4;
+}
+
+.legal
+{
+  border-color: #721119;
+  a
+  {
+    color: #000000;
+  }
+}
+.legaltext
+{
+  color: #721119;
+}
+
+.legal.technical
+{
+  border-color: #46086D;
+  a
+  {
+    color: #000000;
+  }
+}
+.technicallegaltext
+{
+  color: #670BA0;
 }
 
 .sociallinks
