@@ -51,8 +51,10 @@ $on-laptop:        800px;
 
 /*Removes extra margins from printed version*/
 .wrapper {
-    padding-right: 0;
+    padding-top: 0;
     padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
 }
 .page-content {
     padding: 0;

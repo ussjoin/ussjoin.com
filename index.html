@@ -2,147 +2,130 @@
 layout: default
 ---
 
-<div class="home">
 
-  <div class="formalheader h-card">
-    <div class="name p-name">Brendan O'Connor</div>
-    <div class="email u-email">bfo@ussjoin.com</div>
-    <div class="site u-url">http://ussjoin.com</div>
-    <br />
-    <div class="phone p-tel">406.545.0430</div>
-    <div class="twitter p-nickname">@USSJoin</div>
-  </div>
-
-  <div class="hello">
-    <div class="sociallinks">
-      <a href="https://github.com/ussjoin/"><img class="svg" src="{{ "/images/github.svg" | prepend: site.baseurl }}" alt="GitHub" /></a><a href="https://twitter.com/ussjoin/"><img class="svg" src="{{ "/images/twitter.svg" | prepend: site.baseurl }}" alt="Twitter" /></a>
-    </div>
-    <h1>Hi. I'm Brendan.</h1>
-    <h2>I'm a <span class="technicaltext">security researcher</span>. I'm a <span class="legaltext">lawyer</span>. My work <span class="technicallegaltext">blends both areas</span>.</h2>
-    <h3>I'm currently looking for new opportunities and new challenges in security consulting, security leadership, and/or technology policy. If you'd like to talk about ways we could work together, please contact me: <a href="mailto:bfo@ussjoin.com">bfo@ussjoin.com</a>.</h3>
+<div class="hello">
     <h3>I have links to social things above. Below, I've compiled my talks, experience, and a few other useful bits of information. If you'd like this as a CV, just hit print; if you'd like a formal resume, <a href="resume.html">click here for HTML</a> or <a href="Brendan O'Connor - Resume.pdf">click here for a PDF</a>. My bio is on the <a href="/about/">About page</a>. My <a href="0xB58EDA54.asc">GPG key</a> is public. My blog is <a href="http://blog.ussjoin.com">Times and Measures</a>.</h3>
-  </div>
+</div>
 
-  <div class="categoryholder">
-    <input type="checkbox" id="educations-all" class="category-expander">
-    <label for="educations-all" class="category-label">Education <span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category" /></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category" /></span></label>
-    <div class="educations category animated fadeIn">
-      {% for chunk in site.data.resume.education %}
-        <div class="education {{ chunk.tags | join }}">
-          <div class="dates">{{ chunk.dates }}</div>
-          <div class="title"> {{ chunk.title }}</div>
-          <div class="location">{{ chunk.location }}</div>
-        
-          <ul>
-            {% for detail in chunk.details %}
-              <li> {{ detail }} </li>
-            {% endfor %}
-          </ul>
-        </div>
-      {% endfor %}
-    </div>
+<div class="categoryholder">
+  <input type="checkbox" id="educations-all" class="category-expander">
+  <label for="educations-all" class="category-label">Education <span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category" /></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category" /></span></label>
+  <div class="educations category animated fadeIn">
+    {% for chunk in site.data.resume.education %}
+      <div class="education {{ chunk.tags | join }}">
+        <div class="dates">{{ chunk.dates }}</div>
+        <div class="title"> {{ chunk.title }}</div>
+        <div class="location">{{ chunk.location }}</div>
+      
+        <ul>
+          {% for detail in chunk.details %}
+            <li> {{ detail }} </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
   </div>
-  
-  <div class="categoryholder">
-    <input type="checkbox" id="experiences-all" class="category-expander">
-    <label for="experiences-all" class="category-label">Experience <span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category" /></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category" /></span></label>
-    <div class="experiences category animated fadeIn">
-      {% for chunk in site.data.resume.experience %}
-        <div class="experience {{ chunk.tags | join }}">
-          <div class="dates">{{ chunk.dates }}</div>
-          <div class="title"> {{ chunk.title }}</div>
-          <div class="location">{{ chunk.location }}</div>
-          <div class="prose">{{ chunk.prose }}</div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
+</div>
 
-  <div class="categoryholder">
-    <input type="checkbox" id="presentations-all" class="category-expander">
-    <label for="presentations-all" class="category-label">Presentations <span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category" /></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category" /></span></label>
-    <div class="category presentations animated fadeIn">
-      {% for chunk in site.data.resume.presentations %}
-        <div class="presentation {{ chunk.tags | join }}">
-          <div class="date">{{ chunk.date | date: "%B %-d, %Y"}}</div>
-          <div class="title"> {{ chunk.title }}</div>
-          <div class="location">{{ chunk.location }} - {{ chunk.geo.properties.city }}</div>
-          {% if chunk.repeats %}
-            <div class="repeats">
-            {% for rep in chunk.repeats %}
-              <div class="date">{{ rep.date | date: "%B %-d, %Y"}}</div>
-              <div class="location">{{ rep.location }} - {{ rep.geo.properties.city }}</div>
-            {% endfor %}
-            </div>
-          {% endif %}
-          <div class="prose">{{ chunk.prose }}</div>
-          {% if chunk.abstract %}
-          <div class="abstractholder">
-            <input type="checkbox" id="presentation-{{ chunk.date }}-{{ chunk.title | truncate: 5 }}" class="presentation-expander">
-            <label for="presentation-{{ chunk.date }}-{{ chunk.title | truncate: 5 }}" class="presentation-expander-label">Abstract <span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category" /></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category" /></span></label>
-            <div class="abstract animated fadeIn">{{ chunk.abstract }}</div>
+<div class="categoryholder">
+  <input type="checkbox" id="experiences-all" class="category-expander">
+  <label for="experiences-all" class="category-label">Experience <span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category" /></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category" /></span></label>
+  <div class="experiences category animated fadeIn">
+    {% for chunk in site.data.resume.experience %}
+      <div class="experience {{ chunk.tags | join }}">
+        <div class="dates">{{ chunk.dates }}</div>
+        <div class="title"> {{ chunk.title }}</div>
+        <div class="location">{{ chunk.location }}</div>
+        <div class="prose">{{ chunk.prose }}</div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="categoryholder">
+  <input type="checkbox" id="presentations-all" class="category-expander">
+  <label for="presentations-all" class="category-label">Presentations <span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category" /></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category" /></span></label>
+  <div class="category presentations animated fadeIn">
+    {% for chunk in site.data.resume.presentations %}
+      <div class="presentation {{ chunk.tags | join }}">
+        <div class="date">{{ chunk.date | date: "%B %-d, %Y"}}</div>
+        <div class="title"> {{ chunk.title }}</div>
+        <div class="location">{{ chunk.location }} - {{ chunk.geo.properties.city }}</div>
+        {% if chunk.repeats %}
+          <div class="repeats">
+          {% for rep in chunk.repeats %}
+            <div class="date">{{ rep.date | date: "%B %-d, %Y"}}</div>
+            <div class="location">{{ rep.location }} - {{ rep.geo.properties.city }}</div>
+          {% endfor %}
           </div>
-          {% endif %}
-          <div class="links">
+        {% endif %}
+        <div class="prose">{{ chunk.prose }}</div>
+        {% if chunk.abstract %}
+        <div class="abstractholder">
+          <input type="checkbox" id="presentation-{{ chunk.date }}-{{ chunk.title | truncate: 5 }}" class="presentation-expander">
+          <label for="presentation-{{ chunk.date }}-{{ chunk.title | truncate: 5 }}" class="presentation-expander-label">Abstract <span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category" /></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category" /></span></label>
+          <div class="abstract animated fadeIn">{{ chunk.abstract }}</div>
+        </div>
+        {% endif %}
+        <div class="links">
+        {% if chunk.url %}
+          <div class="url"><a href="{{ chunk.url }}" title="Link to Media on {{ chunk.title }} at {{ chunk.location }}"><img class="svg" src="{{ "/images/link.svg" | prepend: site.baseurl }}" alt="Link to Media on {{ chunk.title }} at {{ chunk.location }}" /></a></div>
+        {% endif %}
+        {% if chunk.videourl %}
+          <div class="videourl"><a href="{{ chunk.videourl }}" title="Video of {{ chunk.title }} at {{ chunk.location }}"><img class="svg" src="{{ "/images/movie.svg" | prepend: site.baseurl }}" alt="Video of {{ chunk.title }} at {{ chunk.location }}" /></a></div>
+        {% endif %}
+        {% if chunk.repeats %}
+          {% for rep in chunk.repeats %}
+            {% if rep.url %}
+              <div class="url"><a href="{{ rep.url }}" title="Link to Media on {{ chunk.title }} at {{ rep.location }}"><img class="svg" src="{{ "/images/link.svg" | prepend: site.baseurl }}" alt="Link to Media on {{ chunk.title }} at {{ rep.location }}" /></a></div>
+            {% endif %}
+            {% if rep.videourl %}
+              <div class="videourl"><a href="{{ rep.videourl }}" title="Video of {{ chunk.title }} at {{ rep.location }}"><img class="svg" src="{{ "/images/movie.svg" | prepend: site.baseurl }}" alt="Video of {{ chunk.title }} at {{ rep.location }}" /></a></div>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="categoryholder">
+  <input type="checkbox" id="publications-all" class="category-expander">
+  <label for="publications-all" class="category-label">Publications <span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category" /></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category" /></span></label>
+  <div class="publications category animated fadeIn">
+    {% for chunk in site.data.resume.publications %}
+      <div class="publication {{ chunk.tags | join }}">
+        <div class="date">{{ chunk.date }}</div>
+        <div class="title"> {{ chunk.title }}</div>
+        <div class="location">{{ chunk.location }}</div>
+        <div class="prose">{{ chunk.prose }}</div>
+        <div class="links">
           {% if chunk.url %}
             <div class="url"><a href="{{ chunk.url }}" title="Link to Media on {{ chunk.title }} at {{ chunk.location }}"><img class="svg" src="{{ "/images/link.svg" | prepend: site.baseurl }}" alt="Link to Media on {{ chunk.title }} at {{ chunk.location }}" /></a></div>
           {% endif %}
-          {% if chunk.videourl %}
-            <div class="videourl"><a href="{{ chunk.videourl }}" title="Video of {{ chunk.title }} at {{ chunk.location }}"><img class="svg" src="{{ "/images/movie.svg" | prepend: site.baseurl }}" alt="Video of {{ chunk.title }} at {{ chunk.location }}" /></a></div>
-          {% endif %}
-          {% if chunk.repeats %}
-            {% for rep in chunk.repeats %}
-              {% if rep.url %}
-                <div class="url"><a href="{{ rep.url }}" title="Link to Media on {{ chunk.title }} at {{ rep.location }}"><img class="svg" src="{{ "/images/link.svg" | prepend: site.baseurl }}" alt="Link to Media on {{ chunk.title }} at {{ rep.location }}" /></a></div>
-              {% endif %}
-              {% if rep.videourl %}
-                <div class="videourl"><a href="{{ rep.videourl }}" title="Video of {{ chunk.title }} at {{ rep.location }}"><img class="svg" src="{{ "/images/movie.svg" | prepend: site.baseurl }}" alt="Video of {{ chunk.title }} at {{ rep.location }}" /></a></div>
-              {% endif %}
-            {% endfor %}
-          {% endif %}
-          </div>
         </div>
-      {% endfor %}
-    </div>
+      </div>
+    {% endfor %}
   </div>
-  
-  <div class="categoryholder">
-    <input type="checkbox" id="publications-all" class="category-expander">
-    <label for="publications-all" class="category-label">Publications <span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category" /></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category" /></span></label>
-    <div class="publications category animated fadeIn">
-      {% for chunk in site.data.resume.publications %}
-        <div class="publication {{ chunk.tags | join }}">
-          <div class="date">{{ chunk.date }}</div>
-          <div class="title"> {{ chunk.title }}</div>
-          <div class="location">{{ chunk.location }}</div>
-          <div class="prose">{{ chunk.prose }}</div>
-          <div class="links">
-            {% if chunk.url %}
-              <div class="url"><a href="{{ chunk.url }}" title="Link to Media on {{ chunk.title }} at {{ chunk.location }}"><img class="svg" src="{{ "/images/link.svg" | prepend: site.baseurl }}" alt="Link to Media on {{ chunk.title }} at {{ chunk.location }}" /></a></div>
-            {% endif %}
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-  
-  <div class="categoryholder">
-    <input type="checkbox" id="certifications-all" class="category-expander">
-    <label for="certifications-all" class="category-label">Certifications <span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category" /></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category" /></span></label>
-    <div class="certifications category animated fadeIn">
-      {% for chunk in site.data.resume.certifications %}
-        <div class="certification {{ chunk.tags | join }}">
-          <div class="date">{{ chunk.date }}</div>
-          <div class="title"> {{ chunk.title }}</div>
-          <div class="organization">{{ chunk.organization }}</div>
-          <div class="links">
-            {% if chunk.url %}
-              <div class="url"><a href="{{ chunk.url }}" title="Link to Media on {{ chunk.title }} at {{ chunk.location }}"><img class="svg" src="{{ "/images/link.svg" | prepend: site.baseurl }}" alt="Link to Media on {{ chunk.title }} at {{ chunk.location }}" /></a></div>
-            {% endif %}
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-
 </div>
+
+<div class="categoryholder">
+  <input type="checkbox" id="certifications-all" class="category-expander">
+  <label for="certifications-all" class="category-label">Certifications <span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category" /></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category" /></span></label>
+  <div class="certifications category animated fadeIn">
+    {% for chunk in site.data.resume.certifications %}
+      <div class="certification {{ chunk.tags | join }}">
+        <div class="date">{{ chunk.date }}</div>
+        <div class="title"> {{ chunk.title }}</div>
+        <div class="organization">{{ chunk.organization }}</div>
+        <div class="links">
+          {% if chunk.url %}
+            <div class="url"><a href="{{ chunk.url }}" title="Link to Media on {{ chunk.title }} at {{ chunk.location }}"><img class="svg" src="{{ "/images/link.svg" | prepend: site.baseurl }}" alt="Link to Media on {{ chunk.title }} at {{ chunk.location }}" /></a></div>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
