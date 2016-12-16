@@ -7,6 +7,7 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="stylesheet" media="not print" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" media="screen and (max-device-width: 600px)" href="{{ "/css/thin.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" media="only print" href="{{ "/css/print.css" | prepend: site.baseurl }}">
   <style media="not print" type="text/css">
     /* Animate.css - http://daneden.me/animate Licensed under the MIT license - http://opensource.org/licenses/MIT Copyright (c) 2015 Daniel Eden */

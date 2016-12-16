@@ -1,0 +1,75 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+/*Make dates just flow left, rather than float right, for thin displays.*/
+.resumeitem
+{
+  > .date /* For presentations, certs */
+  {
+    float: none;
+    margin: 0;
+    clear: both;
+  }
+  > .dates /* For experience */
+  {
+    float: none;
+    margin: 0;
+  }
+  > .repeats
+  {
+    margin: 0;
+    > .date
+    {
+      float: none;
+      margin: 0;
+    }
+  }
+}
+
+.presentations
+{
+  > .presentation
+  {
+    @extend .resumeitem;
+  }
+}
+
+.categoryholder
+{
+  > .category-label /*Label*/
+  {
+    font-size: 150%;
+  }
+}
+
+.educations
+{
+  > .education
+  {
+    @extend .resumeitem;
+  }
+}
+
+.experiences
+{
+  > .experience
+  {
+    @extend .resumeitem;
+  }
+}
+
+.publications
+{
+  > .publication
+  {
+    @extend .resumeitem;
+  }
+}
+
+.certifications
+{
+  > .certification
+  {
+    @extend .resumeitem;
+  }
+}

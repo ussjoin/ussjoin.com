@@ -12,8 +12,8 @@ layout: default
     {% for chunk in site.data.resume.experience %}
       {% if chunk.resume == true %}
       <div class="experience {{ chunk.tags | join }}">
-        <div class="dates">{{ chunk.dates }}</div>
         <div class="title"> {{ chunk.title }}</div>
+        <div class="dates">{{ chunk.dates }}</div>
         <div class="location">{{ chunk.location }}</div>
         <div class="prose">{{ chunk.prose }}</div>
       </div>
@@ -29,8 +29,8 @@ layout: default
     {% for chunk in site.data.resume.presentations %}
       {% if chunk.resume == true %}
       <div class="presentation {{ chunk.tags | join }}">
-        <div class="date">{{ chunk.date | date: "%B %-d, %Y"}}</div>
         <div class="title"> {{ chunk.title }}</div>
+        <div class="date">{{ chunk.date | date: "%B %-d, %Y"}}</div>
         <div class="location">{{ chunk.location }} - {{ chunk.geo.properties.city }}</div>
         {% if chunk.repeats %}
           <div class="repeats">
@@ -79,8 +79,8 @@ layout: default
     {% for chunk in site.data.resume.education %}
       {% if chunk.resume == true %}
       <div class="education {{ chunk.tags | join }}">
-        <div class="dates">{{ chunk.dates }}</div>
         <div class="title"> {{ chunk.title }}</div>
+        <div class="dates">{{ chunk.dates }}</div>
         <div class="location">{{ chunk.location }}</div>
       </div>
       {% endif %}
@@ -95,7 +95,6 @@ layout: default
     {% for chunk in site.data.resume.certifications %}
       {% if chunk.resume == true %}
       <div class="certification {{ chunk.tags | join }}">
-        <div class="date">{{ chunk.date }}</div>
         <div class="title"> 
           {% if chunk.url %}
             <a href="{{ chunk.url }}" title="Link to Media on {{ chunk.title }} at {{ chunk.location }}">{{ chunk.title }}</a>
@@ -103,6 +102,7 @@ layout: default
             {{ chunk.title }}
           {% endif %}
           </div>
+          <div class="date">{{ chunk.date }}</div>
         <div class="organization">{{ chunk.organization }}</div>
       </div>
       {% endif %}
