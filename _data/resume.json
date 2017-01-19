@@ -44,6 +44,14 @@
   [
     {
       "resume": true,
+      "title": "Senior Security Engineer",
+      "location": "Nuna Inc.",
+      "dates": "2017 - ",
+      "prose": "Nuna provides healthcare data analytics, warehousing, and access to Medicare, Medicaid, and self-insured employers. I work on the Security team, where we provide technical, compliance, and security operations support to every part of Nuna.",
+      "tags": ["technical"]
+    },
+    {
+      "resume": true,
       "title": "Chief Technical Officer / DSS",
       "location": "Malice Afterthought, Inc.",
       "dates": "2010 - ",
