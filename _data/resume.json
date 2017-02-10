@@ -55,7 +55,7 @@
       "title": "Chief Technical Officer / DSS",
       "location": "Malice Afterthought, Inc.",
       "dates": "2010 - ",
-      "prose": "Malice Afterthought provides software and security consulting services to a range of clients, from small businesses to large corporations, in addition to creating and releasing its own commercial and open source software. From January - July 2011, I taught at a Department of Defense information and network warfare (CNO) school. In January, 2012, I won a DARPA Cyber Fast Track research proposal to fund research entitled 'Reticle: Leaderless Command and Control,' and in November, 2012 an additional CFT proposal entitled 'NOM: Novel Object Mapping.' That research, culminating in the CreepyDOL platform, continued through 2014. In 2016, I began a new research and development effort for a flexible IoT platform.",
+      "prose": "Malice Afterthought provides software and security consulting services to a range of clients, from small businesses to large corporations, in addition to creating and releasing its own commercial and open source software. From January - July 2011, I taught at a Department of Defense information and network warfare (CNO) school. In January, 2012, I won a DARPA Cyber Fast Track research proposal to fund research entitled 'Reticle: Leaderless Command and Control,' and in November, 2012 an additional CFT proposal entitled 'NOM: Novel Object Mapping.' That research, culminating in the CreepyDOL platform, continued through 2014. In 2016, I began a new R&D effort for a flexible IoT platform.",
       "tags": ["technical"]
     },
     {
@@ -812,6 +812,14 @@
   ],
   "certifications":
   [
+    {
+      "resume": true,
+      "title": "Attorney",
+      "organization": "Washington State Bar Association",
+      "date": "2017-02-10",
+      "url": "https://www.mywsba.org/LawyerDirectory/LawyerProfile.aspx?Usr_ID=51818",
+      "tags": ["legal"]
+    },
     {
       "resume": true,
       "title": "Attorney and Counselor-at-Law",
