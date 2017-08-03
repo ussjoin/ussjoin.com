@@ -90,7 +90,7 @@ layout: default
 
 <div class="categoryholder">
   <input type="checkbox" id="certifications-all" class="category-expander">
-  <label for="certifications-all" class="category-label">Certifications <span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category" /></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category" /></span></label>
+  <label for="certifications-all" class="category-label">Certifications and Memberships <span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category" /></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category" /></span></label>
   <div class="certifications category animated fadeIn">
     {% for chunk in site.data.resume.certifications %}
       {% if chunk.resume == true %}
