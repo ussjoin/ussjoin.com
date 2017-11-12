@@ -120,6 +120,44 @@
   "presentations": 
   [
     {
+     "title": "We're Seriously All Gonna Die (Lawyer Panel)",
+     "location": "Hackers (THINK)",
+     "date": "2017-11-03",
+     "prose": "Panel with Whitney Merrill on some of the legal issues facing the technology community. My portion included the US v. Microsoft MLAT case (now given certiorari), the EU GDPR, and the continued destruction of the attorney-client privilege.",
+     "url": "http://conference.think.org/about/",
+      "tags": ["technical", "legal"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Chaminade Resort and Spa",
+              "city": "Santa Cruz, CA"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-121.984929, 36.998438]
+          }
+      }
+    },
+    {
+     "title": "You Can Do The Thing!",
+     "location": "ShmooCon FireTalks",
+     "date": "2017-01-13",
+     "prose": "Given tiny starchy vegetables, a call to action for the information security community: if you don't like where the world is going, change the world.",
+     "videourl": "https://youtu.be/61uLqEry-bk",
+      "tags": ["technical"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Washington Hilton",
+              "city": "Washington, DC"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-77.044852, 38.916544]
+          }
+      }
+    },
+    {
      "title": "Legal Roundup 2016",
      "location": "Hackers (THINK)",
      "date": "2016-11-04",
