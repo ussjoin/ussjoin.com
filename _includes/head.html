@@ -9,17 +9,10 @@
   <link rel="stylesheet" media="not print" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" media="screen and (max-width: 600px)" href="{{ "/css/thin.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" media="only print" href="{{ "/css/print.css" | prepend: site.baseurl }}">
-  <style media="not print">
-    /*!
-     * This is (a small part of)
-     * animate.css -http://daneden.me/animate
-     * Version - 3.5.2
-     * Licensed under the MIT license - http://opensource.org/licenses/MIT
-     *
-     * Copyright (c) 2017 Daniel Eden
-     */
-@charset "UTF-8";.animated{animation-duration:1s;animation-fill-mode:both}@keyframes fadeIn{from{opacity:0}to{opacity:1}}.fadeIn{animation-name:fadeIn}
-  </style>
+
+    <!-- From animate.css - http://daneden.me/animate Version - 3.5.2 Licensed under the MIT license - http://opensource.org/licenses/MIT Copyright (c) 2017 Daniel Eden -->
+  <style media="not print">@charset "UTF-8";.animated{animation-duration:1s;animation-fill-mode:both}@keyframes fadeIn{from{opacity:0}to{opacity:1}}.fadeIn{animation-name:fadeIn}</style>
+  
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 </head>
