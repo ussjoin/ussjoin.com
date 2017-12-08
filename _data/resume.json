@@ -120,6 +120,25 @@
   "presentations": 
   [
     {
+     "title": "Meet the Hackers!",
+     "location": "The 21st Century Lawyer CLE (Seattle Legal Tech)",
+     "date": "2017-12-07",
+     "prose": "Continuing Legal Education course (1 credit, Law and Legal). Panel with Wendy Knox Everette and Aaron Alva on some of the technology and security issues facing attorneys. My portion included the ongoing 'going dark' debate and the meaning of security research.",
+     "url": "http://conference.think.org/about/",
+      "tags": ["technical", "legal"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Avvo",
+              "city": "Seattle, WA"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-122.3347326, 47.6141778]
+          }
+      }
+    },
+    {
      "title": "We're Seriously All Gonna Die (Lawyer Panel)",
      "location": "Hackers (THINK)",
      "date": "2017-11-03",
