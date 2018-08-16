@@ -44,10 +44,18 @@
   [
     {
       "resume": true,
+      "title": "Enterprise Security Platform Lead",
+      "location": "RealSelf",
+      "dates": "2018 - ",
+      "prose": "RealSelf provides a resource and community through which people learn about aesthetic procedures of all kinds, find providers, and make connections with millions of people around the world with similar experiences. I am the person responsible for information security at RealSelf, including giving advice and counsel on technical security, leading our security awareness program, building out our ISO 27000-series information security management program, and working with internal stakeholders and external partners to ensure that the trust RealSelf's users give us is well-placed.",
+      "tags": ["technical"]
+    },
+    {
+      "resume": true,
       "title": "Chief Technical Officer / DSS",
       "location": "Malice Afterthought, Inc.",
       "dates": "2010 - ",
-      "prose": "Malice Afterthought provides software and security consulting services to a range of clients, from small businesses to large corporations. Current work includes leading an international nonprofit's security efforts, including both building a multi-regulated compliance program (FERPA, HIPAA, and FedRAMP) and implementing technical defensive tools. Some highlights of past work: teaching at a Department of Defense information and network warfare (CNO) school; two DARPA Cyber Fast Track (CFT) contracts, 'Reticle: Leaderless Command and Control,' and 'NOM: Novel Object Mapping,' culminating in the CreepyDOL platform; building communication and data acquisition solutions for environmental monitoring being conducted by an academic client.  Languages and tech stacks have included Ruby, Python, Perl, D3JS, UnityScript, Hadoop, Spark, and AWS, among many others.",
+      "prose": "Malice Afterthought provides information security consulting services to a range of clients, from small businesses to large corporations. Some highlights of past work: leading an international nonprofit's security efforts, including both building a multi-regulated compliance program (FERPA, HIPAA, and FedRAMP) and implementing technical defensive tools; teaching at a Department of Defense information and network warfare (CNO) school; and two successful DARPA Cyber Fast Track (CFT) contracts.  Languages and tech stacks have included Ruby, Python, Perl, D3JS, UnityScript, Hadoop, Spark, and AWS, among many others.",
       "tags": ["technical"]
     },
     {
@@ -88,7 +96,6 @@
       "tags": ["legal"]
     },
     {
-      "resume": true,
       "title": "Senior Research Associate",
       "location": "SET Corporation",
       "dates": "2009 - 2010",
@@ -119,6 +126,48 @@
   ],
   "presentations": 
   [
+    {
+     "resume": true,
+     "title": "Probably: an Irreverent History of the GDPR",
+     "location": "DEF CON Crypto and Privacy Village",
+     "date": "2018-08-10",
+     "prose": "A humorous, though contentful, overview of the creation of the GDPR, what came before it, what it does, and why to embrace it.",
+     "abstract": "If you work in privacy, technology, marketing, or the law, or if you have an email account, you've heard of the GDPR. But what is it really? Why is your in-house lawyer grumpy all the time? Why is your marketing team walking around with stickers that say 'legitimate business use of data' and trying to slap them on random objects to see if they stick? Why, legally, can't you remember anyone's names anymore? This presentation will attempt to take a look at the GDPR from the perspective of a confused outsider who can't quite believe what's going on (as opposed to a burned-out practitioner), without getting too worked up about it. We'll cover why the GDPR exists, what it does, why some people are freaked out about it, why to be concerned and/or unconcerned, and whether kittens or puppies make the better reference animal for GDPR compliance memes. Relax! It's all going to be fine! Probably.",
+     "url": "https://cryptovillage.org/def-con-26-schedule-speakers/",
+      "tags": ["legal"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Caesar's Palace",
+              "city": "Las Vegas, NV"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-115.174499, 36.116168]
+          }
+      }
+    },
+    {
+     "resume": false,
+     "title": "They May Agree Like Brothers...",
+     "location": "ToorCamp",
+     "date": "2018-06-23",
+     "prose": "Lightning talk. The thought pattern of 'we don't need lawyers,' common recently in employment contracts and blockchains, is an attempt to further disenfranchise the powerless. Examples from the US Supreme Court and ICOs.",
+     "abstract": "Jack Cade and Dick were right: if you want to gain unlimited power, the first thing you do is kill all the lawyers. 'We don't need lawyers interfering in our business' is an Overton Window-expanding refrain that helps the powerful to strip rights from employees, contractors, and even sexual partners. Using examples from 'machine-compiled contracts,' blockchain apps, and Supreme Court decisions both old and new, this talk will attempt to show that Shakespeare's 'ha ha only serious' joke is a modern shibboleth for ensuring that those with power keep it.",
+     "url": "https://frab.toorcon.net/en/toorcamp2018/public/schedule/4",
+      "tags": ["legal", "technical"],
+      "geo": {
+          "type": "Feature",
+          "properties": {
+              "venue": "Doe Bay Resort and Retreat",
+              "city": "Olga, WA"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-122.7830877, 48.6412025]
+          }
+      }
+    },
     {
      "title": "Meet the Hackers!",
      "location": "The 21st Century Lawyer CLE (Seattle Legal Tech)",
@@ -907,7 +956,7 @@
       "tags": ["technical"]
     },
     {
-      "resume": true,
+      "resume": false,
       "title": "Certified Information Privacy Professional U.S. Government (CIPP/G)",
       "organization": "International Association of Privacy Professionals",
       "url": "https://www.credential.net/10117244",

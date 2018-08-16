@@ -32,14 +32,6 @@ layout: default
         <div class="title"> {{ chunk.title }}</div>
         <div class="date">{{ chunk.date | date: "%B %-d, %Y"}}</div>
         <div class="location">{{ chunk.location }} - {{ chunk.geo.properties.city }}</div>
-        {% if chunk.repeats %}
-          <div class="repeats">
-          {% for rep in chunk.repeats %}
-            <div class="date">{{ rep.date | date: "%B %-d, %Y"}}</div>
-            <div class="location">{{ rep.location }} - {{ rep.geo.properties.city }}</div>
-          {% endfor %}
-          </div>
-        {% endif %}
         <div class="prose">{{ chunk.prose }}</div>
         {% if chunk.abstract %}
         <div class="abstractholder">
