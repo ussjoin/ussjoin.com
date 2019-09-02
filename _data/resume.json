@@ -1191,20 +1191,10 @@
         {
             "resume": true,
             "title": "Attorney",
-            "organization": "Washington State Bar Association, State Bar of Montana",
-            "date": "2017-02-10, 2015-09-21",
+            "organization": "State Bar of Montana, Washington State Bar Association",
+            "date": "2015-09-21, 2017-02-10",
             "url": "https://www.mywsba.org/LawyerDirectory/LawyerProfile.aspx?Usr_ID=51818",
             "tags": [
-                "legal"
-            ]
-        },
-        {
-            "resume": false,
-            "title": "Vice-Chair, Information Security Committee, Section of Science and Technology (Three Terms: 2014-2015, 2015-2016, 2016-2017)",
-            "organization": "American Bar Association",
-            "date": "2014-08-05",
-            "tags": [
-                "technical",
                 "legal"
             ]
         },
@@ -1268,7 +1258,7 @@
             ]
         },
         {
-            "title": "Public Service and Emergency Communications Management for Radio Amateurs (EC-016)",
+            "title": "Public Service and Emergency Communications Management for Radio Amateurs",
             "organization": "American Radio Relay League (ARRL)",
             "date": "2011-05-01",
             "tags": [

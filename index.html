@@ -123,7 +123,7 @@ layout: default
             {{ chunk.title }}
           {% endif %}
           </div>
-          <div class="date">{{ chunk.date }}</div>
+          <div class="date">{{ chunk.date | date: "%B %-d, %Y"}}</div>
         <div class="organization">{{ chunk.organization }}</div>
       </div>
     {% endfor %}
