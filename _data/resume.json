@@ -43,11 +43,19 @@
   "experience": 
   [
     {
+        "resume": true,
+        "title": "Policy Engineer",
+        "location": "GitHub",
+        "dates": "2019 - ",
+        "prose": "I work on GitHub's public policy team. Our goal is to protect software developers (from hobbyists and hackers to enterprises and NGOs), advocate for open collaboration, and fight to make the future achieve our hopes---not confirm our fears. As the team's first Policy Engineer, my role is to stand and speak in the policy, security, and software development worlds to help ensure that GitHub, as the repository of so much of the world's software, can bring forward the concerns of security and software development in global policy discussions.",
+        "tags": ["technical", "legal"]
+    },
+    {
       "resume": true,
       "title": "Enterprise Security Platform Lead",
       "location": "RealSelf",
-      "dates": "2018 - ",
-      "prose": "As the head of the information security program at RealSelf, I direct the company's overall security, risk and compliance efforts. This involves close coordination with the RealSelf executive and engineering teams to align security priorities with our business goals and overall risk posture. My work includes developing and delivering security training to employees, working with developers and SREs to design and implement security at all levels of our systems, building and running our ISO 27000-aligned information security management program, communicating with customers regarding security issues, leading security incident response efforts, working with our legal and privacy teams on vendor acquisition and management, and managing our bug bounty program. I have worked on HIPAA, PCI, GDPR, and other regulatory issues to ensure that we are able to meet our obligations as they evolve, and ultimately, that the trust our users place in us is well-earned.",
+      "dates": "2018 - 2019",
+      "prose": "As the head of the information security program at RealSelf, I directed the company's overall security, risk and compliance efforts. This involved close coordination with the RealSelf executive and engineering teams to align security priorities with our business goals and overall risk posture; I reported to the CTO and General Counsel. My work included developing and delivering security training, working with developers and SREs to design and implement security at all levels of our systems, building our ISO 27000-aligned information security management program, communicating with customers regarding security issues, leading security incident response efforts, working with our legal and privacy teams on vendor management, and managing our bug bounty program. I also worked on HIPAA, PCI, GDPR, and other regulatory issues to ensure that we were able to meet evolving obligations, and ultimately, that the trust our users placed in us was well-earned.",
       "tags": ["technical"]
     },
     {
@@ -126,12 +134,32 @@
   ],
   "presentations": 
   [
+      {
+       "title": "CAIQ and Cookies",
+       "location": "DEF CON SkyTalks",
+       "date": "2019-08-02",
+       "prose": "With Wendy Knox Everette and Jennifer Chermoshnyuk. Panel on vendor security management from three perspectives (vendor, principal, and consultant), covering how and why to care about vendor security, how to deal with an infinite amount of security questionnaires as a vendor, and what works and doesn't work in the security management space.",
+       "abstract": "This panel brings together three master chefs with a smorgasbord of vendor security assessment experience from working with sales teams, designing questionnaires to be sent out to potential partners, to helping startups to answer them and vetting answers. Our chefs will fill your plate with answers to questions like: Is the questionnaire a painful experience to be dreaded, or an opportunity to make a sale by showcasing your security and privacy practices? How do different organizations answer or vet these forms? Is there such as thing as too much vendor transparency? What best practices can we share, and are there any improvements and scaling hints we can offer? And yes, there are questions you should be asking to better judge security posture and figure out whether security is truly baked in or just a pretty top layer of sugary, flowery icing.",
+        "tags": ["legal", "technical"],
+        "url": "https://skytalks.info/",
+        "geo": {
+            "type": "Feature",
+            "properties": {
+                "venue": "Bally's Las Vegas Hotel and Casino",
+                "city": "Las Vegas, NV"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-115.170976, 36.114277]
+            }
+        }
+      },
     {
      "resume": true,
      "title": "Probably: an Irreverent History of the GDPR",
      "location": "DEF CON Crypto and Privacy Village",
      "date": "2018-08-10",
-     "prose": "A humorous, though contentful, overview of the creation of the GDPR, what came before it, what it does, and why to embrace it.",
+     "prose": "A humorous overview of the creation of the GDPR, what came before it, what it does, and why to embrace it.",
      "abstract": "If you work in privacy, technology, marketing, or the law, or if you have an email account, you've heard of the GDPR. But what is it really? Why is your in-house lawyer grumpy all the time? Why is your marketing team walking around with stickers that say 'legitimate business use of data' and trying to slap them on random objects to see if they stick? Why, legally, can't you remember anyone's names anymore? This presentation will attempt to take a look at the GDPR from the perspective of a confused outsider who can't quite believe what's going on (as opposed to a burned-out practitioner), without getting too worked up about it. We'll cover why the GDPR exists, what it does, why some people are freaked out about it, why to be concerned and/or unconcerned, and whether kittens or puppies make the better reference animal for GDPR compliance memes. Relax! It's all going to be fine! Probably.",
      "url": "https://cryptovillage.org/def-con-26-schedule-speakers/",
       "tags": ["legal"],
@@ -451,7 +479,7 @@
       }
     },
     {
-      "resume": true,
+      "resume": false,
      "title": "Xenophobia is Hard on Data",
      "location": "SecTor",
      "date": "2015-10-21",
@@ -553,7 +581,7 @@
       }
     },
     {
-      "resume": true,
+      "resume": false,
      "title": "Endrun—Secure Digital Communications For Our Modern Dystopia",
      "location": "Black Hat Europe",
      "date": "2014-10-17",
