@@ -45,10 +45,20 @@
     "experience": [
         {
             "resume": true,
+            "title": "Senior Security Advisor",
+            "location": "Leviathan Security Group",
+            "dates": "2014 - 2016, 2019 - ",
+            "prose": "I work as a Senior Security Advisor in Leviathan's Risk and Advisory Services group, where I build security programs, advise teams on how best to meet compliance goals, and work with client engineering teams to design efficient software that meets security and privacy requirements. I have taken clients through first-time SOC 2, Type II audits, dealt with customer audit teams, and advised senior management on how best to ensure their business can both achieve its primary goals and comply with applicable regulatory requirements. I also co-wrote four whitepapers on forced data localization as it affects security. I rejoined Leviathan in 2019 after spending time leading security programs as an FTE elsewhere. From 2014 until mid-2015, I worked as a Senior Security Consultant on Leviathan's Technical Services team. Languages spanned a wide array; compliance stacks included SOC 2, ISO 27001/2, HIPAA, CMS ARS, and PCI.",
+            "tags": [
+                "technical"
+            ]
+        },
+        {
+            "resume": true,
             "title": "Policy Engineer",
             "location": "GitHub",
-            "dates": "2019 - ",
-            "prose": "I work on GitHub's public policy team, which advocates for laws, regulations, and judicial actions that protect the rights of software developers and promote open collaboration. As the team's first Policy Engineer, my role is to bridge the policy, security, and software development worlds to help ensure that GitHub can represent those fields' concerns accurately in global policy discussions. I am primarily responsible for GitHub's policy efforts related to information security, supply chain protection, and international trade, and I represent GitHub Policy in broader Microsoft activities related to trade compliance.",
+            "dates": "2019 - 2019",
+            "prose": "I worked on GitHub's public policy team, which advocates for laws, regulations, and judicial actions that protect the rights of software developers and promote open collaboration. As the team's first Policy Engineer, my role was to bridge the policy, security, and software development worlds to help ensure that GitHub could represent those fields' concerns accurately in global policy discussions. I was primarily responsible for GitHub's policy efforts related to information security, supply chain protection, and international trade, and I represented GitHub Policy in broader Microsoft activities related to trade compliance.",
             "tags": [
                 "technical",
                 "legal"
@@ -80,16 +90,6 @@
             "location": "Nuna Inc.",
             "dates": "2017 - 2017",
             "prose": "Nuna provides healthcare data analytics and warehousing to Medicare/Medicaid, insurance networks, and self-insured employers. I led the Security Engineering team, which was responsible for broadly-defined security throughout Nuna (from code, to architecture, to cross-cutting initiatives). I joined Nuna as a Senior Security Engineer, and became Security Engineering Lead in March 2017. Languages and tech stacks included AWS, R, Python, Bash, and Java; compliance stacks included SOC 2, HIPAA, and CMS ARS.",
-            "tags": [
-                "technical"
-            ]
-        },
-        {
-            "resume": true,
-            "title": "Senior Security Advisor",
-            "location": "Leviathan Security Group",
-            "dates": "2014 - 2016",
-            "prose": "I worked as a Senior Security Advisor in Leviathan's Risk and Advisory Services group, where I advised enterprise clients on risk and compliance (GRC), security strategy, technical security, and policy, including responding to their clients' and vendors' security assessments and audits, and assisting with security questions for client engineering teams. I also took one client through a first-time SOC 2 Type II audit process, including designing internal controls, identifying necessary remediation activities before the audit period, and eventually working with the on-site audit team. In addition, I co-wrote four whitepapers on forced data localization as it affects security, available at <a href=\"http://www.valueofcloudsecurity.com\">http://www.valueofcloudsecurity.com</a>. From 2014 until mid-2015, I worked as a Senior Security Consultant on Leviathan's Technical Services team. Languages spanned a wide array; compliance stacks included SOC 2, ISO 27001/2, HIPAA, CMS ARS, and PCI.",
             "tags": [
                 "technical"
             ]
@@ -1196,6 +1196,16 @@
             "url": "https://www.mywsba.org/LawyerDirectory/LawyerProfile.aspx?Usr_ID=51818",
             "tags": [
                 "legal"
+            ]
+        },
+        {
+            "resume": true,
+            "title": "Certified Information Security Manager (CISM)",
+            "organization": "Information Systems Audit and Control Association",
+            "url": "https://www.youracclaim.com/badges/c9b08e7e-f036-4610-8490-65e9b6b08e4e/public_url",
+            "date": "2020-02-06",
+            "tags": [
+                "technical"
             ]
         },
         {
