@@ -160,6 +160,33 @@
     ],
     "presentations": [
         {
+            "title": "Security, Politics, Neutrality, and Protecting Users",
+            "location": "Security BSides San Francisco",
+            "date": "2020-02-24",
+            "prose": "Tech's alleged 'neutrality' causes security problems for our users--ranging from misinformation and propaganda to harassment and worse. Is neutrality required, or desirable? Should tech itself (as Microsoft once suggested) be sovereign? What happens to our users' security if we stop being neutral?",
+            "abstract": "Statements of the alleged neutrality of tech are a recurring refrain: 'we're politically neutral' means any or all of 'we can't ban bad behavior,' 'we have to comply with foreign court orders suppressing dissent,' and 'well, the government was elected; shouldn't we help them, even when we disagree?' This neutrality leads inevitably to security and privacy problems for our users--whether it's handing their data to people who want to harm them, banning users who might be 'controversial' from sites, or preventing the use of key technology by people organizing for a better life. After all, shouldn't tech be neutral---because aren't we above politics? Should (as Microsoft's Brad Smith and the EFF's John Perry Barlow proposed, in different decades) tech be sovereign and able to ignore governments' requests? Are bad outcomes an just inevitable result of tech's place in society? Join us for a discussion of sovereignty, policy, neutrality, and how we can become ardent defenders of our users' lives and livelihoods.",
+            "tags": [
+                "legal",
+                "technical"
+            ],
+            "url": "https://bsidessf2020.sched.com/event/Ybie/security-politics-neutrality-and-protecting-users?iframe=yes&w=100%&sidebar=yes&bg=no#",
+            "videourl": "https://www.youtube.com/watch?v=CJZ24xsYvzs",
+            "geo": {
+                "type": "Feature",
+                "properties": {
+                    "venue": "Metreon",
+                    "city": "San Francisco, CA"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [ 
+                        -122.403426,
+                        37.784389
+                    ]
+                }
+            }
+        },
+        {
             "title": "CAIQ and Cookies",
             "location": "DEF CON SkyTalks",
             "date": "2019-08-02",
