@@ -160,6 +160,25 @@
     ],
     "presentations": [
         {
+            "title": "Stuffing your Cloud into your SOCs",
+            "location": "DevSecCon 24",
+            "date": "2020-06-15",
+            "prose": "How to use DevSecOps to do a SOC 2 audit easily---and how to use a SOC 2 to get more time to focus on infrastructure investment.",
+            "abstract": "Your company is trying to sell to large enterprises and wants a SOC 2 audit. You're running a DevOps team that's 'also responsible for security' and have no time, no budget, no headcount, and no interest in redoing all your infrastructure just to please an auditor. This isn't an impasse---it's an opportunity for you to promote DevOps best practices throughout your company, using the extremely effective carrot of 'this is how we can sell more!' We'll cover what a SOC 2 audit is, what you get to decide when getting one, and the happy path for cloudy companies to pass audits using modern DevOps practices. The tools you already use provide a robust compliance framework; it just requires you to tell the story to the auditors. You'll also get with a useful list of things to start asking other teams (like IT and HR) to handle, and a cheat sheet for translating DevOps to Auditor. In 25 minutes, you'll have the knowledge you need to prepare for a SOC (or many other kinds of compliance) audit, and be ready to sell your team's hard work to an auditor (even if they ask you where your tape library is).",
+            "tags": [
+                "technical"
+            ],
+            "url": "https://www.devseccon.com/devseccon24-2020/agenda/",
+            "videourl": "https://www.youtube.com/watch?v=T4mZcWbmASg",
+            "geo": {
+                "type": "Feature",
+                "properties": {
+                    "venue": "Virtual",
+                    "city": "The Cloud"
+                }
+            }
+        },
+        {
             "title": "Security, Politics, Neutrality, and Protecting Users",
             "location": "Security BSides San Francisco",
             "date": "2020-02-24",
