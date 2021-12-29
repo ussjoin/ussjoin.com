@@ -6,7 +6,7 @@ _data/resume.json has my JSON-formatted resume. It should be pretty self-explana
 
 Jekyll takes the JSON and outputs it to the main and resume pages; then a print-only CSS file takes over if someone wants to print either.
 
-No JavaScript is used, anywhere; that isn't necessary, but it was an interesting challenge (particularly for the collapsible sections).
+No JavaScript is used, anywhere; that isn't necessary, but it was an interesting challenge (particularly for the collapsible sections). 
 
 ## Pull Requests
 
