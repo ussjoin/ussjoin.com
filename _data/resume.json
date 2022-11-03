@@ -95,7 +95,7 @@
             ]
         },
         {
-            "resume": true,
+            "resume": false,
             "title": "Security Engineering Lead",
             "location": "Nuna Inc.",
             "dates": "2017 - 2017",
@@ -1139,7 +1139,7 @@
             "date": "2009-11-13",
             "prose": "With Dr. John Linwood Griffin. Stock-market-like construction of computer-readable human-mediated reputation scores. Selected as the best paper at the workshop.",
             "abstract": "Reputation forms an important part of how we come to trust people in face-to-face interactions, and thus situations involving trust online have come to realize that reputation is an important characteristic in the digital age. We propose a new holistic and context-free approach to quantifying reputation on the Internet, based upon a stock exchange where users can trade reputation shares of other users and obtain goodwill dividends, including new algorithms for identifying and creating digital identities not inherently tied to a user’s personally identifiable information. We developed such a system, named Mnikr, and deployed our system on the Internet for a month to demonstrate and evaluate this approach. Our results suggest that existing public data sources can indeed be used to create an overarching social network whose utility is greater than its number of users would indicate, and in which reputation measurements are generated that are actually indicative of each user’s standing in society.",
-            "url": "http://ussjoin.com/p3-oconnor.pdf",
+            "url": "https://ussjoin.com/papers/p3-oconnor.pdf",
             "tags": [
                 "technical"
             ],
@@ -1161,11 +1161,21 @@
     ],
     "publications": [
         {
-            "title": "Quantifying the Cost of Cloud Security",
+            "title": "Kubernetes and Containerized Security",
+            "location": "Leviathan Security Group",
+            "date": "2021-08-02",
+            "prose": "An overview of what 'securing Kubernetes,' a common client request, really entails: not just security of the control plane, but more critically, of the containerized software, and how to achieve that.",
+            "url": "https://ussjoin.com/papers/Kubernetes and Containerized Security.pdf",
+            "tags": [
+                "technical"
+            ]
+        },
+        {
+            "title": "Quantifying the Cost of Forced Localization",
             "location": "Leviathan Security Group",
             "date": "2015-06-24",
             "prose": "With James Arlen. Focused on the direct costs to companies of forced localization laws--the actual economic disadvantage inflicted by a country on its businesses when it chooses to require that all data be stored within its borders.",
-            "url": "http://www.valueofcloudsecurity.com",
+            "url": "https://ussjoin.com/papers/Quantifying the Cost of Forced Localization.pdf",
             "tags": [
                 "technical"
             ]
@@ -1175,7 +1185,7 @@
             "location": "Leviathan Security Group",
             "date": "2015-02-11",
             "prose": "With James Arlen and Lee Brotherston. A discussion of the challenges around setting up local data storage, for small, medium, and large enterprises, and a comparison of price data between major local and cloud storage vendors.",
-            "url": "http://www.valueofcloudsecurity.com",
+            "url": "https://ussjoin.com/papers/VOCS Vulnerability.pdf",
             "tags": [
                 "technical"
             ]
@@ -1185,7 +1195,7 @@
             "location": "Leviathan Security Group",
             "date": "2015-02-11",
             "prose": "With James Arlen and Lee Brotherston. A discussion of the challenges of hiring sufficient cybersecurity expertise given the current talent pool and educational programs available.",
-            "url": "http://www.valueofcloudsecurity.com",
+            "url": "https://ussjoin.com/papers/VOCS Scarcity.pdf",
             "tags": [
                 "technical"
             ]
@@ -1195,7 +1205,7 @@
             "location": "Leviathan Security Group",
             "date": "2015-02-11",
             "prose": "With James Arlen and Lee Brotherston. A discussion of the challenges of securing the integrity and availability of data stored in datacenters and the cloud in the face of disasters and other large-scale events.",
-            "url": "http://www.valueofcloudsecurity.com",
+            "url": "https://ussjoin.com/papers/VOCS Availability.pdf",
             "tags": [
                 "technical"
             ]
@@ -1215,7 +1225,7 @@
             "location": "The SciTech Lawyer (American Bar Association)",
             "date": "2014-01-30",
             "prose": "Volume 10, Issue 2, Winter 2014 of The SciTech Lawyer. Wireless technology v. the duties of confidentiality and privilege.",
-            "url": "http://blog.ussjoin.com/2014/04/aba-scitech-lawyer.html",
+            "url": "https://ussjoin.com/papers/scitech-lawyer-winter-14.pdf",
             "tags": [
                 "technical",
                 "legal"
@@ -1237,7 +1247,7 @@
             "location": "5th ACM Workshop on Digital Identity Management",
             "date": "2009-11-13",
             "prose": "With Dr. John Linwood Griffin. Stock-market-like construction of computer-readable human-mediated reputation scores. Selected as the best paper at the workshop.",
-            "url": "http://ussjoin.com/p3-oconnor.pdf",
+            "url": "https://ussjoin.com/papers/p3-oconnor.pdf",
             "tags": [
                 "technical"
             ]
