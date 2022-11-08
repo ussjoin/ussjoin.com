@@ -9,7 +9,7 @@ layout: default
 
 <div class="categoryholder">
   <input type="checkbox" id="educations-all" class="category-expander">
-  <label for="educations-all" class="category-label">Education <span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category" /></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category" /></span></label>
+  <label for="educations-all" class="category-label">Education <span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category" ></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category"></span></label>
   <div class="educations category animated fadeIn">
     {% for chunk in site.data.resume.education %}
       <div class="education {{ chunk.tags | join }}">
@@ -29,7 +29,7 @@ layout: default
 
 <div class="categoryholder">
   <input type="checkbox" id="experiences-all" class="category-expander">
-  <label for="experiences-all" class="category-label">Experience <span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category" /></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category" /></span></label>
+  <label for="experiences-all" class="category-label">Experience <span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category"></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category"></span></label>
   <div class="experiences category animated fadeIn">
     {% for chunk in site.data.resume.experience %}
       <div class="experience {{ chunk.tags | join }}">
@@ -44,7 +44,7 @@ layout: default
 
 <div class="categoryholder">
   <input type="checkbox" id="presentations-all" class="category-expander">
-  <label for="presentations-all" class="category-label">Presentations <span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category" /></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category" /></span></label>
+  <label for="presentations-all" class="category-label">Presentations <span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category"></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category"></span></label>
   <div class="category presentations animated fadeIn">
     {% for chunk in site.data.resume.presentations %}
       <div class="presentation {{ chunk.tags | join }}">
@@ -63,24 +63,24 @@ layout: default
         {% if chunk.abstract %}
         <div class="abstractholder">
           <input type="checkbox" id="presentation-{{ chunk.date }}-{{ chunk.title | truncate: 5 }}" class="presentation-expander">
-          <label for="presentation-{{ chunk.date }}-{{ chunk.title | truncate: 5 }}" class="presentation-expander-label">Abstract <span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category" /></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category" /></span></label>
+          <label for="presentation-{{ chunk.date }}-{{ chunk.title | truncate: 5 }}" class="presentation-expander-label">Abstract <span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category"></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category"></span></label>
           <div class="abstract animated fadeIn">{{ chunk.abstract }}</div>
         </div>
         {% endif %}
         <div class="links">
         {% if chunk.url %}
-          <div class="url"><a href="{{ chunk.url | uri_escape }}" title="Link to Media on {{ chunk.title }} at {{ chunk.location }}"><img class="svg" src="{{ "/images/link.svg" | prepend: site.baseurl }}" alt="Link to Media on {{ chunk.title }} at {{ chunk.location }}" /></a></div>
+          <div class="url"><a href="{{ chunk.url | uri_escape }}" title="Link to Media on {{ chunk.title }} at {{ chunk.location }}"><img class="svg" src="{{ "/images/link.svg" | prepend: site.baseurl }}" alt="Link to Media on {{ chunk.title }} at {{ chunk.location }}"></a></div>
         {% endif %}
         {% if chunk.videourl %}
-          <div class="videourl"><a href="{{ chunk.videourl | uri_escape }}" title="Video of {{ chunk.title }} at {{ chunk.location }}"><img class="svg" src="{{ "/images/movie.svg" | prepend: site.baseurl }}" alt="Video of {{ chunk.title }} at {{ chunk.location }}" /></a></div>
+          <div class="videourl"><a href="{{ chunk.videourl | uri_escape }}" title="Video of {{ chunk.title }} at {{ chunk.location }}"><img class="svg" src="{{ "/images/movie.svg" | prepend: site.baseurl }}" alt="Video of {{ chunk.title }} at {{ chunk.location }}"></a></div>
         {% endif %}
         {% if chunk.repeats %}
           {% for rep in chunk.repeats %}
             {% if rep.url %}
-              <div class="url"><a href="{{ rep.url | uri_escape }}" title="Link to Media on {{ chunk.title }} at {{ rep.location }}"><img class="svg" src="{{ "/images/link.svg" | prepend: site.baseurl }}" alt="Link to Media on {{ chunk.title }} at {{ rep.location }}" /></a></div>
+              <div class="url"><a href="{{ rep.url | uri_escape }}" title="Link to Media on {{ chunk.title }} at {{ rep.location }}"><img class="svg" src="{{ "/images/link.svg" | prepend: site.baseurl }}" alt="Link to Media on {{ chunk.title }} at {{ rep.location }}"></a></div>
             {% endif %}
             {% if rep.videourl %}
-              <div class="videourl"><a href="{{ rep.videourl | uri_escape }}" title="Video of {{ chunk.title }} at {{ rep.location }}"><img class="svg" src="{{ "/images/movie.svg" | prepend: site.baseurl }}" alt="Video of {{ chunk.title }} at {{ rep.location }}" /></a></div>
+              <div class="videourl"><a href="{{ rep.videourl | uri_escape }}" title="Video of {{ chunk.title }} at {{ rep.location }}"><img class="svg" src="{{ "/images/movie.svg" | prepend: site.baseurl }}" alt="Video of {{ chunk.title }} at {{ rep.location }}"></a></div>
             {% endif %}
           {% endfor %}
         {% endif %}
@@ -92,7 +92,7 @@ layout: default
 
 <div class="categoryholder">
   <input type="checkbox" id="publications-all" class="category-expander">
-  <label for="publications-all" class="category-label">Publications <span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category" /></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category" /></span></label>
+  <label for="publications-all" class="category-label">Publications <span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category"></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category"></span></label>
   <div class="publications category animated fadeIn">
     {% for chunk in site.data.resume.publications %}
       <div class="publication {{ chunk.tags | join }}">
@@ -102,7 +102,7 @@ layout: default
         <div class="prose">{{ chunk.prose }}</div>
         <div class="links">
           {% if chunk.url %}
-            <div class="url"><a href="{{ chunk.url | uri_escape }}" title="Link to Media on {{ chunk.title }} at {{ chunk.location }}"><img class="svg" src="{{ "/images/link.svg" | prepend: site.baseurl }}" alt="Link to Media on {{ chunk.title }} at {{ chunk.location }}" /></a></div>
+            <div class="url"><a href="{{ chunk.url | uri_escape }}" title="Link to Media on {{ chunk.title }} at {{ chunk.location }}"><img class="svg" src="{{ "/images/link.svg" | prepend: site.baseurl }}" alt="Link to Media on {{ chunk.title }} at {{ chunk.location }}"></a></div>
           {% endif %}
         </div>
       </div>
@@ -112,7 +112,7 @@ layout: default
 
 <div class="categoryholder">
   <input type="checkbox" id="certifications-all" class="category-expander">
-  <label for="certifications-all" class="category-label">Certifications &amp; Memberships<span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category" /></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category" /></span></label>
+  <label for="certifications-all" class="category-label">Certifications &amp; Memberships<span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category"></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category"></span></label>
   <div class="certifications category animated fadeIn">
     {% for chunk in site.data.resume.certifications %}
       <div class="certification {{ chunk.tags | join }}">
