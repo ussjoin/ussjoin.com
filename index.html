@@ -69,18 +69,18 @@ layout: default
         {% endif %}
         <div class="links">
         {% if chunk.url %}
-          <div class="url"><a href="{{ chunk.url }}" title="Link to Media on {{ chunk.title }} at {{ chunk.location }}"><img class="svg" src="{{ "/images/link.svg" | prepend: site.baseurl }}" alt="Link to Media on {{ chunk.title }} at {{ chunk.location }}" /></a></div>
+          <div class="url"><a href="{{ chunk.url | uri_escape }}" title="Link to Media on {{ chunk.title }} at {{ chunk.location }}"><img class="svg" src="{{ "/images/link.svg" | prepend: site.baseurl }}" alt="Link to Media on {{ chunk.title }} at {{ chunk.location }}" /></a></div>
         {% endif %}
         {% if chunk.videourl %}
-          <div class="videourl"><a href="{{ chunk.videourl }}" title="Video of {{ chunk.title }} at {{ chunk.location }}"><img class="svg" src="{{ "/images/movie.svg" | prepend: site.baseurl }}" alt="Video of {{ chunk.title }} at {{ chunk.location }}" /></a></div>
+          <div class="videourl"><a href="{{ chunk.videourl | uri_escape }}" title="Video of {{ chunk.title }} at {{ chunk.location }}"><img class="svg" src="{{ "/images/movie.svg" | prepend: site.baseurl }}" alt="Video of {{ chunk.title }} at {{ chunk.location }}" /></a></div>
         {% endif %}
         {% if chunk.repeats %}
           {% for rep in chunk.repeats %}
             {% if rep.url %}
-              <div class="url"><a href="{{ rep.url }}" title="Link to Media on {{ chunk.title }} at {{ rep.location }}"><img class="svg" src="{{ "/images/link.svg" | prepend: site.baseurl }}" alt="Link to Media on {{ chunk.title }} at {{ rep.location }}" /></a></div>
+              <div class="url"><a href="{{ rep.url | uri_escape }}" title="Link to Media on {{ chunk.title }} at {{ rep.location }}"><img class="svg" src="{{ "/images/link.svg" | prepend: site.baseurl }}" alt="Link to Media on {{ chunk.title }} at {{ rep.location }}" /></a></div>
             {% endif %}
             {% if rep.videourl %}
-              <div class="videourl"><a href="{{ rep.videourl }}" title="Video of {{ chunk.title }} at {{ rep.location }}"><img class="svg" src="{{ "/images/movie.svg" | prepend: site.baseurl }}" alt="Video of {{ chunk.title }} at {{ rep.location }}" /></a></div>
+              <div class="videourl"><a href="{{ rep.videourl | uri_escape }}" title="Video of {{ chunk.title }} at {{ rep.location }}"><img class="svg" src="{{ "/images/movie.svg" | prepend: site.baseurl }}" alt="Video of {{ chunk.title }} at {{ rep.location }}" /></a></div>
             {% endif %}
           {% endfor %}
         {% endif %}
@@ -102,7 +102,7 @@ layout: default
         <div class="prose">{{ chunk.prose }}</div>
         <div class="links">
           {% if chunk.url %}
-            <div class="url"><a href="{{ chunk.url }}" title="Link to Media on {{ chunk.title }} at {{ chunk.location }}"><img class="svg" src="{{ "/images/link.svg" | prepend: site.baseurl }}" alt="Link to Media on {{ chunk.title }} at {{ chunk.location }}" /></a></div>
+            <div class="url"><a href="{{ chunk.url | uri_escape }}" title="Link to Media on {{ chunk.title }} at {{ chunk.location }}"><img class="svg" src="{{ "/images/link.svg" | prepend: site.baseurl }}" alt="Link to Media on {{ chunk.title }} at {{ chunk.location }}" /></a></div>
           {% endif %}
         </div>
       </div>
@@ -118,7 +118,7 @@ layout: default
       <div class="certification {{ chunk.tags | join }}">
         <div class="title"> 
           {% if chunk.url %}
-            <a href="{{ chunk.url }}" title="Link to Media on {{ chunk.title }} at {{ chunk.location }}">{{ chunk.title }}</a>
+            <a href="{{ chunk.url | uri_escape }}" title="Link to Media on {{ chunk.title }} at {{ chunk.location }}">{{ chunk.title }}</a>
           {% else %}
             {{ chunk.title }}
           {% endif %}
