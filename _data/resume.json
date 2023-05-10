@@ -1265,6 +1265,16 @@
             ]
         },
         {
+            "resume": false,
+            "title": "Certified Information Privacy Technologist (CIPT)",
+            "organization": "International Association of Privacy Professionals",
+            "date": "2023-05-10",
+            "tags": [
+                "technical",
+                "legal"
+            ]
+        },
+        {
             "resume": true,
             "title": "Certified Information Security Manager (CISM)",
             "organization": "Information Systems Audit and Control Association",
