@@ -241,7 +241,7 @@
             }
         },
         {
-            "resume": true,
+            "resume": false,
             "title": "Probably: an Irreverent History of the GDPR",
             "location": "DEF CON Crypto and Privacy Village",
             "date": "2018-08-10",
@@ -1264,7 +1264,7 @@
             ]
         },
         {
-            "resume": false,
+            "resume": true,
             "title": "Certified Information Privacy Technologist (CIPT)",
             "organization": "International Association of Privacy Professionals",
             "date": "2023-05-10",
