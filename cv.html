@@ -114,18 +114,20 @@ layout: default
   <input type="checkbox" id="certifications-all" class="category-expander">
   <label for="certifications-all" class="category-label">Certifications &amp; Memberships<span class="uparrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/up.svg" | prepend: site.baseurl }}" alt="Collapse Category"></span><span class="downarrow animated fadeIn"><img class="svg" width=16 src="{{ "/images/down.svg" | prepend: site.baseurl }}" alt="Expand Category"></span></label>
   <div class="certifications category animated fadeIn">
-    {% for chunk in site.data.resume.certifications %}
-      <div class="certification {{ chunk.tags | join }}">
-        <div class="title"> 
-          {% if chunk.url %}
-            <a href="{{ chunk.url | uri_escape }}" title="Link to Media on {{ chunk.title }} at {{ chunk.location }}">{{ chunk.title }}</a>
-          {% else %}
-            {{ chunk.title }}
-          {% endif %}
-          </div>
-          <div class="date">{{ chunk.date | date: "%B %-d, %Y"}}</div>
-        <div class="organization">{{ chunk.organization }}</div>
-      </div>
+    {% for org in site.data.resume.certifications %}
+      {% for chunk in org.credentials %}
+        <div class="certification {{ chunk.tags | join }}">
+          <div class="title"> 
+            {% if chunk.url %}
+              <a href="{{ chunk.url | uri_escape }}" title="Link to Media on {{ chunk.title }} at {{ chunk.location }}">{{ chunk.title }}</a>
+            {% else %}
+              {{ chunk.title }}
+            {% endif %}
+            </div>
+            <div class="date">{{ chunk.date | date: "%B %-d, %Y"}}</div>
+        </div>
+      {% endfor %}
+        <div class="organization">{{ org.organization }}</div>
     {% endfor %}
   </div>
 </div>

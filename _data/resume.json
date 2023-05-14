@@ -1,1355 +1,1380 @@
 {
-    "education": [
-        {
-            "resume": true,
-            "title": "Juris Doctor, Cum Laude",
-            "location": "The University of Wisconsin - Madison",
-            "dates": "September 2011 - May 2014",
-            "details": [
-                "Concentration in International Law, With Honors",
-                "Concentration in Criminal Law",
-                "Dean's List: Spring 2012, Spring 2013, Fall 2013",
-                "Pro Bono Society Member",
-            ],
-            "tags": [
-                "legal"
-            ]
-        },
-        {
-            "resume": true,
-            "title": "Master of Science in Engineering in Computer Science",
-            "location": "The Johns Hopkins University",
-            "dates": "September 2005 - May 2009",
-            "details": [
-                "Thesis: 'Mnikr: Reputation Construction Through Human Trading of Distributed Social Identities'",
-                "President, Upsilon Pi Epsilon (Computer Science Honor Society)"
-            ],
-            "tags": [
-                "technical"
-            ]
-        },
-        {
-            "resume": true,
-            "title": "Bachelor of Science in Computer Science",
-            "location": "The Johns Hopkins University",
-            "dates": "September 2004 - May 2008",
-            "details": [
-                "Departmental Honors"
-            ],
-            "tags": [
-                "technical"
-            ]
+  "education":[
+    {
+      "resume":true,
+      "title":"Juris Doctor, Cum Laude",
+      "location":"The University of Wisconsin - Madison",
+      "dates":"September 2011 - May 2014",
+      "details":[
+        "Concentration in International Law, With Honors",
+        "Concentration in Criminal Law",
+        "Dean's List: Spring 2012, Spring 2013, Fall 2013",
+        "Pro Bono Society Member"
+      ],
+      "tags":[
+        "legal"
+      ]
+    },
+    {
+      "resume":true,
+      "title":"Master of Science in Engineering in Computer Science",
+      "location":"The Johns Hopkins University",
+      "dates":"September 2005 - May 2009",
+      "details":[
+        "Thesis: 'Mnikr: Reputation Construction Through Human Trading of Distributed Social Identities'",
+        "President, Upsilon Pi Epsilon (Computer Science Honor Society)"
+      ],
+      "tags":[
+        "technical"
+      ]
+    },
+    {
+      "resume":true,
+      "title":"Bachelor of Science in Computer Science",
+      "location":"The Johns Hopkins University",
+      "dates":"September 2004 - May 2008",
+      "details":[
+        "Departmental Honors"
+      ],
+      "tags":[
+        "technical"
+      ]
+    }
+  ],
+  "experience":[
+    {
+      "resume":true,
+      "title":"Staff Security Engineer",
+      "location":"Cedar",
+      "dates":"2022 - ",
+      "prose":"As a Staff Security Engineer, I am responsible for engaging in high-leverage work to improve security across Cedar to protect patients, medical providers, and our employees. I work in conjunction with the Compliance, Legal, Privacy, and Engineering functions to help teams do their best work.",
+      "tags":[
+        "technical"
+      ]
+    },
+    {
+      "resume":true,
+      "title":"Senior Security Advisor",
+      "location":"Leviathan Security Group",
+      "dates":"2014 - 2016, 2019 - 2022",
+      "prose":"I worked as a Senior Security Advisor in Leviathan's Risk and Advisory Services group, where I built security programs, advised teams on how best to meet compliance goals, and worked with client engineering teams to design efficient software that meets security and privacy requirements. I have taken clients through first-time SOC 2, Type II audits, dealt with customer audit teams, and advised senior management on how best to ensure their business can both achieve its primary goals and comply with applicable regulatory requirements. I also co-wrote four whitepapers on forced data localization as it affects security, and more recently, one on Kubernetes and container security. I rejoined Leviathan in 2019 after spending time leading security programs as an FTE elsewhere. From 2014 until mid-2015, I worked as a Senior Security Consultant on Leviathan's Technical Services team. Languages spanned a wide array; compliance stacks included SOC 2, ISO 27001/2, HIPAA, HITRUST, CMS ARS, and PCI.",
+      "tags":[
+        "technical"
+      ]
+    },
+    {
+      "resume":true,
+      "title":"Policy Engineer",
+      "location":"GitHub",
+      "dates":"2019 - 2019",
+      "prose":"I worked on GitHub's public policy team, which advocates for laws, regulations, and judicial actions that protect the rights of software developers and promote open collaboration. As the team's first Policy Engineer, my role was to bridge the policy, security, and software development worlds to help ensure that GitHub could represent their concerns accurately in global policy discussions. I was primarily responsible for GitHub's policy efforts related to information security, supply chain protection, and international trade, and I represented GitHub Policy in broader Microsoft activities related to trade compliance.",
+      "tags":[
+        "technical",
+        "legal"
+      ]
+    },
+    {
+      "resume":true,
+      "title":"Enterprise Security Platform Lead",
+      "location":"RealSelf",
+      "dates":"2018 - 2019",
+      "prose":"As the head of the information security program at RealSelf, I directed the company's overall security, risk and compliance efforts. This involved close coordination with the RealSelf executive and engineering teams to align security priorities with our business goals and overall risk posture; I reported to the CTO and General Counsel. My work included developing and delivering security training, working with developers and SREs to design and implement security at all levels of our systems, building our ISO 27000-aligned information security management program, communicating with customers regarding security issues, leading security incident response efforts, working with our legal and privacy teams on vendor management, and managing our bug bounty program. I also worked on HIPAA, PCI, GDPR, and other regulatory issues to ensure that we were able to meet evolving obligations, and ultimately, that the trust our users placed in us was well-earned.",
+      "tags":[
+        "technical"
+      ]
+    },
+    {
+      "resume":true,
+      "title":"Chief Technical Officer / DSS",
+      "location":"Malice Afterthought, Inc.",
+      "dates":"2010 - ",
+      "prose":"Malice Afterthought provides information security consulting services to a range of clients, from small businesses to large corporations. Some highlights of past work: leading an international nonprofit's security efforts, including both building a multi-regulated compliance program (FERPA, HIPAA, and FedRAMP) and implementing technical defensive tools; teaching at a Department of Defense information and network warfare (CNO) school; and two successful DARPA Cyber Fast Track (CFT) contracts.  Languages and tech stacks have included Ruby, Python, Perl, D3JS, UnityScript, Hadoop, Spark, and AWS, among many others.",
+      "tags":[
+        "technical"
+      ]
+    },
+    {
+      "resume":false,
+      "title":"Security Engineering Lead",
+      "location":"Nuna Inc.",
+      "dates":"2017 - 2017",
+      "prose":"Nuna provides healthcare data analytics and warehousing to Medicare/Medicaid, insurance networks, and self-insured employers. I led the Security Engineering team, which was responsible for broadly-defined security throughout Nuna (from code, to architecture, to cross-cutting initiatives). I joined Nuna as a Senior Security Engineer, and became Security Engineering Lead in March 2017. Languages and tech stacks included AWS, R, Python, Bash, and Java; compliance stacks included SOC 2, HIPAA, and CMS ARS.",
+      "tags":[
+        "technical"
+      ]
+    },
+    {
+      "title":"Legal Intern (With Practice Certificate)",
+      "location":"Wisconsin State Public Defender",
+      "dates":"2013 - 2013",
+      "prose":"I was supervised under Wisconsin SCR 50 by Anthony Rios, Forensic Practice Coordinator, working primarily on serious crimes with significant scientific evidence across the state. Under SCR 50, I represented clients in court and during trials, cross-examined expert witnesses, and wrote briefs under the supervision of Mr. Rios and other SPD attorneys.",
+      "tags":[
+        "legal"
+      ]
+    },
+    {
+      "title":"Judicial Intern",
+      "location":"Wisconsin Supreme Court",
+      "dates":"2012 - 2012",
+      "prose":"I served as a legal intern for Justice N. Patrick Crooks. My duties included examining cases requesting review by the Court, writing legal analyses of the issues raised by cases before the Court, and assisting the Justice's clerks.",
+      "tags":[
+        "legal"
+      ]
+    },
+    {
+      "title":"Legal Intern",
+      "location":"The Rutherford Institute",
+      "dates":"2012 - 2012",
+      "prose":"The Rutherford Institute is a public interest firm whose primary topics of interest are the First and Fourth Amendments as well as school 'zero-tolerance' policies. I was responsible for legal research on current cases, drafting memos and briefs, and researching and writing legislation and policy statements for TRI on electronic privacy and UAV issues.",
+      "tags":[
+        "legal"
+      ]
+    },
+    {
+      "title":"Senior Research Associate",
+      "location":"SET Corporation",
+      "dates":"2009 - 2010",
+      "prose":"I worked as a technical lead on software projects in a variety of areas, including natural language processing and user modeling, and a project to create an augmented reality application to add real-time data and intelligence analysis to a multi-viewpoint 3D holographic display, using the iPhone 3GS as a controller. SET worked primarily for the defense and intelligence communities. Languages included Objective C, Java, Ruby, Python, and others.",
+      "tags":[
+        "technical"
+      ]
+    },
+    {
+      "title":"Open Platforms Group Graduate Intern",
+      "location":"Six Apart",
+      "dates":"2008 - 2008",
+      "prose":"I worked as an engineer on the Open Platforms team, dealing with furthering the goals of data portability across technologies and corporate boundaries while maintaining a focus on user control of data. I worked as an intern full-time during the summer of 2008, and then part-time through the remainder of the year.",
+      "tags":[
+        "technical"
+      ]
+    },
+    {
+      "title":"Solaris Security Technologies Group Graduate Intern",
+      "location":"Sun Microsystems",
+      "dates":"2007 - 2007",
+      "prose":"I ported and integrated software to SunOS (Solaris) allowing users to authenticate using true PKCS#11 interfaces, then worked with a variety of teams and people across Sun (despite my status as an intern) to move these smartcard services into Solaris. I also had the opportunity to work with DTrace on Solaris Kerberos.",
+      "tags":[
+        "technical"
+      ]
+    },
+    {
+      "title":"VeriSign Security Services Undergraduate Intern",
+      "location":"VeriSign",
+      "dates":"2006 - 2006",
+      "prose":"I worked primarily with the Unified Authentication group, specifically with One-Time Passwords. I also did some work for VeriSign Labs (the Advanced Projects Research Group) on VeriSign's OpenID implementation, the Personal Identity Provider. Over the course of 12 weeks, I was responsible for major projects in C#, Ruby, and Java, as well as JSP/Struts/Spring web applications, JNI, C/C++, and various related technologies. I won the VeriSign Labs 'PIP Challenge' for integrating one-time password technology with the VeriSign Personal Identity Provider (later Apache Heraldry).",
+      "tags":[
+        "technical"
+      ]
+    }
+  ],
+  "presentations":[
+    {
+      "title":"Stuffing your Cloud into your SOCs",
+      "location":"DevSecCon 24",
+      "date":"2020-06-15",
+      "prose":"How to use DevSecOps to do a SOC 2 audit easily---and how to use a SOC 2 to get more time to focus on infrastructure investment.",
+      "abstract":"Your company is trying to sell to large enterprises and wants a SOC 2 audit. You're running a DevOps team that's 'also responsible for security' and have no time, no budget, no headcount, and no interest in redoing all your infrastructure just to please an auditor. This isn't an impasse---it's an opportunity for you to promote DevOps best practices throughout your company, using the extremely effective carrot of 'this is how we can sell more!' We'll cover what a SOC 2 audit is, what you get to decide when getting one, and the happy path for cloudy companies to pass audits using modern DevOps practices. The tools you already use provide a robust compliance framework; it just requires you to tell the story to the auditors. You'll also get with a useful list of things to start asking other teams (like IT and HR) to handle, and a cheat sheet for translating DevOps to Auditor. In 25 minutes, you'll have the knowledge you need to prepare for a SOC (or many other kinds of compliance) audit, and be ready to sell your team's hard work to an auditor (even if they ask you where your tape library is).",
+      "tags":[
+        "technical"
+      ],
+      "url":"https://www.devseccon.com/devseccon24-2020/agenda/",
+      "videourl":"https://www.youtube.com/watch?v=T4mZcWbmASg",
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Virtual",
+          "city":"The Cloud"
         }
-    ],
-    "experience": [
-        {
-            "resume": true,
-            "title": "Staff Security Engineer",
-            "location": "Cedar",
-            "dates": "2022 - ",
-            "prose": "As a Staff Security Engineer, I am responsible for engaging in high-leverage work to improve security across Cedar to protect patients, medical providers, and our employees. I work in conjunction with the Compliance, Legal, Privacy, and Engineering functions to help teams do their best work.",
-            "tags": [
-                "technical"
-            ]
+      }
+    },
+    {
+      "title":"Security, Politics, Neutrality, and Protecting Users",
+      "location":"Security BSides San Francisco",
+      "date":"2020-02-24",
+      "prose":"Tech's alleged 'neutrality' causes security problems for our users--ranging from misinformation and propaganda to harassment and worse. Is neutrality required, or desirable? Should tech itself (as Microsoft once suggested) be sovereign? What happens to our users' security if we stop being neutral?",
+      "abstract":"Statements of the alleged neutrality of tech are a recurring refrain: 'we're politically neutral' means any or all of 'we can't ban bad behavior,' 'we have to comply with foreign court orders suppressing dissent,' and 'well, the government was elected; shouldn't we help them, even when we disagree?' This neutrality leads inevitably to security and privacy problems for our users--whether it's handing their data to people who want to harm them, banning users who might be 'controversial' from sites, or preventing the use of key technology by people organizing for a better life. After all, shouldn't tech be neutral---because aren't we above politics? Should (as Microsoft's Brad Smith and the EFF's John Perry Barlow proposed, in different decades) tech be sovereign and able to ignore governments' requests? Are bad outcomes an just inevitable result of tech's place in society? Join us for a discussion of sovereignty, policy, neutrality, and how we can become ardent defenders of our users' lives and livelihoods.",
+      "tags":[
+        "legal",
+        "technical"
+      ],
+      "url":"https://bsidessf2020.sched.com/event/Ybie/security-politics-neutrality-and-protecting-users?iframe=yes&w=100%&sidebar=yes&bg=no#",
+      "videourl":"https://www.youtube.com/watch?v=CJZ24xsYvzs",
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Metreon",
+          "city":"San Francisco, CA"
         },
-        {
-            "resume": true,
-            "title": "Senior Security Advisor",
-            "location": "Leviathan Security Group",
-            "dates": "2014 - 2016, 2019 - 2022",
-            "prose": "I worked as a Senior Security Advisor in Leviathan's Risk and Advisory Services group, where I built security programs, advised teams on how best to meet compliance goals, and worked with client engineering teams to design efficient software that meets security and privacy requirements. I have taken clients through first-time SOC 2, Type II audits, dealt with customer audit teams, and advised senior management on how best to ensure their business can both achieve its primary goals and comply with applicable regulatory requirements. I also co-wrote four whitepapers on forced data localization as it affects security, and more recently, one on Kubernetes and container security. I rejoined Leviathan in 2019 after spending time leading security programs as an FTE elsewhere. From 2014 until mid-2015, I worked as a Senior Security Consultant on Leviathan's Technical Services team. Languages spanned a wide array; compliance stacks included SOC 2, ISO 27001/2, HIPAA, HITRUST, CMS ARS, and PCI.",
-            "tags": [
-                "technical"
-            ]
-        },
-        {
-            "resume": true,
-            "title": "Policy Engineer",
-            "location": "GitHub",
-            "dates": "2019 - 2019",
-            "prose": "I worked on GitHub's public policy team, which advocates for laws, regulations, and judicial actions that protect the rights of software developers and promote open collaboration. As the team's first Policy Engineer, my role was to bridge the policy, security, and software development worlds to help ensure that GitHub could represent their concerns accurately in global policy discussions. I was primarily responsible for GitHub's policy efforts related to information security, supply chain protection, and international trade, and I represented GitHub Policy in broader Microsoft activities related to trade compliance.",
-            "tags": [
-                "technical",
-                "legal"
-            ]
-        },
-        {
-            "resume": true,
-            "title": "Enterprise Security Platform Lead",
-            "location": "RealSelf",
-            "dates": "2018 - 2019",
-            "prose": "As the head of the information security program at RealSelf, I directed the company's overall security, risk and compliance efforts. This involved close coordination with the RealSelf executive and engineering teams to align security priorities with our business goals and overall risk posture; I reported to the CTO and General Counsel. My work included developing and delivering security training, working with developers and SREs to design and implement security at all levels of our systems, building our ISO 27000-aligned information security management program, communicating with customers regarding security issues, leading security incident response efforts, working with our legal and privacy teams on vendor management, and managing our bug bounty program. I also worked on HIPAA, PCI, GDPR, and other regulatory issues to ensure that we were able to meet evolving obligations, and ultimately, that the trust our users placed in us was well-earned.",
-            "tags": [
-                "technical"
-            ]
-        },
-        {
-            "resume": true,
-            "title": "Chief Technical Officer / DSS",
-            "location": "Malice Afterthought, Inc.",
-            "dates": "2010 - ",
-            "prose": "Malice Afterthought provides information security consulting services to a range of clients, from small businesses to large corporations. Some highlights of past work: leading an international nonprofit's security efforts, including both building a multi-regulated compliance program (FERPA, HIPAA, and FedRAMP) and implementing technical defensive tools; teaching at a Department of Defense information and network warfare (CNO) school; and two successful DARPA Cyber Fast Track (CFT) contracts.  Languages and tech stacks have included Ruby, Python, Perl, D3JS, UnityScript, Hadoop, Spark, and AWS, among many others.",
-            "tags": [
-                "technical"
-            ]
-        },
-        {
-            "resume": false,
-            "title": "Security Engineering Lead",
-            "location": "Nuna Inc.",
-            "dates": "2017 - 2017",
-            "prose": "Nuna provides healthcare data analytics and warehousing to Medicare/Medicaid, insurance networks, and self-insured employers. I led the Security Engineering team, which was responsible for broadly-defined security throughout Nuna (from code, to architecture, to cross-cutting initiatives). I joined Nuna as a Senior Security Engineer, and became Security Engineering Lead in March 2017. Languages and tech stacks included AWS, R, Python, Bash, and Java; compliance stacks included SOC 2, HIPAA, and CMS ARS.",
-            "tags": [
-                "technical"
-            ]
-        },
-        {
-            "title": "Legal Intern (With Practice Certificate)",
-            "location": "Wisconsin State Public Defender",
-            "dates": "2013 - 2013",
-            "prose": "I was supervised under Wisconsin SCR 50 by Anthony Rios, Forensic Practice Coordinator, working primarily on serious crimes with significant scientific evidence across the state. Under SCR 50, I represented clients in court and during trials, cross-examined expert witnesses, and wrote briefs under the supervision of Mr. Rios and other SPD attorneys.",
-            "tags": [
-                "legal"
-            ]
-        },
-        {
-            "title": "Judicial Intern",
-            "location": "Wisconsin Supreme Court",
-            "dates": "2012 - 2012",
-            "prose": "I served as a legal intern for Justice N. Patrick Crooks. My duties included examining cases requesting review by the Court, writing legal analyses of the issues raised by cases before the Court, and assisting the Justice's clerks.",
-            "tags": [
-                "legal"
-            ]
-        },
-        {
-            "title": "Legal Intern",
-            "location": "The Rutherford Institute",
-            "dates": "2012 - 2012",
-            "prose": "The Rutherford Institute is a public interest firm whose primary topics of interest are the First and Fourth Amendments as well as school 'zero-tolerance' policies. I was responsible for legal research on current cases, drafting memos and briefs, and researching and writing legislation and policy statements for TRI on electronic privacy and UAV issues.",
-            "tags": [
-                "legal"
-            ]
-        },
-        {
-            "title": "Senior Research Associate",
-            "location": "SET Corporation",
-            "dates": "2009 - 2010",
-            "prose": "I worked as a technical lead on software projects in a variety of areas, including natural language processing and user modeling, and a project to create an augmented reality application to add real-time data and intelligence analysis to a multi-viewpoint 3D holographic display, using the iPhone 3GS as a controller. SET worked primarily for the defense and intelligence communities. Languages included Objective C, Java, Ruby, Python, and others.",
-            "tags": [
-                "technical"
-            ]
-        },
-        {
-            "title": "Open Platforms Group Graduate Intern",
-            "location": "Six Apart",
-            "dates": "2008 - 2008",
-            "prose": "I worked as an engineer on the Open Platforms team, dealing with furthering the goals of data portability across technologies and corporate boundaries while maintaining a focus on user control of data. I worked as an intern full-time during the summer of 2008, and then part-time through the remainder of the year.",
-            "tags": [
-                "technical"
-            ]
-        },
-        {
-            "title": "Solaris Security Technologies Group Graduate Intern",
-            "location": "Sun Microsystems",
-            "dates": "2007 - 2007",
-            "prose": "I ported and integrated software to SunOS (Solaris) allowing users to authenticate using true PKCS#11 interfaces, then worked with a variety of teams and people across Sun (despite my status as an intern) to move these smartcard services into Solaris. I also had the opportunity to work with DTrace on Solaris Kerberos.",
-            "tags": [
-                "technical"
-            ]
-        },
-        {
-            "title": "VeriSign Security Services Undergraduate Intern",
-            "location": "VeriSign",
-            "dates": "2006 - 2006",
-            "prose": "I worked primarily with the Unified Authentication group, specifically with One-Time Passwords. I also did some work for VeriSign Labs (the Advanced Projects Research Group) on VeriSign's OpenID implementation, the Personal Identity Provider. Over the course of 12 weeks, I was responsible for major projects in C#, Ruby, and Java, as well as JSP/Struts/Spring web applications, JNI, C/C++, and various related technologies. I won the VeriSign Labs 'PIP Challenge' for integrating one-time password technology with the VeriSign Personal Identity Provider (later Apache Heraldry).",
-            "tags": [
-                "technical"
-            ]
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -122.403426,
+            37.784389
+          ]
         }
-    ],
-    "presentations": [
-        {
-            "title": "Stuffing your Cloud into your SOCs",
-            "location": "DevSecCon 24",
-            "date": "2020-06-15",
-            "prose": "How to use DevSecOps to do a SOC 2 audit easily---and how to use a SOC 2 to get more time to focus on infrastructure investment.",
-            "abstract": "Your company is trying to sell to large enterprises and wants a SOC 2 audit. You're running a DevOps team that's 'also responsible for security' and have no time, no budget, no headcount, and no interest in redoing all your infrastructure just to please an auditor. This isn't an impasse---it's an opportunity for you to promote DevOps best practices throughout your company, using the extremely effective carrot of 'this is how we can sell more!' We'll cover what a SOC 2 audit is, what you get to decide when getting one, and the happy path for cloudy companies to pass audits using modern DevOps practices. The tools you already use provide a robust compliance framework; it just requires you to tell the story to the auditors. You'll also get with a useful list of things to start asking other teams (like IT and HR) to handle, and a cheat sheet for translating DevOps to Auditor. In 25 minutes, you'll have the knowledge you need to prepare for a SOC (or many other kinds of compliance) audit, and be ready to sell your team's hard work to an auditor (even if they ask you where your tape library is).",
-            "tags": [
-                "technical"
-            ],
-            "url": "https://www.devseccon.com/devseccon24-2020/agenda/",
-            "videourl": "https://www.youtube.com/watch?v=T4mZcWbmASg",
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Virtual",
-                    "city": "The Cloud"
-                }
-            }
+      }
+    },
+    {
+      "title":"CAIQ and Cookies",
+      "location":"DEF CON SkyTalks",
+      "date":"2019-08-02",
+      "prose":"With Wendy Knox Everette and Jennifer Chermoshnyuk. Panel on vendor security management from three perspectives (vendor, principal, and consultant), covering how and why to care about vendor security, how to deal with an infinite amount of security questionnaires as a vendor, and what works and doesn't work in the security management space.",
+      "abstract":"This panel brings together three master chefs with a smorgasbord of vendor security assessment experience from working with sales teams, designing questionnaires to be sent out to potential partners, to helping startups to answer them and vetting answers. Our chefs will fill your plate with answers to questions like: Is the questionnaire a painful experience to be dreaded, or an opportunity to make a sale by showcasing your security and privacy practices? How do different organizations answer or vet these forms? Is there such as thing as too much vendor transparency? What best practices can we share, and are there any improvements and scaling hints we can offer? And yes, there are questions you should be asking to better judge security posture and figure out whether security is truly baked in or just a pretty top layer of sugary, flowery icing.",
+      "tags":[
+        "legal",
+        "technical"
+      ],
+      "url":"https://skytalks.info/",
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Bally's Las Vegas Hotel and Casino",
+          "city":"Las Vegas, NV"
         },
-        {
-            "title": "Security, Politics, Neutrality, and Protecting Users",
-            "location": "Security BSides San Francisco",
-            "date": "2020-02-24",
-            "prose": "Tech's alleged 'neutrality' causes security problems for our users--ranging from misinformation and propaganda to harassment and worse. Is neutrality required, or desirable? Should tech itself (as Microsoft once suggested) be sovereign? What happens to our users' security if we stop being neutral?",
-            "abstract": "Statements of the alleged neutrality of tech are a recurring refrain: 'we're politically neutral' means any or all of 'we can't ban bad behavior,' 'we have to comply with foreign court orders suppressing dissent,' and 'well, the government was elected; shouldn't we help them, even when we disagree?' This neutrality leads inevitably to security and privacy problems for our users--whether it's handing their data to people who want to harm them, banning users who might be 'controversial' from sites, or preventing the use of key technology by people organizing for a better life. After all, shouldn't tech be neutral---because aren't we above politics? Should (as Microsoft's Brad Smith and the EFF's John Perry Barlow proposed, in different decades) tech be sovereign and able to ignore governments' requests? Are bad outcomes an just inevitable result of tech's place in society? Join us for a discussion of sovereignty, policy, neutrality, and how we can become ardent defenders of our users' lives and livelihoods.",
-            "tags": [
-                "legal",
-                "technical"
-            ],
-            "url": "https://bsidessf2020.sched.com/event/Ybie/security-politics-neutrality-and-protecting-users?iframe=yes&w=100%&sidebar=yes&bg=no#",
-            "videourl": "https://www.youtube.com/watch?v=CJZ24xsYvzs",
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Metreon",
-                    "city": "San Francisco, CA"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [ 
-                        -122.403426,
-                        37.784389
-                    ]
-                }
-            }
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -115.170976,
+            36.114277
+          ]
+        }
+      }
+    },
+    {
+      "resume":false,
+      "title":"Probably: an Irreverent History of the GDPR",
+      "location":"DEF CON Crypto and Privacy Village",
+      "date":"2018-08-10",
+      "prose":"A humorous overview of the creation of the GDPR, what came before it, what it does, and why to embrace it.",
+      "abstract":"If you work in privacy, technology, marketing, or the law, or if you have an email account, you've heard of the GDPR. But what is it really? Why is your in-house lawyer grumpy all the time? Why is your marketing team walking around with stickers that say 'legitimate business use of data' and trying to slap them on random objects to see if they stick? Why, legally, can't you remember anyone's names anymore? This presentation will attempt to take a look at the GDPR from the perspective of a confused outsider who can't quite believe what's going on (as opposed to a burned-out practitioner), without getting too worked up about it. We'll cover why the GDPR exists, what it does, why some people are freaked out about it, why to be concerned and/or unconcerned, and whether kittens or puppies make the better reference animal for GDPR compliance memes. Relax! It's all going to be fine! Probably.",
+      "url":"https://cryptovillage.org/def-con-26-schedule-speakers/",
+      "tags":[
+        "legal"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Caesar's Palace",
+          "city":"Las Vegas, NV"
         },
-        {
-            "title": "CAIQ and Cookies",
-            "location": "DEF CON SkyTalks",
-            "date": "2019-08-02",
-            "prose": "With Wendy Knox Everette and Jennifer Chermoshnyuk. Panel on vendor security management from three perspectives (vendor, principal, and consultant), covering how and why to care about vendor security, how to deal with an infinite amount of security questionnaires as a vendor, and what works and doesn't work in the security management space.",
-            "abstract": "This panel brings together three master chefs with a smorgasbord of vendor security assessment experience from working with sales teams, designing questionnaires to be sent out to potential partners, to helping startups to answer them and vetting answers. Our chefs will fill your plate with answers to questions like: Is the questionnaire a painful experience to be dreaded, or an opportunity to make a sale by showcasing your security and privacy practices? How do different organizations answer or vet these forms? Is there such as thing as too much vendor transparency? What best practices can we share, and are there any improvements and scaling hints we can offer? And yes, there are questions you should be asking to better judge security posture and figure out whether security is truly baked in or just a pretty top layer of sugary, flowery icing.",
-            "tags": [
-                "legal",
-                "technical"
-            ],
-            "url": "https://skytalks.info/",
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Bally's Las Vegas Hotel and Casino",
-                    "city": "Las Vegas, NV"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -115.170976,
-                        36.114277
-                    ]
-                }
-            }
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -115.174499,
+            36.116168
+          ]
+        }
+      }
+    },
+    {
+      "resume":false,
+      "title":"They May Agree Like Brothers...",
+      "location":"ToorCamp",
+      "date":"2018-06-23",
+      "prose":"Lightning talk. The thought pattern of 'we don't need lawyers,' common recently in employment contracts and blockchains, is an attempt to further disenfranchise the powerless. Examples from the US Supreme Court and ICOs.",
+      "abstract":"Jack Cade and Dick were right: if you want to gain unlimited power, the first thing you do is kill all the lawyers. 'We don't need lawyers interfering in our business' is an Overton Window-expanding refrain that helps the powerful to strip rights from employees, contractors, and even sexual partners. Using examples from 'machine-compiled contracts,' blockchain apps, and Supreme Court decisions both old and new, this talk will attempt to show that Shakespeare's 'ha ha only serious' joke is a modern shibboleth for ensuring that those with power keep it.",
+      "url":"https://frab.toorcon.net/en/toorcamp2018/public/schedule/4",
+      "tags":[
+        "legal",
+        "technical"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Doe Bay Resort and Retreat",
+          "city":"Olga, WA"
         },
-        {
-            "resume": false,
-            "title": "Probably: an Irreverent History of the GDPR",
-            "location": "DEF CON Crypto and Privacy Village",
-            "date": "2018-08-10",
-            "prose": "A humorous overview of the creation of the GDPR, what came before it, what it does, and why to embrace it.",
-            "abstract": "If you work in privacy, technology, marketing, or the law, or if you have an email account, you've heard of the GDPR. But what is it really? Why is your in-house lawyer grumpy all the time? Why is your marketing team walking around with stickers that say 'legitimate business use of data' and trying to slap them on random objects to see if they stick? Why, legally, can't you remember anyone's names anymore? This presentation will attempt to take a look at the GDPR from the perspective of a confused outsider who can't quite believe what's going on (as opposed to a burned-out practitioner), without getting too worked up about it. We'll cover why the GDPR exists, what it does, why some people are freaked out about it, why to be concerned and/or unconcerned, and whether kittens or puppies make the better reference animal for GDPR compliance memes. Relax! It's all going to be fine! Probably.",
-            "url": "https://cryptovillage.org/def-con-26-schedule-speakers/",
-            "tags": [
-                "legal"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Caesar's Palace",
-                    "city": "Las Vegas, NV"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -115.174499,
-                        36.116168
-                    ]
-                }
-            }
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -122.7830877,
+            48.6412025
+          ]
+        }
+      }
+    },
+    {
+      "title":"Meet the Hackers!",
+      "location":"The 21st Century Lawyer CLE (Seattle Legal Tech)",
+      "date":"2017-12-07",
+      "prose":"Continuing Legal Education course (1 credit, Law and Legal). Panel with Wendy Knox Everette and Aaron Alva on some of the technology and security issues facing attorneys. My portion included the ongoing 'going dark' debate and the meaning of security research.",
+      "url":"http://conference.think.org/about/",
+      "tags":[
+        "technical",
+        "legal"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Avvo",
+          "city":"Seattle, WA"
         },
-        {
-            "resume": false,
-            "title": "They May Agree Like Brothers...",
-            "location": "ToorCamp",
-            "date": "2018-06-23",
-            "prose": "Lightning talk. The thought pattern of 'we don't need lawyers,' common recently in employment contracts and blockchains, is an attempt to further disenfranchise the powerless. Examples from the US Supreme Court and ICOs.",
-            "abstract": "Jack Cade and Dick were right: if you want to gain unlimited power, the first thing you do is kill all the lawyers. 'We don't need lawyers interfering in our business' is an Overton Window-expanding refrain that helps the powerful to strip rights from employees, contractors, and even sexual partners. Using examples from 'machine-compiled contracts,' blockchain apps, and Supreme Court decisions both old and new, this talk will attempt to show that Shakespeare's 'ha ha only serious' joke is a modern shibboleth for ensuring that those with power keep it.",
-            "url": "https://frab.toorcon.net/en/toorcamp2018/public/schedule/4",
-            "tags": [
-                "legal",
-                "technical"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Doe Bay Resort and Retreat",
-                    "city": "Olga, WA"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -122.7830877,
-                        48.6412025
-                    ]
-                }
-            }
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -122.3347326,
+            47.6141778
+          ]
+        }
+      }
+    },
+    {
+      "title":"We're Seriously All Gonna Die (Lawyer Panel)",
+      "location":"Hackers (THINK)",
+      "date":"2017-11-03",
+      "prose":"Panel with Whitney Merrill on some of the legal issues facing the technology community. My portion included the US v. Microsoft MLAT case (now given certiorari), the EU GDPR, and the continued destruction of the attorney-client privilege.",
+      "url":"http://conference.think.org/about/",
+      "tags":[
+        "technical",
+        "legal"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Chaminade Resort and Spa",
+          "city":"Santa Cruz, CA"
         },
-        {
-            "title": "Meet the Hackers!",
-            "location": "The 21st Century Lawyer CLE (Seattle Legal Tech)",
-            "date": "2017-12-07",
-            "prose": "Continuing Legal Education course (1 credit, Law and Legal). Panel with Wendy Knox Everette and Aaron Alva on some of the technology and security issues facing attorneys. My portion included the ongoing 'going dark' debate and the meaning of security research.",
-            "url": "http://conference.think.org/about/",
-            "tags": [
-                "technical",
-                "legal"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Avvo",
-                    "city": "Seattle, WA"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -122.3347326,
-                        47.6141778
-                    ]
-                }
-            }
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -121.984929,
+            36.998438
+          ]
+        }
+      }
+    },
+    {
+      "title":"You Can Do The Thing!",
+      "location":"ShmooCon FireTalks",
+      "date":"2017-01-13",
+      "prose":"Given tiny starchy vegetables, a call to action for the information security community: if you don't like where the world is going, change the world.",
+      "videourl":"https://youtu.be/61uLqEry-bk",
+      "tags":[
+        "technical"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Washington Hilton",
+          "city":"Washington, DC"
         },
-        {
-            "title": "We're Seriously All Gonna Die (Lawyer Panel)",
-            "location": "Hackers (THINK)",
-            "date": "2017-11-03",
-            "prose": "Panel with Whitney Merrill on some of the legal issues facing the technology community. My portion included the US v. Microsoft MLAT case (now given certiorari), the EU GDPR, and the continued destruction of the attorney-client privilege.",
-            "url": "http://conference.think.org/about/",
-            "tags": [
-                "technical",
-                "legal"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Chaminade Resort and Spa",
-                    "city": "Santa Cruz, CA"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -121.984929,
-                        36.998438
-                    ]
-                }
-            }
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -77.044852,
+            38.916544
+          ]
+        }
+      }
+    },
+    {
+      "title":"Legal Roundup 2016",
+      "location":"Hackers (THINK)",
+      "date":"2016-11-04",
+      "prose":"Panel with Whitney Merrill and Marcia Hofmann on some of the legal issues facing the technology community. My portion included the US v. Microsoft MLAT case, EU-US Privacy Shield and the EU GDPR, and the trend of countries using forced localization to require companies to comply with surveillance orders.",
+      "url":"http://conference.think.org/about/",
+      "tags":[
+        "technical",
+        "legal"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Chaminade Resort and Spa",
+          "city":"Santa Cruz, CA"
         },
-        {
-            "title": "You Can Do The Thing!",
-            "location": "ShmooCon FireTalks",
-            "date": "2017-01-13",
-            "prose": "Given tiny starchy vegetables, a call to action for the information security community: if you don't like where the world is going, change the world.",
-            "videourl": "https://youtu.be/61uLqEry-bk",
-            "tags": [
-                "technical"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Washington Hilton",
-                    "city": "Washington, DC"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -77.044852,
-                        38.916544
-                    ]
-                }
-            }
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -121.984929,
+            36.998438
+          ]
+        }
+      }
+    },
+    {
+      "resume":true,
+      "title":"Security by Consent; or, Peel's Principles of Security Operations",
+      "location":"SecTor",
+      "date":"2016-10-18",
+      "prose":"How to create and maintain a security operation within a larger organization that focuses on cooperation and consent, rather than coercion, based upon the 'policing by consent' model created in 1820s England.",
+      "abstract":"Are you tired of knowing everything, having people ignore 'the security person' because 'reasons,' and then having 'I told you so' as your only comfort? Sick of the hostile relationship between security and development, security and operations, security and HR, and/or security and everyone not wearing a black t-shirt? There’s a better way. Faced with the challenge of building a security function into a society that wasn’t sure it wanted one (but which nonetheless needed it), Charles Rowan and Richard Mayne set out what became known as the Peelian Principles of Policing, or Policing by Consent. They provide an effective model for running a security group that stands with its organization, rather than against it. We are, after all, 'only members of the public who are paid to give full-time attention to duties which are incumbent on every citizen in the intent of the community welfare.' Join us to become a security Bobby—where a commitment to service is non-optional, but the silly hat’s only needed if you like it.",
+      "url":"http://sector.ca/sessions/security-by-consent-or-peels-principles-of-security-operations/",
+      "videourl":"https://sector.ca/sessions/security-by-consent-or-peels-principles-of-security-operations/",
+      "tags":[
+        "technical"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Metro Toronto Convention Centre",
+          "city":"Toronto, ON, Canada"
         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -79.386854,
+            43.643879
+          ]
+        }
+      },
+      "repeats":[
         {
-            "title": "Legal Roundup 2016",
-            "location": "Hackers (THINK)",
-            "date": "2016-11-04",
-            "prose": "Panel with Whitney Merrill and Marcia Hofmann on some of the legal issues facing the technology community. My portion included the US v. Microsoft MLAT case, EU-US Privacy Shield and the EU GDPR, and the trend of countries using forced localization to require companies to comply with surveillance orders.",
-            "url": "http://conference.think.org/about/",
-            "tags": [
-                "technical",
-                "legal"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Chaminade Resort and Spa",
-                    "city": "Santa Cruz, CA"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -121.984929,
-                        36.998438
-                    ]
-                }
-            }
-        },
-        {
-            "resume": true,
-            "title": "Security by Consent; or, Peel's Principles of Security Operations",
-            "location": "SecTor",
-            "date": "2016-10-18",
-            "prose": "How to create and maintain a security operation within a larger organization that focuses on cooperation and consent, rather than coercion, based upon the 'policing by consent' model created in 1820s England.",
-            "abstract": "Are you tired of knowing everything, having people ignore 'the security person' because 'reasons,' and then having 'I told you so' as your only comfort? Sick of the hostile relationship between security and development, security and operations, security and HR, and/or security and everyone not wearing a black t-shirt? There’s a better way. Faced with the challenge of building a security function into a society that wasn’t sure it wanted one (but which nonetheless needed it), Charles Rowan and Richard Mayne set out what became known as the Peelian Principles of Policing, or Policing by Consent. They provide an effective model for running a security group that stands with its organization, rather than against it. We are, after all, 'only members of the public who are paid to give full-time attention to duties which are incumbent on every citizen in the intent of the community welfare.' Join us to become a security Bobby—where a commitment to service is non-optional, but the silly hat’s only needed if you like it.",
-            "url": "http://sector.ca/sessions/security-by-consent-or-peels-principles-of-security-operations/",
-            "videourl": "https://sector.ca/sessions/security-by-consent-or-peels-principles-of-security-operations/",
-            "tags": [
-                "technical"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Metro Toronto Convention Centre",
-                    "city": "Toronto, ON, Canada"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -79.386854,
-                        43.643879
-                    ]
-                }
+          "location":"O'Reilly Security New York",
+          "date":"2016-11-02",
+          "url":"http://conferences.oreilly.com/security/network-data-security-ny/public/schedule/detail/52851",
+          "geo":{
+            "type":"Feature",
+            "properties":{
+              "venue":"New York Hilton Midtown",
+              "city":"New York, NY"
             },
-            "repeats": [
-                {
-                    "location": "O'Reilly Security New York",
-                    "date": "2016-11-02",
-                    "url": "http://conferences.oreilly.com/security/network-data-security-ny/public/schedule/detail/52851",
-                    "geo": {
-                        "type": "Feature",
-                        "properties": {
-                            "venue": "New York Hilton Midtown",
-                            "city": "New York, NY"
-                        },
-                        "geometry": {
-                            "type": "Point",
-                            "coordinates": [
-                                -73.979637,
-                                40.762348
-                            ]
-                        }
-                    }
-                },
-                {
-                    "location": "O'Reilly Security Amsterdam",
-                    "date": "2016-11-10",
-                    "url": "http://conferences.oreilly.com/security/network-data-security-eu/public/schedule/detail/52852",
-                    "videourl": "https://youtu.be/1YxXm11cgeQ",
-                    "geo": {
-                        "type": "Feature",
-                        "properties": {
-                            "venue": "Amsterdam RAI",
-                            "city": "Amsterdam, Netherlands"
-                        },
-                        "geometry": {
-                            "type": "Point",
-                            "coordinates": [
-                                4.890597,
-                                52.336843
-                            ]
-                        }
-                    }
-                }
-            ]
+            "geometry":{
+              "type":"Point",
+              "coordinates":[
+                -73.979637,
+                40.762348
+              ]
+            }
+          }
         },
         {
-            "title": "Don't Be a Hero",
-            "location": "Ignite O'Reilly Security",
-            "date": "2016-10-31",
-            "prose": "Ignite format; presentation on the value of compliance for small and mid-sized businesses. The talk was designed to lay out the motivational case, rather than the step-by-step implementation of compliance in an organization.",
-            "abstract": "Swinging swords, slaying beasts, drinking Red Bull, and coding through a weekend: the life of a startup is exciting and free from rules. When you get your first security audit and have to establish policies and compliance, you may find your sword hand itchy; are the good times over? No--something even better comes next. Stop being a hero-based organization, and build things that will outlive you.",
-            "tags": [
-                "technical"
-            ],
-            "url": "http://conferences.oreilly.com/security/network-data-security-ny/public/schedule/detail/54612",
-            "videourl": "https://www.youtube.com/watch?v=PNEkTCQOgOY",
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "New York Hilton Midtown",
-                    "city": "New York, NY"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -73.979637,
-                        40.762348
-                    ]
-                }
+          "location":"O'Reilly Security Amsterdam",
+          "date":"2016-11-10",
+          "url":"http://conferences.oreilly.com/security/network-data-security-eu/public/schedule/detail/52852",
+          "videourl":"https://youtu.be/1YxXm11cgeQ",
+          "geo":{
+            "type":"Feature",
+            "properties":{
+              "venue":"Amsterdam RAI",
+              "city":"Amsterdam, Netherlands"
             },
-            "repeats": [
-                {
-                    "location": "PumpCon",
-                    "date": "2016-10-29",
-                    "geo": {
-                        "type": "Feature",
-                        "properties": {
-                            "venue": "Ruba Club",
-                            "city": "Philadelphia, PA"
-                        },
-                        "geometry": {
-                            "type": "Point",
-                            "coordinates": [
-                                -75.145966,
-                                39.961778
-                            ]
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "title": "The Other Way to Get a Hairy Hand; or, Contracts for Hackers",
-            "location": "DEF CON SkyTalks",
-            "date": "2016-08-07",
-            "prose": "Overview of contract law for non-lawyers. This talk took the approach that large chunks of 'legalese' represent 'scar tissue' from old wounds to the legal profession--cases that have gone in unexpected directions. On that basis, the talk went through standard contract clauses (using the iTunes agreement as an example) that security professionals commonly encounter, why those exist, and when it's worth trying to push back against overbroad contracts.",
-            "abstract": "What do an excessively hairy hand, a car-eating loch, a mechanical bull, and a house of ill repute in northern Montana mean for the iTunes EULA that nobody reads? 'Legalese' is the go-to term to explain (or pretend to justify) overly-complex sentences that involve weirdly-specific phrases followed by names that don't always relate (hereinafter referred to as 'duck wrangling'). While you might cringe at pages of boilerplate, the stories that gave rise to all those words are hilarious and terrifying in turns. Come join us for a discussion of why contracts got screwed up, what the words actually mean (and what they don't), what you actually need to know (without being legal advice, insert your favorite disclaimer here), and how to push back against 'the lawyers said it has to be in there' next time you're signing something. Get another beer; you're going to want it to toast the memories of all the poor suckers who gave us the law (or their leg), such as it is.",
-            "tags": [
-                "legal"
-            ],
-            "url": "https://skytalks.info/",
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Bally's Las Vegas Hotel and Casino",
-                    "city": "Las Vegas, NV"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -115.170976,
-                        36.114277
-                    ]
-                }
+            "geometry":{
+              "type":"Point",
+              "coordinates":[
+                4.890597,
+                52.336843
+              ]
             }
+          }
+        }
+      ]
+    },
+    {
+      "title":"Don't Be a Hero",
+      "location":"Ignite O'Reilly Security",
+      "date":"2016-10-31",
+      "prose":"Ignite format; presentation on the value of compliance for small and mid-sized businesses. The talk was designed to lay out the motivational case, rather than the step-by-step implementation of compliance in an organization.",
+      "abstract":"Swinging swords, slaying beasts, drinking Red Bull, and coding through a weekend: the life of a startup is exciting and free from rules. When you get your first security audit and have to establish policies and compliance, you may find your sword hand itchy; are the good times over? No--something even better comes next. Stop being a hero-based organization, and build things that will outlive you.",
+      "tags":[
+        "technical"
+      ],
+      "url":"http://conferences.oreilly.com/security/network-data-security-ny/public/schedule/detail/54612",
+      "videourl":"https://www.youtube.com/watch?v=PNEkTCQOgOY",
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"New York Hilton Midtown",
+          "city":"New York, NY"
         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -73.979637,
+            40.762348
+          ]
+        }
+      },
+      "repeats":[
         {
-            "title": "Lawyers are Killing the Internet",
-            "location": "Lockdown",
-            "date": "2016-07-14",
-            "prose": "An overview of six major areas in which well-intentioned politicians and lawyers, representing their nation or supranational entity's interests, are undermining some of the fundamental assumptions on what the Internet 'is.' This presentation covered the Wassenaar Arrangement, the Tallinn Manual, cross-border data restrictions (including the EU Data Protection Regulation), the Right to Be Forgotten, international legal assistance (MLAT), and forced data localization laws.",
-            "abstract": "Are China, North Korea, and Ireland teaming up to hate our freedoms and our democratic way of life? What are Russia, the EU, and Canada in complete agreement on? What does the layout of undersea cables have to do with NATO, and why are people looking for cyberblood? What on earth is cyberblood? Are lawyers, inevitably, screwing up everything? (Yes.) Join us for a discussion of the current state of forced data localization, EU-US Safe Harbo[u]r, the Law of (inevitably) Cyber Conflict, and what they all mean to you. If you want to be able to create products, secure systems, live peaceably on the Internet free from military malware, or simply communicate with people who don't have the same passport as you, this is the talk you need to be at.",
-            "tags": [
-                "technical",
-                "legal"
-            ],
-            "url": "https://lockdown.it.wisc.edu/",
-            "videourl": "https://youtu.be/b7-3ap_V5Hc",
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "University of Wisconsin Health Sciences Learning Center",
-                    "city": "Madison, WI"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -89.4303294,
-                        43.0774041
-                    ]
-                }
-            }
-        },
-        {
-            "title": "New Developments in Consumer Privacy: From Spokeo, Inc. to Apple",
-            "location": "American Bar Association Section of Civil Rights and Social Justice",
-            "date": "2016-03-18",
-            "prose": "ABA Teleconference, with Alan Butler (Electronic Privacy Information Center). Overview of the issues (both technical and legal) involved in Spokeo v. Robins (currently pending before the US Supreme Court) and the Apple encryption case currently pending before the US Magistrate for the Central District of California.",
-            "abstract": "This program will provide an overview of two significant developments related to consumer privacy in the United States.  The discussion will be helpful to lawyers across the spectrum who deal with both compliance (reviewing policies and procedures) and litigation.  First, we will discuss the much-anticipated decision of the U.S. Supreme Court in Spokeo, Inc. v. Robins, concerning Article III standing requirements and consumer privacy claims.  Next, we will discuss the ongoing fight between Apple and the FBI over the use of strong encryption.  One case, currently pending before a federal magistrate judge in California, will be heard later his month.  Please join us to learn more.",
-            "url": "http://shop.americanbar.org/ebus/ABAEventsCalendar/EventDetails.aspx?productId=239679803",
-            "tags": [
-                "technical",
-                "legal"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "city": "Teleconference"
-                }
-            }
-        },
-        {
-            "title": "It Only Matters If (You Use Computers)",
-            "location": "New Leaders Council - Montana",
-            "date": "2016-03-12",
-            "prose": "Invited talk. Overview for policymakers and activists across different fields of the specific policy challenges facing the Internet. This talk covered five major areas: the Wassenaar Arrangement, the Tallinn Manual, data localization and the end of EU-US Safe Harbor, Apple and the encryption debate, and expansive Computer Fraud and Abuse Act interpretations and the US v. Auernheimer case.",
-            "tags": [
-                "technical",
-                "legal"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Disability Rights Montana",
-                    "city": "Helena, MT"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -112.022846,
-                        46.604038
-                    ]
-                }
-            }
-        },
-        {
-            "title": "Security in Practice",
-            "location": "Montana State Bar CLE",
-            "date": "2016-03-11",
-            "prose": "Continuing Legal Education course (3.5 credits, ethics). An overview of the field of information security, including an introduction to cloud computing, the encryption debate, legal ethics opinions on technology issues (in Montana, from other state bars, and from the ABA), software selections for secure attorney-client interactions, litigation-related problems in technology, and risk-based decisionmaking.",
-            "tags": [
-                "technical",
-                "legal"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Fairmont Hot Springs Resort",
-                    "city": "Anaconda, MT"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -112.811629,
-                        46.043113
-                    ]
-                }
-            }
-        },
-        {
-            "title": "Prisoners in Cybertown (It's a Dirty Little War)",
-            "location": "Hackers (THINK)",
-            "date": "2015-11-07",
-            "prose": "As part of the panel on legal issues at Hackers (THINK), I gave a twenty minute presentation on data localization laws, the Data Protection Directive (and its associated international agreements) and the collapse of EU-US Safe Harbo[u]r due to the Schrems case and the forthcoming US Second Circuit Microsoft Ireland case.",
-            "url": "http://conference.think.org/about/",
-            "tags": [
-                "technical",
-                "legal"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Chaminade Resort and Spa",
-                    "city": "Santa Cruz, CA"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -121.984929,
-                        36.998438
-                    ]
-                }
-            }
-        },
-        {
-            "resume": false,
-            "title": "Xenophobia is Hard on Data",
-            "location": "SecTor",
-            "date": "2015-10-21",
-            "prose": "With James Arlen. Examination of forced data localization laws, their nature, their origins, and their effects on confidentiality, availability, and integrity of data, as well as the cost of doing business in a global marketplace.",
-            "abstract": "'Our data is only safe within our borders!' '(The US|China|New Zealand|Vanuatu) is spying on our citizens!' 'Don't ship our citizens' data overseas!' These rallying cries are calling for the same solution: forced data localization laws, where a country requires that all its citizens' and corporations' data be kept within the territory of that country. What's so bad about data localization? Is it good for security? Is it good for business? Is it good for protecting your data from Three- or Four-Letter Agencies? We'll answer these questions and more as we discuss forced localization, international education policy, unlikely anchor placement, catastrophic dripping, and how it affects your business' goals in the short and long term.",
-            "url": "http://sector.ca/Program/Sessions/Session-Details/xenophobia-is-hard-on-data-forced-localization-data-storage-and-business-realities",
-            "videourl": "http://2015.video.sector.ca/video/144196336",
-            "tags": [
-                "technical",
-                "legal"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Metro Toronto Convention Centre",
-                    "city": "Toronto, ON, Canada"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -79.386854,
-                        43.643879
-                    ]
-                }
-            }
-        },
-        {
-            "title": "Buyer Beware! Cyber-Security’s Impact on M&amp;A Due Diligence &amp; Valuations",
-            "location": "Merrill DataSite Panel Series",
-            "date": "2015-06-25",
-            "prose": "Panel presentation. Presentation by attorneys, dealmakers, and executives on security as a high-priority part of due diligence activity. I was the sole technologist on this panel, which was offered for CLE and CPE credit.",
-            "abstract": "High profile security breaches at Sony, Target and Visa have shined the spotlight squarely on the fact that no company is immune from cyber-attacks; not even the White House is secure against hackers. For deal professionals, security concerns are not isolated to the sharing of information during the due diligence process; it is paramount to understand the underlying strength of a company’s technology platform, potential exposure to security threats, and ultimately, how it plays an important role in determining valuations.",
-            "url": "http://www.datasitedeal.com/SeattleSpkr2015",
-            "tags": [
-                "technical",
-                "legal"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Four Seasons Hotel Seattle",
-                    "city": "Seattle, WA"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -122.339335,
-                        47.607465
-                    ]
-                }
-            }
-        },
-        {
-            "title": "All That Cybers (Is^Is Not) War",
-            "location": "SOURCE Boston",
-            "date": "2015-05-28",
-            "prose": "With Dr. John Linwood Griffin. Conference debate on the proper role of the military on the Internet, given the following resolution: 'This Conference Stands Resolved that there are (de facto) wars taking place on the Internet, and that it is the role of governments to prosecute such wars.'",
-            "abstract": "Join John and Brendan, two doctors both improbable and ineffable, as they debate the following resolution: 'This Conference Stands Resolved that there are (de facto) wars taking place on the Internet, and that it is the role of governments to prosecute such wars.' We'll touch on the proper role of the military on the Internet, whether individuals and companies harassing foreign entities online can be treated as acting on their country's behalf, and cyberwar versus rampaging squirrels in this freewheeling debate. Each speaker will be asked to stake out a vision for what the future of the Internet will look like, and then to defend it both from the other speaker and the audience. By the end, we may not have cleared up your confusion as to what cyberwar is, but you'll have a great time: audience participation is strongly encouraged, and you'll be able to decide who won this combination of talk and argument.",
-            "url": "http://www.sourceconference.com/#!boston-2015-agenda/c7dp",
-            "videourl": "https://vimeo.com/139840385",
-            "tags": [
-                "technical",
-                "legal"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Courtyard Marriott Boston",
-                    "city": "Boston, MA"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -71.0655674,
-                        42.3499198
-                    ]
-                }
-            }
-        },
-        {
-            "resume": false,
-            "title": "Hot Topics in Information Security Law 2015",
-            "location": "RSA",
-            "date": "2015-04-21",
-            "prose": "Panel. The officers of the American Bar Association's Information Security Committee gather to discuss interesting developments in information security law. Offered for CLE credit.",
-            "abstract": "A panel of technology-savvy lawyers discuss recent developments in technology law with Q&amp;A to follow.",
-            "url": "https://www.rsaconference.com/events/us15/agenda/sessions/1649/hot-topics-in-information-security-law-2015",
-            "tags": [
-                "technical",
-                "legal"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Moscone Center South",
-                    "city": "San Francisco, CA"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -122.4005464,
-                        37.7838391
-                    ]
-                }
-            }
-        },
-        {
-            "title": "Information Governance: Security, Not Fear",
-            "location": "Montana State Bar CLE",
-            "date": "2015-03-13",
-            "prose": "Continuing Legal Education course (1 credit, ethics). An introduction to computer security concepts as they relate to the Rules of Professional Conduct, including small, meaningful steps to improve a law firm's communications strategies.",
-            "tags": [
-                "technical",
-                "legal"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Fairmont Hot Springs Resort",
-                    "city": "Anaconda, MT"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -112.811629,
-                        46.043113
-                    ]
-                }
-            }
-        },
-        {
-            "resume": false,
-            "title": "Endrun—Secure Digital Communications For Our Modern Dystopia",
-            "location": "Black Hat Europe",
-            "date": "2014-10-17",
-            "prose": "With Grant Dobbe. Censorship-resistant communications based on the Delay-Tolerant Networking concept.",
-            "abstract": "The Internet is no longer trustworthy, having been compromised by bad actors across the globe. Current proposals to work around a compromised Internet rely upon encrypted transport links, mesh networks, or harassing users for being unable to use GPG safely. Each of these strategies fails in different ways that inevitably lead to information leakage or -- in the extreme case -- death. Endrun, by contrast, takes NASA's Disruption-Tolerant Networking project from a laboratory experiment to a functional system that supports user-friendly encryption in hostile environments. Endrun embraces the nearly-unlimited throughput of a disk-laden station wagon and creates a reliable, eventually-consistent communications system ideal for activists, refugees, and trolls.",
-            "url": "https://www.blackhat.com/docs/eu-14/materials/eu-14-OConnor-Endrun-Secure-Digital-Communications-For-Our-Modern-Dystopia-wp.pdf",
-            "videourl": "https://www.youtube.com/watch?v=NxKpOEyLFxY",
-            "tags": [
-                "technical"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Amsterdam RAI",
-                    "city": "Amsterdam, Netherlands"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        4.890597,
-                        52.336843
-                    ]
-                }
-            }
-        },
-        {
-            "title": "This is Not a War. You Are Not a Soldier.",
-            "location": "DEF CON SkyTalks",
-            "date": "2014-08-08",
-            "prose": "The application of international law to digital warfare, and a detailed refutation of the idea that 'The Geneva Conventions don't apply to the Internet.'",
-            "abstract": "Are you concerned by all the FUD about a 'war in cyberspace?' Are you anxious because the heads of major security firms are saying hackers might be a legal military target for the 'other guys' to drop bombs on?  Fear no more! We'll talk about the cool bits of the law of war---from Deuteronomy to Tallinn, and from Counter-Strike to actual counterstrikes---while we discuss how a 120-year-old prohibition on the use of hot-air balloons in warfare should reassure you about a military making a 'kinetic response' to your DDOS. International war law is neither international nor law in a traditional sense, but it's full of literal war stories, as well as an occasional bit of helpful advice even for those who aren't planning on killing two or three million people.",
-            "tags": [
-                "legal"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Rio All-Suites Hotel &amp; Casino",
-                    "city": "Las Vegas, NV"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -115.188159,
-                        36.117515
-                    ]
-                }
-            }
-        },
-        {
-            "title": "The Perfectly Legitimate Project",
-            "location": "ThotCon",
-            "date": "2014-04-25",
-            "prose": "With Grant Dobbe. Cryptographically-sound user-friendly darknet designs.",
-            "abstract": "When we can't use the Internet anymore---either because it's gone, or because we can't trust it---how can we share our cat GIFs, tear gas remedies, or recipes for Roasted Rodent Ratatouille? The Perfectly Legitimate Project creates a decentralized, Internet-optional system of sharing data among a group of nodes without relying on easy-to-locate mesh networks. PLP uses whatever’s available to move heavily-encrypted payloads around, including short-range wireless communications (on license-free VHF, UHF, ZigBee, or WiFi), sneakernet, or tasty (and nutritious!) carrier pigeons. PLP has four components: NATASHA and MOOSE provide user-friendly services (such as email, wikis, and blogs) to any end-user without a need for specialized hardware or customized software, while BORIS and SQUIRREL let couriers use any means necessary to ship data with a derivative of the interplanetary Disruption-Tolerant Networking protocol. The end result is a system that's OPSEC-capable, easy to use, and can be deployed when zombies attack---or when you're just tired of having your adversaries listen through the fillings in your teeth.",
-            "tags": [
-                "technical"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Ravenswood Event Center",
-                    "city": "Chicago, IL"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -87.673333,
-                        41.954797
-                    ]
-                }
-            }
-        },
-        {
-            "title": "Tyvlytting På Lufta (Voyeurism in the Air)",
-            "location": "Paranoia",
-            "date": "2014-03-27",
-            "prose": "New updates to the CreepyDOL system, including a large-scale deployment in Montezuma, NM with 755 devices.",
-            "url": "http://paranoia.watchcom.no/index.php?page=68",
-            "videourl": "https://www.youtube.com/watch?v=Tpusnxmvhrw",
-            "tags": [
-                "technical"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Folketeateret",
-                    "city": "Oslo, Norway"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        10.750491,
-                        59.914316
-                    ]
-                }
+          "location":"PumpCon",
+          "date":"2016-10-29",
+          "geo":{
+            "type":"Feature",
+            "properties":{
+              "venue":"Ruba Club",
+              "city":"Philadelphia, PA"
             },
-            "repeats": [
-                {
-                    "location": "Lockdown",
-                    "date": "2014-07-10",
-                    "url": "https://lockdown.it.wisc.edu/",
-                    "geo": {
-                        "type": "Feature",
-                        "properties": {
-                            "venue": "University of Wisconsin Health Sciences Learning Center",
-                            "city": "Madison, WI"
-                        },
-                        "geometry": {
-                            "type": "Point",
-                            "coordinates": [
-                                -89.4303294,
-                                43.0774041
-                            ]
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "title": "War Crimes as a Service",
-            "location": "PumpCon",
-            "date": "2013-10-26",
-            "prose": "With Dr. John Linwood Griffin. Introduction for non-lawyers to the Tallinn Manual, why security experts should care, and a modest proposal for how to stop unlawful digital warfare.",
-            "abstract": "Three years of international negotiations and deliberations by eleven lawyers, two academics, a bunch of editors, and an Estonian dog named Terry gave us the 'Tallinn Manual'---a.k.a., cover for the world’s militaries to blow up the Internet. This talk will explain why international law matters, why it’s important that a bunch of non-hackers defined 'attack' to only mean dead bodies, and how we can prevent certain nations from clogging the tubes with the blood of the innocent. The international law of war isn’t dead---it’s just sleeping. Come help wake it up.",
-            "tags": [
-                "technical"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Best Western Inn",
-                    "city": "Philadelphia, PA"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -75.173804,
-                        39.963091
-                    ]
-                }
+            "geometry":{
+              "type":"Point",
+              "coordinates":[
+                -75.145966,
+                39.961778
+              ]
             }
+          }
+        }
+      ]
+    },
+    {
+      "title":"The Other Way to Get a Hairy Hand; or, Contracts for Hackers",
+      "location":"DEF CON SkyTalks",
+      "date":"2016-08-07",
+      "prose":"Overview of contract law for non-lawyers. This talk took the approach that large chunks of 'legalese' represent 'scar tissue' from old wounds to the legal profession--cases that have gone in unexpected directions. On that basis, the talk went through standard contract clauses (using the iTunes agreement as an example) that security professionals commonly encounter, why those exist, and when it's worth trying to push back against overbroad contracts.",
+      "abstract":"What do an excessively hairy hand, a car-eating loch, a mechanical bull, and a house of ill repute in northern Montana mean for the iTunes EULA that nobody reads? 'Legalese' is the go-to term to explain (or pretend to justify) overly-complex sentences that involve weirdly-specific phrases followed by names that don't always relate (hereinafter referred to as 'duck wrangling'). While you might cringe at pages of boilerplate, the stories that gave rise to all those words are hilarious and terrifying in turns. Come join us for a discussion of why contracts got screwed up, what the words actually mean (and what they don't), what you actually need to know (without being legal advice, insert your favorite disclaimer here), and how to push back against 'the lawyers said it has to be in there' next time you're signing something. Get another beer; you're going to want it to toast the memories of all the poor suckers who gave us the law (or their leg), such as it is.",
+      "tags":[
+        "legal"
+      ],
+      "url":"https://skytalks.info/",
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Bally's Las Vegas Hotel and Casino",
+          "city":"Las Vegas, NV"
         },
-        {
-            "title": "How to Fight a War Without Actually Starting One",
-            "location": "DerbyCon",
-            "date": "2013-09-28",
-            "prose": "International war law, including the Tallinn Manual, as it pertains to computer security and the Internet.",
-            "abstract": "A NATO affiliate spent three years with some of the finest academic lawyers on the planet trying to figure out how to define 'cyberwar' better than the US Senate. It's a shame they never asked any hackers, though, because the only thing the definition includes is 'black ice' straight out of Neuromancer, which we're pretty sure isn't real. Join us for an introduction to international law, war law, the Tallinn Manual, and the reason it matters that twelve academics in Estonia can't define a word.",
-            "url": "http://www.derbycon.com/schedule-and-abstracts-2013/",
-            "videourl": "https://www.youtube.com/watch?v=mDWohmPcXoc",
-            "tags": [
-                "legal"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Hyatt Regency Louisville",
-                    "city": "Louisville, KY"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -85.756702,
-                        38.253387
-                    ]
-                }
-            }
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -115.170976,
+            36.114277
+          ]
+        }
+      }
+    },
+    {
+      "title":"Lawyers are Killing the Internet",
+      "location":"Lockdown",
+      "date":"2016-07-14",
+      "prose":"An overview of six major areas in which well-intentioned politicians and lawyers, representing their nation or supranational entity's interests, are undermining some of the fundamental assumptions on what the Internet 'is.' This presentation covered the Wassenaar Arrangement, the Tallinn Manual, cross-border data restrictions (including the EU Data Protection Regulation), the Right to Be Forgotten, international legal assistance (MLAT), and forced data localization laws.",
+      "abstract":"Are China, North Korea, and Ireland teaming up to hate our freedoms and our democratic way of life? What are Russia, the EU, and Canada in complete agreement on? What does the layout of undersea cables have to do with NATO, and why are people looking for cyberblood? What on earth is cyberblood? Are lawyers, inevitably, screwing up everything? (Yes.) Join us for a discussion of the current state of forced data localization, EU-US Safe Harbo[u]r, the Law of (inevitably) Cyber Conflict, and what they all mean to you. If you want to be able to create products, secure systems, live peaceably on the Internet free from military malware, or simply communicate with people who don't have the same passport as you, this is the talk you need to be at.",
+      "tags":[
+        "technical",
+        "legal"
+      ],
+      "url":"https://lockdown.it.wisc.edu/",
+      "videourl":"https://youtu.be/b7-3ap_V5Hc",
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"University of Wisconsin Health Sciences Learning Center",
+          "city":"Madison, WI"
         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -89.4303294,
+            43.0774041
+          ]
+        }
+      }
+    },
+    {
+      "title":"New Developments in Consumer Privacy: From Spokeo, Inc. to Apple",
+      "location":"American Bar Association Section of Civil Rights and Social Justice",
+      "date":"2016-03-18",
+      "prose":"ABA Teleconference, with Alan Butler (Electronic Privacy Information Center). Overview of the issues (both technical and legal) involved in Spokeo v. Robins (currently pending before the US Supreme Court) and the Apple encryption case currently pending before the US Magistrate for the Central District of California.",
+      "abstract":"This program will provide an overview of two significant developments related to consumer privacy in the United States.  The discussion will be helpful to lawyers across the spectrum who deal with both compliance (reviewing policies and procedures) and litigation.  First, we will discuss the much-anticipated decision of the U.S. Supreme Court in Spokeo, Inc. v. Robins, concerning Article III standing requirements and consumer privacy claims.  Next, we will discuss the ongoing fight between Apple and the FBI over the use of strong encryption.  One case, currently pending before a federal magistrate judge in California, will be heard later his month.  Please join us to learn more.",
+      "url":"http://shop.americanbar.org/ebus/ABAEventsCalendar/EventDetails.aspx?productId=239679803",
+      "tags":[
+        "technical",
+        "legal"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "city":"Teleconference"
+        }
+      }
+    },
+    {
+      "title":"It Only Matters If (You Use Computers)",
+      "location":"New Leaders Council - Montana",
+      "date":"2016-03-12",
+      "prose":"Invited talk. Overview for policymakers and activists across different fields of the specific policy challenges facing the Internet. This talk covered five major areas: the Wassenaar Arrangement, the Tallinn Manual, data localization and the end of EU-US Safe Harbor, Apple and the encryption debate, and expansive Computer Fraud and Abuse Act interpretations and the US v. Auernheimer case.",
+      "tags":[
+        "technical",
+        "legal"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Disability Rights Montana",
+          "city":"Helena, MT"
+        },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -112.022846,
+            46.604038
+          ]
+        }
+      }
+    },
+    {
+      "title":"Security in Practice",
+      "location":"Montana State Bar CLE",
+      "date":"2016-03-11",
+      "prose":"Continuing Legal Education course (3.5 credits, ethics). An overview of the field of information security, including an introduction to cloud computing, the encryption debate, legal ethics opinions on technology issues (in Montana, from other state bars, and from the ABA), software selections for secure attorney-client interactions, litigation-related problems in technology, and risk-based decisionmaking.",
+      "tags":[
+        "technical",
+        "legal"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Fairmont Hot Springs Resort",
+          "city":"Anaconda, MT"
+        },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -112.811629,
+            46.043113
+          ]
+        }
+      }
+    },
+    {
+      "title":"Prisoners in Cybertown (It's a Dirty Little War)",
+      "location":"Hackers (THINK)",
+      "date":"2015-11-07",
+      "prose":"As part of the panel on legal issues at Hackers (THINK), I gave a twenty minute presentation on data localization laws, the Data Protection Directive (and its associated international agreements) and the collapse of EU-US Safe Harbo[u]r due to the Schrems case and the forthcoming US Second Circuit Microsoft Ireland case.",
+      "url":"http://conference.think.org/about/",
+      "tags":[
+        "technical",
+        "legal"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Chaminade Resort and Spa",
+          "city":"Santa Cruz, CA"
+        },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -121.984929,
+            36.998438
+          ]
+        }
+      }
+    },
+    {
+      "resume":false,
+      "title":"Xenophobia is Hard on Data",
+      "location":"SecTor",
+      "date":"2015-10-21",
+      "prose":"With James Arlen. Examination of forced data localization laws, their nature, their origins, and their effects on confidentiality, availability, and integrity of data, as well as the cost of doing business in a global marketplace.",
+      "abstract":"'Our data is only safe within our borders!' '(The US|China|New Zealand|Vanuatu) is spying on our citizens!' 'Don't ship our citizens' data overseas!' These rallying cries are calling for the same solution: forced data localization laws, where a country requires that all its citizens' and corporations' data be kept within the territory of that country. What's so bad about data localization? Is it good for security? Is it good for business? Is it good for protecting your data from Three- or Four-Letter Agencies? We'll answer these questions and more as we discuss forced localization, international education policy, unlikely anchor placement, catastrophic dripping, and how it affects your business' goals in the short and long term.",
+      "url":"http://sector.ca/Program/Sessions/Session-Details/xenophobia-is-hard-on-data-forced-localization-data-storage-and-business-realities",
+      "videourl":"http://2015.video.sector.ca/video/144196336",
+      "tags":[
+        "technical",
+        "legal"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Metro Toronto Convention Centre",
+          "city":"Toronto, ON, Canada"
+        },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -79.386854,
+            43.643879
+          ]
+        }
+      }
+    },
+    {
+      "title":"Buyer Beware! Cyber-Security’s Impact on M&amp;A Due Diligence &amp; Valuations",
+      "location":"Merrill DataSite Panel Series",
+      "date":"2015-06-25",
+      "prose":"Panel presentation. Presentation by attorneys, dealmakers, and executives on security as a high-priority part of due diligence activity. I was the sole technologist on this panel, which was offered for CLE and CPE credit.",
+      "abstract":"High profile security breaches at Sony, Target and Visa have shined the spotlight squarely on the fact that no company is immune from cyber-attacks; not even the White House is secure against hackers. For deal professionals, security concerns are not isolated to the sharing of information during the due diligence process; it is paramount to understand the underlying strength of a company’s technology platform, potential exposure to security threats, and ultimately, how it plays an important role in determining valuations.",
+      "url":"http://www.datasitedeal.com/SeattleSpkr2015",
+      "tags":[
+        "technical",
+        "legal"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Four Seasons Hotel Seattle",
+          "city":"Seattle, WA"
+        },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -122.339335,
+            47.607465
+          ]
+        }
+      }
+    },
+    {
+      "title":"All That Cybers (Is^Is Not) War",
+      "location":"SOURCE Boston",
+      "date":"2015-05-28",
+      "prose":"With Dr. John Linwood Griffin. Conference debate on the proper role of the military on the Internet, given the following resolution: 'This Conference Stands Resolved that there are (de facto) wars taking place on the Internet, and that it is the role of governments to prosecute such wars.'",
+      "abstract":"Join John and Brendan, two doctors both improbable and ineffable, as they debate the following resolution: 'This Conference Stands Resolved that there are (de facto) wars taking place on the Internet, and that it is the role of governments to prosecute such wars.' We'll touch on the proper role of the military on the Internet, whether individuals and companies harassing foreign entities online can be treated as acting on their country's behalf, and cyberwar versus rampaging squirrels in this freewheeling debate. Each speaker will be asked to stake out a vision for what the future of the Internet will look like, and then to defend it both from the other speaker and the audience. By the end, we may not have cleared up your confusion as to what cyberwar is, but you'll have a great time: audience participation is strongly encouraged, and you'll be able to decide who won this combination of talk and argument.",
+      "url":"http://www.sourceconference.com/#!boston-2015-agenda/c7dp",
+      "videourl":"https://vimeo.com/139840385",
+      "tags":[
+        "technical",
+        "legal"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Courtyard Marriott Boston",
+          "city":"Boston, MA"
+        },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -71.0655674,
+            42.3499198
+          ]
+        }
+      }
+    },
+    {
+      "resume":false,
+      "title":"Hot Topics in Information Security Law 2015",
+      "location":"RSA",
+      "date":"2015-04-21",
+      "prose":"Panel. The officers of the American Bar Association's Information Security Committee gather to discuss interesting developments in information security law. Offered for CLE credit.",
+      "abstract":"A panel of technology-savvy lawyers discuss recent developments in technology law with Q&amp;A to follow.",
+      "url":"https://www.rsaconference.com/events/us15/agenda/sessions/1649/hot-topics-in-information-security-law-2015",
+      "tags":[
+        "technical",
+        "legal"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Moscone Center South",
+          "city":"San Francisco, CA"
+        },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -122.4005464,
+            37.7838391
+          ]
+        }
+      }
+    },
+    {
+      "title":"Information Governance: Security, Not Fear",
+      "location":"Montana State Bar CLE",
+      "date":"2015-03-13",
+      "prose":"Continuing Legal Education course (1 credit, ethics). An introduction to computer security concepts as they relate to the Rules of Professional Conduct, including small, meaningful steps to improve a law firm's communications strategies.",
+      "tags":[
+        "technical",
+        "legal"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Fairmont Hot Springs Resort",
+          "city":"Anaconda, MT"
+        },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -112.811629,
+            46.043113
+          ]
+        }
+      }
+    },
+    {
+      "resume":false,
+      "title":"Endrun—Secure Digital Communications For Our Modern Dystopia",
+      "location":"Black Hat Europe",
+      "date":"2014-10-17",
+      "prose":"With Grant Dobbe. Censorship-resistant communications based on the Delay-Tolerant Networking concept.",
+      "abstract":"The Internet is no longer trustworthy, having been compromised by bad actors across the globe. Current proposals to work around a compromised Internet rely upon encrypted transport links, mesh networks, or harassing users for being unable to use GPG safely. Each of these strategies fails in different ways that inevitably lead to information leakage or -- in the extreme case -- death. Endrun, by contrast, takes NASA's Disruption-Tolerant Networking project from a laboratory experiment to a functional system that supports user-friendly encryption in hostile environments. Endrun embraces the nearly-unlimited throughput of a disk-laden station wagon and creates a reliable, eventually-consistent communications system ideal for activists, refugees, and trolls.",
+      "url":"https://www.blackhat.com/docs/eu-14/materials/eu-14-OConnor-Endrun-Secure-Digital-Communications-For-Our-Modern-Dystopia-wp.pdf",
+      "videourl":"https://www.youtube.com/watch?v=NxKpOEyLFxY",
+      "tags":[
+        "technical"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Amsterdam RAI",
+          "city":"Amsterdam, Netherlands"
+        },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            4.890597,
+            52.336843
+          ]
+        }
+      }
+    },
+    {
+      "title":"This is Not a War. You Are Not a Soldier.",
+      "location":"DEF CON SkyTalks",
+      "date":"2014-08-08",
+      "prose":"The application of international law to digital warfare, and a detailed refutation of the idea that 'The Geneva Conventions don't apply to the Internet.'",
+      "abstract":"Are you concerned by all the FUD about a 'war in cyberspace?' Are you anxious because the heads of major security firms are saying hackers might be a legal military target for the 'other guys' to drop bombs on?  Fear no more! We'll talk about the cool bits of the law of war---from Deuteronomy to Tallinn, and from Counter-Strike to actual counterstrikes---while we discuss how a 120-year-old prohibition on the use of hot-air balloons in warfare should reassure you about a military making a 'kinetic response' to your DDOS. International war law is neither international nor law in a traditional sense, but it's full of literal war stories, as well as an occasional bit of helpful advice even for those who aren't planning on killing two or three million people.",
+      "tags":[
+        "legal"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Rio All-Suites Hotel &amp; Casino",
+          "city":"Las Vegas, NV"
+        },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -115.188159,
+            36.117515
+          ]
+        }
+      }
+    },
+    {
+      "title":"The Perfectly Legitimate Project",
+      "location":"ThotCon",
+      "date":"2014-04-25",
+      "prose":"With Grant Dobbe. Cryptographically-sound user-friendly darknet designs.",
+      "abstract":"When we can't use the Internet anymore---either because it's gone, or because we can't trust it---how can we share our cat GIFs, tear gas remedies, or recipes for Roasted Rodent Ratatouille? The Perfectly Legitimate Project creates a decentralized, Internet-optional system of sharing data among a group of nodes without relying on easy-to-locate mesh networks. PLP uses whatever’s available to move heavily-encrypted payloads around, including short-range wireless communications (on license-free VHF, UHF, ZigBee, or WiFi), sneakernet, or tasty (and nutritious!) carrier pigeons. PLP has four components: NATASHA and MOOSE provide user-friendly services (such as email, wikis, and blogs) to any end-user without a need for specialized hardware or customized software, while BORIS and SQUIRREL let couriers use any means necessary to ship data with a derivative of the interplanetary Disruption-Tolerant Networking protocol. The end result is a system that's OPSEC-capable, easy to use, and can be deployed when zombies attack---or when you're just tired of having your adversaries listen through the fillings in your teeth.",
+      "tags":[
+        "technical"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Ravenswood Event Center",
+          "city":"Chicago, IL"
+        },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -87.673333,
+            41.954797
+          ]
+        }
+      }
+    },
+    {
+      "title":"Tyvlytting På Lufta (Voyeurism in the Air)",
+      "location":"Paranoia",
+      "date":"2014-03-27",
+      "prose":"New updates to the CreepyDOL system, including a large-scale deployment in Montezuma, NM with 755 devices.",
+      "url":"http://paranoia.watchcom.no/index.php?page=68",
+      "videourl":"https://www.youtube.com/watch?v=Tpusnxmvhrw",
+      "tags":[
+        "technical"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Folketeateret",
+          "city":"Oslo, Norway"
+        },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            10.750491,
+            59.914316
+          ]
+        }
+      },
+      "repeats":[
         {
-            "resume": true,
-            "title": "Stalking a City for Fun and Frivolity",
-            "location": "DEF CON",
-            "date": "2013-08-03",
-            "prose": "Distributed sensor network data acquisition, filtering, and visualization, with several security applications. This presentation addressed the architecture and collection aspects of the CreepyDOL system, as well as the implications for global surveillance states and engineering as a profession.",
-            "abstract": "Tired of the government being the only entity around that can keep tabs on a whole city at once? Frustrated by dictators du jour knowing more about you than you know about them? Fed up with agents provocateur slipping into your protests, rallies, or golf outings? Suffer no more, because CreepyDOL is here to help! With open-source software, off-the-shelf sensors, several layers of encryption, and a deployment methodology of 'pull pin, point toward privacy insurance claimant,' it allows anyone to track everyone in a neighborhood, suburb, or city from the comfort of their sofa. For just four easy hardware purchases of $131.95, you, too can move up from small-time weirding out to the big leagues of total information awareness: deploy CreepyDOL today!",
-            "url": "http://blog.ussjoin.com/2013/08/creepydol.html",
-            "videourl": "https://www.youtube.com/watch?v=BcvxD7p4Suw",
-            "tags": [
-                "technical"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Rio All-Suites Hotel &amp; Casino",
-                    "city": "Las Vegas, NV"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -115.188159,
-                        36.117515
-                    ]
-                }
+          "location":"Lockdown",
+          "date":"2014-07-10",
+          "url":"https://lockdown.it.wisc.edu/",
+          "geo":{
+            "type":"Feature",
+            "properties":{
+              "venue":"University of Wisconsin Health Sciences Learning Center",
+              "city":"Madison, WI"
             },
-            "repeats": [
-                {
-                    "location": "LASCON",
-                    "date": "2013-10-24",
-                    "url": "https://lascon2013.sched.org/",
-                    "videourl": "https://vimeo.com/channels/lascon2013/80794014",
-                    "geo": {
-                        "type": "Feature",
-                        "properties": {
-                            "venue": "Norris Conference Center",
-                            "city": "Austin, TX"
-                        },
-                        "geometry": {
-                            "type": "Point",
-                            "coordinates": [
-                                -97.7353914,
-                                30.3568301
-                            ]
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "resume": true,
-            "title": "CreepyDOL: Cheap, Distributed Stalking",
-            "location": "Black Hat USA",
-            "date": "2013-08-01",
-            "prose": "Distributed sensor network data acquisition, filtering, and visualization, with several security applications. This presentation addressed the architecture and collection aspects of the CreepyDOL system.",
-            "abstract": "Are you a person with a few hundred dollars and an insatiable curiosity about your neighbors who is fed up with the hard work of tracking your target's every move in person? Good news! You, too, can learn the intimate secrets and continuous physical location of an entire city from the comfort of your desk! CreepyDOL is a distributed sensing and data mining system combining very-low-cost sensors, open-source software, and a focus on user experience to provide personnel identification, tracking, and analysis without sending any data to the targets. In other words, it takes you from hand-crafted, artisan skeeviness to big-box commodity creepiness, and enables government-level total awareness for about $500 of off-the-shelf hardware.",
-            "url": "http://blog.ussjoin.com/2013/08/creepydol.html",
-            "videourl": "https://www.youtube.com/watch?v=LFA6lew2tcE",
-            "tags": [
-                "technical"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Caesar's Palace",
-                    "city": "Las Vegas, NV"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -115.174499,
-                        36.116168
-                    ]
-                }
+            "geometry":{
+              "type":"Point",
+              "coordinates":[
+                -89.4303294,
+                43.0774041
+              ]
             }
-        },
-        {
-            "title": "The Global 'Gamification' of Online Gaming",
-            "location": "Annual Conference of the International Bar Association",
-            "date": "2012-10-01",
-            "prose": "Panel on digital security and legal issues that affect the international online gambling industry.",
-            "abstract": "Gamification, and online gambling, are among the booming global phenomena of the past decade. Given the highly polarised reactions to gambling across different jurisdictions, yet the boost it can provide to governmental coffers in these trying economic times, few are surprised that online gambling has generated both political controversy and a plethora of cross-border regulatory and legal issues. This session initially explores these critical issues through the eyes of major online gambling companies. The second segment will be interactive and include a debate between an online gaming hacker and a representative of a gaming / gambling company.",
-            "url": "http://www.int-bar.org/conferences/Dublin2012/",
-            "tags": [
-                "technical",
-                "legal"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Convention Centre Dublin",
-                    "city": "Dublin, Ireland"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -6.239838,
-                        53.347499
-                    ]
-                }
-            }
-        },
-        {
-            "title": "Reticle: Dropping an Intelligent F-BOMB",
-            "location": "Security BSides Las Vegas",
-            "date": "2012-07-26",
-            "prose": "Software to control ad-hoc networks of disposable computers.",
-            "abstract": "F-BOMB is a disposable computing project, and Reticle is its software brain: a distributed, leaderless system for transferring data and commands to and from the tiny, distributed, dirt-cheap little boxes. Together, these two systems form a botnet-styled sensor network that can be deployed the same way as a smoke grenade by a field agent, but with intelligent encryption, plausible deniability, and a peer-to-peer command network to ensure that an enemy can't compromise your goals-- whether you're providing Internet access to an Occupy group, or playing distributed hide and seek for cell phones. We discuss the design and implementation of Reticle, which was intended to take some of the networking ideas from modern botnets and apply them in a more useful context. Reticle was created with support from DARPA Cyber Fast Track, and the code, utilities, and documentation created under that project will be released with the talk.",
-            "url": "http://blog.ussjoin.com/2012/07/reticle.html",
-            "videourl": "https://www.youtube.com/watch?v=CsI8tzb2Big",
-            "tags": [
-                "technical"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Artisan Hotel Boutique",
-                    "city": "Las Vegas, NV"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -115.169865,
-                        36.143717
-                    ]
-                }
-            }
-        },
-        {
-            "title": "Hack the Law",
-            "location": "Hackers on Planet Earth",
-            "date": "2012-07-15",
-            "prose": "Why security researchers should go to law school.",
-            "abstract": "Recent bills such as ACTA, COICA, and SOPA in legislatures worldwide demonstrate that there exists a fundamental disconnect between hackers and politicians. Worse, the people charged with dealing with law on the ground, the lawyers, rarely have any significant technical background obtained within the last few decades. This must change. It's all well and good to write your congressperson or donate to the EFF, but it's not enough; we need hackers to go to law school. Lawyers-- whether they work as attorneys, or bring their knowledge of the law back to other fields-- are uniquely situated to effect direct change on politics, social issues, and the law on the ground (where they arrest poor hackers), and unlike many fields, it's not enough to be self-taught. This presentation will focus on the utility of the hacking ethos within the law, as well as the 'law school experience,' technical bits about actually getting in, and how to keep yourself from going nuts while spending three years surrounded by those who can't tell their megabytes from their overbites (and are terrified by Wireshark, let alone the more subtle tools in existence). Expect stories, humorous anecdotes, and terrifying lapses in judgment.",
-            "url": "http://blog.ussjoin.com/2012/07/hack-the-law.html",
-            "videourl": "https://www.youtube.com/watch?v=eb2vmjP6XTs",
-            "tags": [
-                "legal"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Hotel Pennsylvania",
-                    "city": "New York, NY"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -73.991017,
-                        40.749939
-                    ]
-                }
-            }
-        },
-        {
-            "title": "Sacrificial Computing for Land and Sky",
-            "location": "ShmooCon",
-            "date": "2012-01-27",
-            "prose": "Hardware design for very-low-cost sensor nodes.",
-            "abstract": "Projects such as the incredible Wireless Aerial Surveillance Platform give you the ability to monitor or attack networks far from accessible areas, but are limited by their deployment characteristics: $6000+ buys you just 10-30 minutes on target, and you have simultaneously to do your work and defend the physical plane from Bad Men With Projectile Weapons, lest they take exception to your plans. Disposable computing designed for just one use can provide massive reductions in cost and time to deployment without sacrificing flexibility; we show how $50-$75 can give you upwards of 24 hours to work on a task, while using only off-the-shelf hardware, and leaving no data onsite for an adversary to analyze after the operation. These computers can then be planted manually, or even dropped from unspecialized UAVs (such as the Parrot Drone) to allow your expensive plane to return to safety while you do your work.",
-            "url": "http://blog.ussjoin.com/2012/01/dropping-the-f-bomb.html",
-            "videourl": "https://www.youtube.com/watch?v=Vm_cHb8Mm9w",
-            "tags": [
-                "technical"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Washington Hilton",
-                    "city": "Washington, DC"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -77.044852,
-                        38.916544
-                    ]
-                }
-            }
-        },
-        {
-            "title": "Mnikr: Reputation Construction Through Human Trading of Distributed Social Identities",
-            "location": "5th ACM Workshop on Digital Identity Management",
-            "date": "2009-11-13",
-            "prose": "With Dr. John Linwood Griffin. Stock-market-like construction of computer-readable human-mediated reputation scores. Selected as the best paper at the workshop.",
-            "abstract": "Reputation forms an important part of how we come to trust people in face-to-face interactions, and thus situations involving trust online have come to realize that reputation is an important characteristic in the digital age. We propose a new holistic and context-free approach to quantifying reputation on the Internet, based upon a stock exchange where users can trade reputation shares of other users and obtain goodwill dividends, including new algorithms for identifying and creating digital identities not inherently tied to a user’s personally identifiable information. We developed such a system, named Mnikr, and deployed our system on the Internet for a month to demonstrate and evaluate this approach. Our results suggest that existing public data sources can indeed be used to create an overarching social network whose utility is greater than its number of users would indicate, and in which reputation measurements are generated that are actually indicative of each user’s standing in society.",
-            "url": "https://ussjoin.com/papers/p3-oconnor.pdf",
-            "tags": [
-                "technical"
-            ],
-            "geo": {
-                "type": "Feature",
-                "properties": {
-                    "venue": "Hyatt Regency Chicago",
-                    "city": "Chicago, IL"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -87.6218003,
-                        41.8874309
-                    ]
-                }
-            }
+          }
         }
-    ],
-    "publications": [
-        {
-            "title": "Kubernetes and Containerized Security",
-            "location": "Leviathan Security Group",
-            "date": "2021-08-02",
-            "prose": "An overview of what 'securing Kubernetes,' a common client request, really entails: not just security of the control plane, but more critically, of the containerized software, and how to achieve that.",
-            "url": "https://ussjoin.com/papers/Kubernetes and Containerized Security.pdf",
-            "tags": [
-                "technical"
-            ]
+      ]
+    },
+    {
+      "title":"War Crimes as a Service",
+      "location":"PumpCon",
+      "date":"2013-10-26",
+      "prose":"With Dr. John Linwood Griffin. Introduction for non-lawyers to the Tallinn Manual, why security experts should care, and a modest proposal for how to stop unlawful digital warfare.",
+      "abstract":"Three years of international negotiations and deliberations by eleven lawyers, two academics, a bunch of editors, and an Estonian dog named Terry gave us the 'Tallinn Manual'---a.k.a., cover for the world’s militaries to blow up the Internet. This talk will explain why international law matters, why it’s important that a bunch of non-hackers defined 'attack' to only mean dead bodies, and how we can prevent certain nations from clogging the tubes with the blood of the innocent. The international law of war isn’t dead---it’s just sleeping. Come help wake it up.",
+      "tags":[
+        "technical"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Best Western Inn",
+          "city":"Philadelphia, PA"
         },
-        {
-            "title": "Quantifying the Cost of Forced Localization",
-            "location": "Leviathan Security Group",
-            "date": "2015-06-24",
-            "prose": "With James Arlen. Focused on the direct costs to companies of forced localization laws--the actual economic disadvantage inflicted by a country on its businesses when it chooses to require that all data be stored within its borders.",
-            "url": "https://ussjoin.com/papers/Quantifying the Cost of Forced Localization.pdf",
-            "tags": [
-                "technical"
-            ]
-        },
-        {
-            "title": "Value of Cloud Security: Vulnerability",
-            "location": "Leviathan Security Group",
-            "date": "2015-02-11",
-            "prose": "With James Arlen and Lee Brotherston. A discussion of the challenges around setting up local data storage, for small, medium, and large enterprises, and a comparison of price data between major local and cloud storage vendors.",
-            "url": "https://ussjoin.com/papers/VOCS Vulnerability.pdf",
-            "tags": [
-                "technical"
-            ]
-        },
-        {
-            "title": "Analysis of Cloud vs. Local Storage: Capabilities, Opportunities, Challenges",
-            "location": "Leviathan Security Group",
-            "date": "2015-02-11",
-            "prose": "With James Arlen and Lee Brotherston. A discussion of the challenges of hiring sufficient cybersecurity expertise given the current talent pool and educational programs available.",
-            "url": "https://ussjoin.com/papers/VOCS Scarcity.pdf",
-            "tags": [
-                "technical"
-            ]
-        },
-        {
-            "title": "Comparison of Availability Between Local and Cloud Storage",
-            "location": "Leviathan Security Group",
-            "date": "2015-02-11",
-            "prose": "With James Arlen and Lee Brotherston. A discussion of the challenges of securing the integrity and availability of data stored in datacenters and the cloud in the face of disasters and other large-scale events.",
-            "url": "https://ussjoin.com/papers/VOCS Availability.pdf",
-            "tags": [
-                "technical"
-            ]
-        },
-        {
-            "title": "Whoops! Broadcasting Your Secrets for Convenience",
-            "location": "GP Solo (American Bar Association)",
-            "date": "2014-05-01",
-            "prose": "Volume 31, Number 3, May/June 2014 of GP Solo. A summary of the article previously published in the SciTech Lawyer.",
-            "tags": [
-                "technical",
-                "legal"
-            ]
-        },
-        {
-            "title": "Whoops! How Your 'Convenience' Broadcasts Your Secrets",
-            "location": "The SciTech Lawyer (American Bar Association)",
-            "date": "2014-01-30",
-            "prose": "Volume 10, Issue 2, Winter 2014 of The SciTech Lawyer. Wireless technology v. the duties of confidentiality and privilege.",
-            "url": "https://ussjoin.com/papers/scitech-lawyer-winter-14.pdf",
-            "tags": [
-                "technical",
-                "legal"
-            ]
-        },
-        {
-            "title": "Brief of Amici Curiae in U.S. v. Auernheimer",
-            "location": "United States Court of Appeals for the Third Circuit",
-            "date": "2013-07-01",
-            "prose": "I wrote a Brief of Amici Curiae to the Third Circuit in U.S. v. Auernheimer, on behalf of Meredith Patterson, myself, and eleven other notable security researchers. The brief is available at <a href=\"https://github.com/ussjoin/weevamicus/releases\">https://github.com/ussjoin/weevamicus/releases</a>. This brief was not written on behalf of or with the support of any group beyond the individual amici.",
-            "url": "https://github.com/ussjoin/weevamicus/releases",
-            "tags": [
-                "technical",
-                "legal"
-            ]
-        },
-        {
-            "title": "Mnikr: Reputation Construction Through Human Trading of Distributed Social Identities",
-            "location": "5th ACM Workshop on Digital Identity Management",
-            "date": "2009-11-13",
-            "prose": "With Dr. John Linwood Griffin. Stock-market-like construction of computer-readable human-mediated reputation scores. Selected as the best paper at the workshop.",
-            "url": "https://ussjoin.com/papers/p3-oconnor.pdf",
-            "tags": [
-                "technical"
-            ]
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -75.173804,
+            39.963091
+          ]
         }
-    ],
-    "certifications": [
-        {
-            "resume": true,
-            "title": "Attorney",
-            "organization": "State Bar of Montana, Washington State Bar Association",
-            "date": "2015-09-21, 2017-02-10",
-            "url": "https://www.mywsba.org/PersonifyEbusiness/LegalDirectory/LegalProfile.aspx?Usr_ID=000000051818",
-            "tags": [
-                "legal"
-            ]
+      }
+    },
+    {
+      "title":"How to Fight a War Without Actually Starting One",
+      "location":"DerbyCon",
+      "date":"2013-09-28",
+      "prose":"International war law, including the Tallinn Manual, as it pertains to computer security and the Internet.",
+      "abstract":"A NATO affiliate spent three years with some of the finest academic lawyers on the planet trying to figure out how to define 'cyberwar' better than the US Senate. It's a shame they never asked any hackers, though, because the only thing the definition includes is 'black ice' straight out of Neuromancer, which we're pretty sure isn't real. Join us for an introduction to international law, war law, the Tallinn Manual, and the reason it matters that twelve academics in Estonia can't define a word.",
+      "url":"http://www.derbycon.com/schedule-and-abstracts-2013/",
+      "videourl":"https://www.youtube.com/watch?v=mDWohmPcXoc",
+      "tags":[
+        "legal"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Hyatt Regency Louisville",
+          "city":"Louisville, KY"
         },
-        {
-            "resume": true,
-            "title": "Certified Information Privacy Technologist (CIPT)",
-            "organization": "International Association of Privacy Professionals",
-            "date": "2023-05-10",
-            "tags": [
-                "technical",
-                "legal"
-            ]
-        },
-        {
-            "resume": true,
-            "title": "Certified Information Security Manager (CISM)",
-            "organization": "Information Systems Audit and Control Association",
-            "url": "https://www.credly.com/badges/c9b08e7e-f036-4610-8490-65e9b6b08e4e/public_url",
-            "date": "2020-02-06",
-            "tags": [
-                "technical"
-            ]
-        },
-        {
-            "resume": true,
-            "title": "Certified Information Systems Auditor (CISA)",
-            "organization": "Information Systems Audit and Control Association",
-            "url": "https://www.credly.com/badges/1454149c-7a0f-46b5-b328-89f66399f57f/public_url",
-            "date": "2016-08-12",
-            "tags": [
-                "technical"
-            ]
-        },
-        {
-            "resume": true,
-            "title": "Certificate of Cloud Security Knowledge (CCSK) - v3 2016, v4 2022",
-            "organization": "Cloud Security Alliance",
-            "url": "https://www.credly.com/badges/f1ae0e0c-16cc-497a-bfcd-7ed897ef3f9d/public_url",
-            "date": "2016-02-20",
-            "tags": [
-                "technical"
-            ]
-        },
-        {
-            "resume": false,
-            "title": "Certified Information Privacy Professional U.S. Government (CIPP/G)",
-            "organization": "International Association of Privacy Professionals",
-            "url": "https://www.credential.net/27f8508d-36f2-4ff0-92b6-163bdf566f8e",
-            "date": "2016-01-11",
-            "tags": [
-                "technical",
-                "legal"
-            ]
-        },
-        {
-            "resume": true,
-            "title": "Certified Information Privacy Professional U.S. Private Sector (CIPP/US)",
-            "organization": "International Association of Privacy Professionals",
-            "url": "https://www.credential.net/e814008b-dc33-4c30-ad6a-b1482d660a27",
-            "date": "2015-12-14",
-            "tags": [
-                "technical",
-                "legal"
-            ]
-        },
-        {
-            "resume": true,
-            "title": "Certified Information Systems Security Professional (CISSP)",
-            "organization": "International Information Systems Security Certification Consortium (ISC(2))",
-            "url": "https://www.credly.com/badges/7a941fdd-2c72-4062-88eb-238b5ffec0c1/public_url",
-            "date": "2012-07-20",
-            "tags": [
-                "technical"
-            ]
-        },
-        {
-            "title": "FEMA Professional Development Certificate, IS-{1, 100, 120, 130, 139, 200, 230, 235, 240, 241, 242, 244, 250, 288, 700, 800, 802}",
-            "organization": "United States Department of Homeland Security",
-            "date": "2011-01-07",
-            "tags": [
-                "technical"
-            ]
-        },
-        {
-            "title": "Public Service and Emergency Communications Management for Radio Amateurs",
-            "organization": "American Radio Relay League (ARRL)",
-            "date": "2011-05-01",
-            "tags": [
-                "technical"
-            ]
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -85.756702,
+            38.253387
+          ]
         }
-    ]
+      }
+    },
+    {
+      "resume":true,
+      "title":"Stalking a City for Fun and Frivolity",
+      "location":"DEF CON",
+      "date":"2013-08-03",
+      "prose":"Distributed sensor network data acquisition, filtering, and visualization, with several security applications. This presentation addressed the architecture and collection aspects of the CreepyDOL system, as well as the implications for global surveillance states and engineering as a profession.",
+      "abstract":"Tired of the government being the only entity around that can keep tabs on a whole city at once? Frustrated by dictators du jour knowing more about you than you know about them? Fed up with agents provocateur slipping into your protests, rallies, or golf outings? Suffer no more, because CreepyDOL is here to help! With open-source software, off-the-shelf sensors, several layers of encryption, and a deployment methodology of 'pull pin, point toward privacy insurance claimant,' it allows anyone to track everyone in a neighborhood, suburb, or city from the comfort of their sofa. For just four easy hardware purchases of $131.95, you, too can move up from small-time weirding out to the big leagues of total information awareness: deploy CreepyDOL today!",
+      "url":"http://blog.ussjoin.com/2013/08/creepydol.html",
+      "videourl":"https://www.youtube.com/watch?v=BcvxD7p4Suw",
+      "tags":[
+        "technical"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Rio All-Suites Hotel &amp; Casino",
+          "city":"Las Vegas, NV"
+        },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -115.188159,
+            36.117515
+          ]
+        }
+      },
+      "repeats":[
+        {
+          "location":"LASCON",
+          "date":"2013-10-24",
+          "url":"https://lascon2013.sched.org/",
+          "videourl":"https://vimeo.com/channels/lascon2013/80794014",
+          "geo":{
+            "type":"Feature",
+            "properties":{
+              "venue":"Norris Conference Center",
+              "city":"Austin, TX"
+            },
+            "geometry":{
+              "type":"Point",
+              "coordinates":[
+                -97.7353914,
+                30.3568301
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "resume":true,
+      "title":"CreepyDOL: Cheap, Distributed Stalking",
+      "location":"Black Hat USA",
+      "date":"2013-08-01",
+      "prose":"Distributed sensor network data acquisition, filtering, and visualization, with several security applications. This presentation addressed the architecture and collection aspects of the CreepyDOL system.",
+      "abstract":"Are you a person with a few hundred dollars and an insatiable curiosity about your neighbors who is fed up with the hard work of tracking your target's every move in person? Good news! You, too, can learn the intimate secrets and continuous physical location of an entire city from the comfort of your desk! CreepyDOL is a distributed sensing and data mining system combining very-low-cost sensors, open-source software, and a focus on user experience to provide personnel identification, tracking, and analysis without sending any data to the targets. In other words, it takes you from hand-crafted, artisan skeeviness to big-box commodity creepiness, and enables government-level total awareness for about $500 of off-the-shelf hardware.",
+      "url":"http://blog.ussjoin.com/2013/08/creepydol.html",
+      "videourl":"https://www.youtube.com/watch?v=LFA6lew2tcE",
+      "tags":[
+        "technical"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Caesar's Palace",
+          "city":"Las Vegas, NV"
+        },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -115.174499,
+            36.116168
+          ]
+        }
+      }
+    },
+    {
+      "title":"The Global 'Gamification' of Online Gaming",
+      "location":"Annual Conference of the International Bar Association",
+      "date":"2012-10-01",
+      "prose":"Panel on digital security and legal issues that affect the international online gambling industry.",
+      "abstract":"Gamification, and online gambling, are among the booming global phenomena of the past decade. Given the highly polarised reactions to gambling across different jurisdictions, yet the boost it can provide to governmental coffers in these trying economic times, few are surprised that online gambling has generated both political controversy and a plethora of cross-border regulatory and legal issues. This session initially explores these critical issues through the eyes of major online gambling companies. The second segment will be interactive and include a debate between an online gaming hacker and a representative of a gaming / gambling company.",
+      "url":"http://www.int-bar.org/conferences/Dublin2012/",
+      "tags":[
+        "technical",
+        "legal"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Convention Centre Dublin",
+          "city":"Dublin, Ireland"
+        },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -6.239838,
+            53.347499
+          ]
+        }
+      }
+    },
+    {
+      "title":"Reticle: Dropping an Intelligent F-BOMB",
+      "location":"Security BSides Las Vegas",
+      "date":"2012-07-26",
+      "prose":"Software to control ad-hoc networks of disposable computers.",
+      "abstract":"F-BOMB is a disposable computing project, and Reticle is its software brain: a distributed, leaderless system for transferring data and commands to and from the tiny, distributed, dirt-cheap little boxes. Together, these two systems form a botnet-styled sensor network that can be deployed the same way as a smoke grenade by a field agent, but with intelligent encryption, plausible deniability, and a peer-to-peer command network to ensure that an enemy can't compromise your goals-- whether you're providing Internet access to an Occupy group, or playing distributed hide and seek for cell phones. We discuss the design and implementation of Reticle, which was intended to take some of the networking ideas from modern botnets and apply them in a more useful context. Reticle was created with support from DARPA Cyber Fast Track, and the code, utilities, and documentation created under that project will be released with the talk.",
+      "url":"http://blog.ussjoin.com/2012/07/reticle.html",
+      "videourl":"https://www.youtube.com/watch?v=CsI8tzb2Big",
+      "tags":[
+        "technical"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Artisan Hotel Boutique",
+          "city":"Las Vegas, NV"
+        },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -115.169865,
+            36.143717
+          ]
+        }
+      }
+    },
+    {
+      "title":"Hack the Law",
+      "location":"Hackers on Planet Earth",
+      "date":"2012-07-15",
+      "prose":"Why security researchers should go to law school.",
+      "abstract":"Recent bills such as ACTA, COICA, and SOPA in legislatures worldwide demonstrate that there exists a fundamental disconnect between hackers and politicians. Worse, the people charged with dealing with law on the ground, the lawyers, rarely have any significant technical background obtained within the last few decades. This must change. It's all well and good to write your congressperson or donate to the EFF, but it's not enough; we need hackers to go to law school. Lawyers-- whether they work as attorneys, or bring their knowledge of the law back to other fields-- are uniquely situated to effect direct change on politics, social issues, and the law on the ground (where they arrest poor hackers), and unlike many fields, it's not enough to be self-taught. This presentation will focus on the utility of the hacking ethos within the law, as well as the 'law school experience,' technical bits about actually getting in, and how to keep yourself from going nuts while spending three years surrounded by those who can't tell their megabytes from their overbites (and are terrified by Wireshark, let alone the more subtle tools in existence). Expect stories, humorous anecdotes, and terrifying lapses in judgment.",
+      "url":"http://blog.ussjoin.com/2012/07/hack-the-law.html",
+      "videourl":"https://www.youtube.com/watch?v=eb2vmjP6XTs",
+      "tags":[
+        "legal"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Hotel Pennsylvania",
+          "city":"New York, NY"
+        },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -73.991017,
+            40.749939
+          ]
+        }
+      }
+    },
+    {
+      "title":"Sacrificial Computing for Land and Sky",
+      "location":"ShmooCon",
+      "date":"2012-01-27",
+      "prose":"Hardware design for very-low-cost sensor nodes.",
+      "abstract":"Projects such as the incredible Wireless Aerial Surveillance Platform give you the ability to monitor or attack networks far from accessible areas, but are limited by their deployment characteristics: $6000+ buys you just 10-30 minutes on target, and you have simultaneously to do your work and defend the physical plane from Bad Men With Projectile Weapons, lest they take exception to your plans. Disposable computing designed for just one use can provide massive reductions in cost and time to deployment without sacrificing flexibility; we show how $50-$75 can give you upwards of 24 hours to work on a task, while using only off-the-shelf hardware, and leaving no data onsite for an adversary to analyze after the operation. These computers can then be planted manually, or even dropped from unspecialized UAVs (such as the Parrot Drone) to allow your expensive plane to return to safety while you do your work.",
+      "url":"http://blog.ussjoin.com/2012/01/dropping-the-f-bomb.html",
+      "videourl":"https://www.youtube.com/watch?v=Vm_cHb8Mm9w",
+      "tags":[
+        "technical"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Washington Hilton",
+          "city":"Washington, DC"
+        },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -77.044852,
+            38.916544
+          ]
+        }
+      }
+    },
+    {
+      "title":"Mnikr: Reputation Construction Through Human Trading of Distributed Social Identities",
+      "location":"5th ACM Workshop on Digital Identity Management",
+      "date":"2009-11-13",
+      "prose":"With Dr. John Linwood Griffin. Stock-market-like construction of computer-readable human-mediated reputation scores. Selected as the best paper at the workshop.",
+      "abstract":"Reputation forms an important part of how we come to trust people in face-to-face interactions, and thus situations involving trust online have come to realize that reputation is an important characteristic in the digital age. We propose a new holistic and context-free approach to quantifying reputation on the Internet, based upon a stock exchange where users can trade reputation shares of other users and obtain goodwill dividends, including new algorithms for identifying and creating digital identities not inherently tied to a user’s personally identifiable information. We developed such a system, named Mnikr, and deployed our system on the Internet for a month to demonstrate and evaluate this approach. Our results suggest that existing public data sources can indeed be used to create an overarching social network whose utility is greater than its number of users would indicate, and in which reputation measurements are generated that are actually indicative of each user’s standing in society.",
+      "url":"https://ussjoin.com/papers/p3-oconnor.pdf",
+      "tags":[
+        "technical"
+      ],
+      "geo":{
+        "type":"Feature",
+        "properties":{
+          "venue":"Hyatt Regency Chicago",
+          "city":"Chicago, IL"
+        },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            -87.6218003,
+            41.8874309
+          ]
+        }
+      }
+    }
+  ],
+  "publications":[
+    {
+      "title":"Kubernetes and Containerized Security",
+      "location":"Leviathan Security Group",
+      "date":"2021-08-02",
+      "prose":"An overview of what 'securing Kubernetes,' a common client request, really entails: not just security of the control plane, but more critically, of the containerized software, and how to achieve that.",
+      "url":"https://ussjoin.com/papers/Kubernetes and Containerized Security.pdf",
+      "tags":[
+        "technical"
+      ]
+    },
+    {
+      "title":"Quantifying the Cost of Forced Localization",
+      "location":"Leviathan Security Group",
+      "date":"2015-06-24",
+      "prose":"With James Arlen. Focused on the direct costs to companies of forced localization laws--the actual economic disadvantage inflicted by a country on its businesses when it chooses to require that all data be stored within its borders.",
+      "url":"https://ussjoin.com/papers/Quantifying the Cost of Forced Localization.pdf",
+      "tags":[
+        "technical"
+      ]
+    },
+    {
+      "title":"Value of Cloud Security: Vulnerability",
+      "location":"Leviathan Security Group",
+      "date":"2015-02-11",
+      "prose":"With James Arlen and Lee Brotherston. A discussion of the challenges around setting up local data storage, for small, medium, and large enterprises, and a comparison of price data between major local and cloud storage vendors.",
+      "url":"https://ussjoin.com/papers/VOCS Vulnerability.pdf",
+      "tags":[
+        "technical"
+      ]
+    },
+    {
+      "title":"Analysis of Cloud vs. Local Storage: Capabilities, Opportunities, Challenges",
+      "location":"Leviathan Security Group",
+      "date":"2015-02-11",
+      "prose":"With James Arlen and Lee Brotherston. A discussion of the challenges of hiring sufficient cybersecurity expertise given the current talent pool and educational programs available.",
+      "url":"https://ussjoin.com/papers/VOCS Scarcity.pdf",
+      "tags":[
+        "technical"
+      ]
+    },
+    {
+      "title":"Comparison of Availability Between Local and Cloud Storage",
+      "location":"Leviathan Security Group",
+      "date":"2015-02-11",
+      "prose":"With James Arlen and Lee Brotherston. A discussion of the challenges of securing the integrity and availability of data stored in datacenters and the cloud in the face of disasters and other large-scale events.",
+      "url":"https://ussjoin.com/papers/VOCS Availability.pdf",
+      "tags":[
+        "technical"
+      ]
+    },
+    {
+      "title":"Whoops! Broadcasting Your Secrets for Convenience",
+      "location":"GP Solo (American Bar Association)",
+      "date":"2014-05-01",
+      "prose":"Volume 31, Number 3, May/June 2014 of GP Solo. A summary of the article previously published in the SciTech Lawyer.",
+      "tags":[
+        "technical",
+        "legal"
+      ]
+    },
+    {
+      "title":"Whoops! How Your 'Convenience' Broadcasts Your Secrets",
+      "location":"The SciTech Lawyer (American Bar Association)",
+      "date":"2014-01-30",
+      "prose":"Volume 10, Issue 2, Winter 2014 of The SciTech Lawyer. Wireless technology v. the duties of confidentiality and privilege.",
+      "url":"https://ussjoin.com/papers/scitech-lawyer-winter-14.pdf",
+      "tags":[
+        "technical",
+        "legal"
+      ]
+    },
+    {
+      "title":"Brief of Amici Curiae in U.S. v. Auernheimer",
+      "location":"United States Court of Appeals for the Third Circuit",
+      "date":"2013-07-01",
+      "prose":"I wrote a Brief of Amici Curiae to the Third Circuit in U.S. v. Auernheimer, on behalf of Meredith Patterson, myself, and eleven other notable security researchers. The brief is available at <a href=\"https://github.com/ussjoin/weevamicus/releases\">https://github.com/ussjoin/weevamicus/releases</a>. This brief was not written on behalf of or with the support of any group beyond the individual amici.",
+      "url":"https://github.com/ussjoin/weevamicus/releases",
+      "tags":[
+        "technical",
+        "legal"
+      ]
+    },
+    {
+      "title":"Mnikr: Reputation Construction Through Human Trading of Distributed Social Identities",
+      "location":"5th ACM Workshop on Digital Identity Management",
+      "date":"2009-11-13",
+      "prose":"With Dr. John Linwood Griffin. Stock-market-like construction of computer-readable human-mediated reputation scores. Selected as the best paper at the workshop.",
+      "url":"https://ussjoin.com/papers/p3-oconnor.pdf",
+      "tags":[
+        "technical"
+      ]
+    }
+  ],
+  "certifications":[
+    {
+      "organization":"State Bar of Montana, Washington State Bar Association",
+      "credentials":[
+        {
+          "resume":true,
+          "title":"Attorney",
+          "date":"2015-09-21, 2017-02-10",
+          "url":"https://www.mywsba.org/PersonifyEbusiness/LegalDirectory/LegalProfile.aspx?Usr_ID=000000051818",
+          "tags":[
+            "legal"
+          ]
+        }
+      ]
+    },
+    {
+      "organization":"International Association of Privacy Professionals",
+      "credentials":[
+        {
+          "resume":true,
+          "title":"Certified Information Privacy Technologist (CIPT)",
+          "date":"2023-05-10",
+          "tags":[
+            "technical",
+            "legal"
+          ]
+        },
+        {
+          "resume":false,
+          "title":"Certified Information Privacy Professional U.S. Government (CIPP/G)",
+          "url":"https://www.credential.net/27f8508d-36f2-4ff0-92b6-163bdf566f8e",
+          "date":"2016-01-11",
+          "tags":[
+            "technical",
+            "legal"
+          ]
+        },
+        {
+          "resume":true,
+          "title":"Certified Information Privacy Professional U.S. Private Sector (CIPP/US)",
+          "url":"https://www.credential.net/e814008b-dc33-4c30-ad6a-b1482d660a27",
+          "date":"2015-12-14",
+          "tags":[
+            "technical",
+            "legal"
+          ]
+        }
+      ]
+    },
+    {
+      "organization":"Information Systems Audit and Control Association",
+      "credentials":[
+        {
+          "resume":true,
+          "title":"Certified Information Security Manager (CISM)",
+          "url":"https://www.credly.com/badges/c9b08e7e-f036-4610-8490-65e9b6b08e4e/public_url",
+          "date":"2020-02-06",
+          "tags":[
+            "technical"
+          ]
+        },
+        {
+          "resume":true,
+          "title":"Certified Information Systems Auditor (CISA)",
+          "url":"https://www.credly.com/badges/1454149c-7a0f-46b5-b328-89f66399f57f/public_url",
+          "date":"2016-08-12",
+          "tags":[
+            "technical"
+          ]
+        }
+      ]
+    },
+    {
+      "organization":"Cloud Security Alliance",
+      "credentials":[
+        {
+          "resume":true,
+          "title":"Certificate of Cloud Security Knowledge (CCSK) - v3 2016, v4 2022",
+          "url":"https://www.credly.com/badges/f1ae0e0c-16cc-497a-bfcd-7ed897ef3f9d/public_url",
+          "date":"2016-02-20",
+          "tags":[
+            "technical"
+          ]
+        }
+      ]
+    },
+    {
+      "organization":"International Information Systems Security Certification Consortium (ISC(2))",
+      "credentials":[
+        {
+          "resume":true,
+          "title":"Certified Information Systems Security Professional (CISSP)",
+          "url":"https://www.credly.com/badges/7a941fdd-2c72-4062-88eb-238b5ffec0c1/public_url",
+          "date":"2012-07-20",
+          "tags":[
+            "technical"
+          ]
+        }
+      ]
+    },
+    {
+      "organization":"United States Federal Emergency Management Agency",
+      "credentials":[
+        {
+          "title":"FEMA Professional Development Certificate, IS-{1, 100, 120, 130, 139, 200, 230, 235, 240, 241, 242, 244, 250, 288, 700, 800, 802}",
+          "date":"2011-01-07",
+          "tags":[
+            "technical"
+          ]
+        }
+      ]
+    },
+    {
+      "organization":"American Radio Relay League (ARRL)",
+      "credentials":[
+        {
+          "title":"Public Service and Emergency Communications Management for Radio Amateurs",
+          "date":"2011-05-01",
+          "tags":[
+            "technical"
+          ]
+        }
+      ]
+    }
+  ]
 }

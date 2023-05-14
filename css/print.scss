@@ -163,3 +163,14 @@ body /*Looks nicer on page*/
   
   margin-bottom:2em;
 }
+
+.certifications
+{
+  
+  > .organization
+  {
+    margin-left: calc($spacing-unit / 3);
+    margin-top: calc($spacing-unit / -6);
+    margin-bottom: calc($spacing-unit / 4);
+  }
+}
