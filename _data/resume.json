@@ -1272,6 +1272,15 @@
       "credentials":[
         {
           "resume":true,
+          "title":"Fellow of Information Privacy (FIP)",
+          "date":"2023-06-06",
+          "tags":[
+            "technical",
+            "legal"
+          ]
+        },
+        {
+          "resume":true,
           "title":"Certified Information Privacy Technologist (CIPT)",
           "date":"2023-05-10",
           "tags":[
