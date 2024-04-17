@@ -42,12 +42,22 @@
     }
   ],
   "experience":[
+      {
+        "resume":true,
+        "title":"Software Engineer, Security [Staff-Level]",
+        "location":"Render",
+        "dates":"2023 - 2024",
+        "prose":"I guided major efforts to uplift Render's security posture, including identifying and beginning remediation on a whole-of-company legal/technical compliance issue (requiring cross-functional work between legal, technical, sales, and executive staff), and rebuilding several different engineering systems to enable least-privilege access across the corporation.",
+        "tags":[
+          "technical"
+        ]
+      },
     {
       "resume":true,
       "title":"Staff Security Engineer",
       "location":"Cedar",
-      "dates":"2022 - ",
-      "prose":"As a Staff Security Engineer, I am responsible for engaging in high-leverage work to improve security across Cedar to protect patients, medical providers, and our employees; I also help educate our engineers on secure programming practices, perform code reviews, and guide technical implementations of key client-required security features. My recent large-scale work has included rebuilding the corporate IAM and secrets management systems, compiling the first complete set of technical client contract requirements, and creating a trusted baseline and deployment tracker for our container build systems.",
+      "dates":"2022 - 2023",
+      "prose":"As a Staff Security Engineer, I was responsible for engaging in high-leverage work to improve security across Cedar to protect patients, medical providers, and our employees; I also helped educate our engineers on secure programming practices, performed code reviews, and guided technical implementations of key client-required security features. Large-scale work included rebuilding the corporate IAM and secrets management systems, compiling the first complete set of technical client contract requirements, and creating a trusted baseline and deployment tracker for our container build systems.",
       "tags":[
         "technical"
       ]
@@ -63,7 +73,7 @@
       ]
     },
     {
-      "resume":true,
+      "resume":false,
       "title":"Policy Engineer",
       "location":"GitHub",
       "dates":"2019 - 2019",
