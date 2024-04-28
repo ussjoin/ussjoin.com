@@ -44,6 +44,16 @@
   "experience":[
       {
         "resume":true,
+        "title":"Chief Technical Officer / DSS",
+        "location":"Malice Afterthought, Inc.",
+        "dates":"2010 - ",
+        "prose":"Malice Afterthought provides information security consulting services. Some highlights of past work: I led an international nonprofit's security efforts, including both building a multi-regulated compliance program (FERPA, HIPAA, and FedRAMP) and implementing technical defensive tools; I taught at a Department of Defense information and network warfare (CNO) school; and I won and completed two  DARPA Cyber Fast Track (CFT) contracts.  Languages and tech stacks have included Ruby, Python, Perl, D3JS, UnityScript, Hadoop, Spark, and AWS, among many others.",
+        "tags":[
+          "technical"
+        ]
+      },
+      {
+        "resume":true,
         "title":"Software Engineer, Security [Staff-Level]",
         "location":"Render",
         "dates":"2023 - 2024",
@@ -89,16 +99,6 @@
       "location":"RealSelf",
       "dates":"2018 - 2019",
       "prose":"As the head of the information security program at RealSelf, I directed the company's overall security, risk and compliance efforts. This involved close coordination with the RealSelf executive and engineering teams to align security priorities with our business goals and overall risk posture; I reported to the CTO and General Counsel. My work included developing and delivering security training, working with developers and SREs to design and implement security at all levels of our systems, building our ISO 27000-aligned information security management program, communicating with customers regarding security issues, leading security incident response efforts, working with our legal and privacy teams on vendor management, and managing our bug bounty program. I also worked on HIPAA, PCI, GDPR, and other regulatory issues to ensure that we were able to meet evolving obligations, and ultimately, that the trust our users placed in us was well-earned.",
-      "tags":[
-        "technical"
-      ]
-    },
-    {
-      "resume":true,
-      "title":"Chief Technical Officer / DSS",
-      "location":"Malice Afterthought, Inc.",
-      "dates":"2010 - ",
-      "prose":"Malice Afterthought provides information security consulting services. Some highlights of past work: I led an international nonprofit's security efforts, including both building a multi-regulated compliance program (FERPA, HIPAA, and FedRAMP) and implementing technical defensive tools; I taught at a Department of Defense information and network warfare (CNO) school; and I won and completed two  DARPA Cyber Fast Track (CFT) contracts.  Languages and tech stacks have included Ruby, Python, Perl, D3JS, UnityScript, Hadoop, Spark, and AWS, among many others.",
       "tags":[
         "technical"
       ]
