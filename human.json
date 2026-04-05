@@ -1,0 +1,14 @@
+{
+  "version": "0.1.1",
+  "url": "https://ussjoin.com",
+  "vouches": [
+    {
+      "url": "https://blog.ussjoin.com",
+      "vouched_at": "2026-04-04"
+    },
+    {
+      "url": "https://lffc.us",
+      "vouched_at": "2026-04-04"
+    }
+  ]
+}
